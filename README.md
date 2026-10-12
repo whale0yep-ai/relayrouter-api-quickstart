@@ -6,7 +6,7 @@ RelayRouter is a unified AI API gateway for developers. It provides a single Ope
 
 Create an account through the following link:
 
-https://api.relayrouter.ai/register?aff=SukO
+https://api.relayrouter.ai/register?aff=xc9N
 
 ## API endpoint
 
