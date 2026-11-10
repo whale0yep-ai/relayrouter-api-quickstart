@@ -20,7 +20,9 @@
 
 <p align="center"><sub>현재 언어: 한국어(KO). 본문이 다른 언어로 보이면 github.com 자동 번역을 꺼 주세요.</sub></p>
 
-<h1 align="center">RelayRouter API 빠른 시작</h1>
+<p align="center">
+  <img src="./assets/relayrouter-hero-ko.png" alt="RelayRouter API 빠른 시작" width="100%">
+</p>
 
 <p align="center">
   <a href="https://relayrouter.app/register?aff=xc9N"><img src="./assets/register-app.svg" alt="relayrouter.app에서 가입" height="48"></a>

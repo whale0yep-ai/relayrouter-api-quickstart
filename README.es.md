@@ -20,7 +20,9 @@
 
 <p align="center"><sub>Idioma actual: Español (ES). Si el texto aparece en otro idioma, desactiva la traducción automática para github.com.</sub></p>
 
-<h1 align="center">Inicio rápido de la API de RelayRouter</h1>
+<p align="center">
+  <img src="./assets/relayrouter-hero-es.png" alt="Inicio rápido de la API de RelayRouter" width="100%">
+</p>
 
 <p align="center">
   <a href="https://relayrouter.app/register?aff=xc9N"><img src="./assets/register-app.svg" alt="Registrarse en relayrouter.app" height="48"></a>

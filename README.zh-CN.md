@@ -20,7 +20,9 @@
 
 <p align="center"><sub>当前语言：中文（ZH）。如果正文仍显示为其他语言，请关闭浏览器对 github.com 的自动翻译。</sub></p>
 
-<h1 align="center">RelayRouter API 快速开始</h1>
+<p align="center">
+  <img src="./assets/relayrouter-hero-zh-CN.png" alt="RelayRouter API 快速开始" width="100%">
+</p>
 
 <p align="center">
   <a href="https://relayrouter.app/register?aff=xc9N"><img src="./assets/register-app.svg" alt="通过 relayrouter.app 注册" height="48"></a>

@@ -20,7 +20,9 @@
 
 <p align="center"><sub>Текущий язык: Русский (RU). Если текст отображается на другом языке, отключите автоматический перевод для github.com.</sub></p>
 
-<h1 align="center">Быстрый старт с RelayRouter API</h1>
+<p align="center">
+  <img src="./assets/relayrouter-hero-ru.png" alt="Быстрый старт с RelayRouter API" width="100%">
+</p>
 
 <p align="center">
   <a href="https://relayrouter.app/register?aff=xc9N"><img src="./assets/register-app.svg" alt="Регистрация на relayrouter.app" height="48"></a>

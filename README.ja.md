@@ -20,7 +20,9 @@
 
 <p align="center"><sub>現在の言語：日本語（JA）。本文が別の言語で表示される場合は、github.com の自動翻訳を無効にしてください。</sub></p>
 
-<h1 align="center">RelayRouter API クイックスタート</h1>
+<p align="center">
+  <img src="./assets/relayrouter-hero-ja.png" alt="RelayRouter API クイックスタート" width="100%">
+</p>
 
 <p align="center">
   <a href="https://relayrouter.app/register?aff=xc9N"><img src="./assets/register-app.svg" alt="relayrouter.app で登録" height="48"></a>

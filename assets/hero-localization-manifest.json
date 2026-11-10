@@ -1,0 +1,22 @@
+{
+  "source": "relayrouter-hero.png",
+  "cleanMaster": "relayrouter-hero-master-clean.png",
+  "canvas": {
+    "width": 1942,
+    "height": 809
+  },
+  "titlePosition": {
+    "x": 135,
+    "y": 330,
+    "maximumWidth": 1020
+  },
+  "variants": [
+    { "locale": "zh-CN", "title": "RelayRouter API 快速开始", "file": "relayrouter-hero-zh-CN.png" },
+    { "locale": "ru", "title": "Быстрый старт с RelayRouter API", "file": "relayrouter-hero-ru.png" },
+    { "locale": "ko", "title": "RelayRouter API 빠른 시작", "file": "relayrouter-hero-ko.png" },
+    { "locale": "ja", "title": "RelayRouter API クイックスタート", "file": "relayrouter-hero-ja.png" },
+    { "locale": "es", "title": "Inicio rápido de la API de RelayRouter", "file": "relayrouter-hero-es.png" },
+    { "locale": "de", "title": "RelayRouter API – Schnellstart", "file": "relayrouter-hero-de.png" },
+    { "locale": "id", "title": "Panduan Cepat API RelayRouter", "file": "relayrouter-hero-id.png" }
+  ]
+}

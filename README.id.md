@@ -20,7 +20,9 @@
 
 <p align="center"><sub>Bahasa saat ini: Bahasa Indonesia (ID). Jika teks muncul dalam bahasa lain, nonaktifkan terjemahan otomatis untuk github.com.</sub></p>
 
-<h1 align="center">Panduan Cepat API RelayRouter</h1>
+<p align="center">
+  <img src="./assets/relayrouter-hero-id.png" alt="Panduan Cepat API RelayRouter" width="100%">
+</p>
 
 <p align="center">
   <a href="https://relayrouter.app/register?aff=xc9N"><img src="./assets/register-app.svg" alt="Daftar di relayrouter.app" height="48"></a>
