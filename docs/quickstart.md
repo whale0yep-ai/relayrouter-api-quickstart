@@ -2,9 +2,18 @@
 
 ## 1. Register
 
-Register at:
+Choose the site that works best for your location:
 
-https://api.relayrouter.ai/register?aff=SukO
+| Region | Registration | Common API base URL |
+| --- | --- | --- |
+| Mainland China | [relayrouter.app](https://relayrouter.app/register?aff=xc9N) | `https://api.relayrouter.app/v1` |
+| Global | [relayrouter.ai](https://relayrouter.ai/register?aff=xc9N) | `https://api.relayrouter.ai/v1` |
+
+The registration links contain the referral code `aff=xc9N`.
+
+### Sign in with another account
+
+On the registration page, select **Sign in** at the bottom. On the login page, choose the **GitHub**, **Google**, or **Linux DO** icon to use that account.
 
 ## 2. Create an API key
 
@@ -12,35 +21,39 @@ After signing in:
 
 1. Open the RelayRouter console.
 2. Create an API key.
-3. Copy the key securely.
-4. Do not publish the key.
+3. Copy the key to a secure location.
+4. Never publish the key.
 
 ## 3. Select a model
 
-Open the RelayRouter model list and copy a currently available model name.
-
-Do not assume that a model name will remain available permanently.
+Open the current model list in the RelayRouter console and copy an available model name. Model availability can change, so use the value currently shown in your account.
 
 ## 4. Configure the environment
 
-PowerShell example:
+Copy the example configuration:
 
 ```powershell
-$env:RELAYROUTER_API_KEY = "your_api_key_here"
-$env:RELAYROUTER_BASE_URL = "https://api.relayrouter.ai/v1"
-$env:RELAYROUTER_MODEL = "your_model_name"
+Copy-Item .env.example .env
 ```
 
-Use your actual key only in your local environment.
+Then edit `.env`:
 
-## 5. Run the examples
+```dotenv
+RELAYROUTER_API_KEY=your_api_key_here
+RELAYROUTER_BASE_URL=https://api.relayrouter.ai/v1
+RELAYROUTER_MODEL=your_model_name
+```
+
+Use `https://api.relayrouter.app/v1` for the Mainland China endpoint. If your console shows a different endpoint, use the console value.
+
+## 5. Run an example
 
 Python:
 
 ```powershell
 python -m venv .venv
 .\.venv\Scripts\Activate.ps1
-pip install -r requirements.txt
+python -m pip install -r requirements.txt
 python examples\python\chat.py
 ```
 
@@ -53,11 +66,9 @@ node examples\javascript\chat.mjs
 PowerShell:
 
 ```powershell
-.\examples\powershell\request.ps1
+pwsh examples\powershell\request.ps1
 ```
 
 ## 6. Check the result
 
-A successful request should return a model response.
-
-If the request fails, check the model name, account balance, API key, network connection, and rate limits.
+A successful request returns a model response. If it fails, check the model name, account balance, API key, endpoint, network connection, and rate limits.

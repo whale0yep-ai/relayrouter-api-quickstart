@@ -4,55 +4,44 @@
 
 Possible causes:
 
-- The API key is incorrect.
-- The API key has expired or been disabled.
-- The Authorization header is missing.
-- The environment variable is not loaded.
+- The API key is incorrect, expired, or disabled.
+- The `Authorization` header is missing.
+- The environment variable was not loaded.
 
-Check:
+Confirm that `RELAYROUTER_API_KEY` is set, but never print or share its value publicly.
 
-```powershell
-$env:RELAYROUTER_API_KEY
-```
+## 404 or `model_not_found`
 
-Do not print or share the value publicly.
-
-## 404 or model_not_found
-
-The selected model may not be available.
-
-Open the current RelayRouter model list and update `RELAYROUTER_MODEL`.
+The selected model may not be available. Open the current model list in the RelayRouter console and update `RELAYROUTER_MODEL`.
 
 ## 429 Too Many Requests
 
-Possible causes:
+Possible causes include a rate limit, insufficient account balance, or temporary upstream capacity. Wait and retry, then check your balance and service notices.
 
-- Rate limit reached.
-- Account balance is insufficient.
-- Temporary upstream capacity limits.
-
-Wait and try again, then check the account balance and service notices.
-
-## Request timeout
+## Request timeout or connection failure
 
 Check:
 
-- Network connection.
-- API endpoint.
-- Firewall or proxy configuration.
-- Current service status.
+- Your network, firewall, and proxy settings.
+- The endpoint selected for your region.
+- Current service notices in the RelayRouter console.
+
+Common endpoints:
+
+- Mainland China: `https://api.relayrouter.app/v1`
+- Global: `https://api.relayrouter.ai/v1`
+
+If your console shows a different endpoint, use the console value.
 
 ## Invalid JSON or request format
 
 Check that:
 
-- The request uses `/v1/chat/completions`.
+- The request uses `/v1/chat/completions` through the configured base URL.
 - `model` is included.
 - `messages` is an array.
 - The request body is valid JSON.
 
 ## Still need help?
 
-Contact RelayRouter support:
-
-https://api.relayrouter.ai/customersupport
+Use the support or contact option shown in your RelayRouter console.
