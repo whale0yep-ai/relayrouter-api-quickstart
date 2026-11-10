@@ -30,8 +30,6 @@
 
 > 💡 <strong>Consejo:</strong> Se admite el inicio de sesión con terceros. En la página de registro, selecciona Sign in en la parte inferior y luego el icono de GitHub, Google o Linux DO.
 
-> ℹ️ <strong>Nota:</strong> Los enlaces de registro incluyen el código de referido `aff=xc9N`. El registro puede atribuirse al propietario del repositorio, pero no cambia el precio del servicio.
-
 ## ¿Por qué RelayRouter?
 
 RelayRouter ofrece una API compatible con OpenAI para varios proveedores de modelos y reduce el trabajo de integración repetido.

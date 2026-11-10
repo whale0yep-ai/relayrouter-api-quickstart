@@ -30,8 +30,6 @@
 
 > 💡 <strong>Tipp:</strong> Die Anmeldung über Drittanbieter wird unterstützt. Wähle auf der Registrierungsseite unten Sign in und danach das Symbol für GitHub, Google oder Linux DO.
 
-> ℹ️ <strong>Hinweis:</strong> Die Registrierungslinks enthalten den Empfehlungscode `aff=xc9N`. Die Registrierung kann dem Repository-Inhaber zugeordnet werden, der Preis des Dienstes ändert sich dadurch nicht.
-
 ## Warum RelayRouter?
 
 RelayRouter verbindet mehrere Modellanbieter über eine einzige OpenAI-kompatible API und reduziert wiederkehrende Integrationsarbeit.

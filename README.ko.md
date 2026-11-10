@@ -30,8 +30,6 @@
 
 > 💡 <strong>도움말:</strong> 타사 계정 로그인을 지원합니다. 가입 페이지 하단의 Sign in을 누른 뒤 로그인 페이지에서 GitHub, Google 또는 Linux DO 아이콘을 선택하세요.
 
-> ℹ️ <strong>참고:</strong> 위 가입 링크에는 추천 코드 `aff=xc9N`이 포함됩니다. 가입 실적이 저장소 소유자에게 반영될 수 있지만 서비스 가격은 변하지 않습니다.
-
 ## RelayRouter를 선택하는 이유
 
 RelayRouter는 여러 모델 공급자를 하나의 OpenAI 호환 API로 연결해 반복적인 연동 작업을 줄여 줍니다.

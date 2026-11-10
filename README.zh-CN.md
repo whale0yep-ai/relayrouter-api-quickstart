@@ -37,8 +37,6 @@
 
 > 💡 <strong>提示：</strong>支持第三方账号登录。进入注册页面后点击底部的 Sign in，在登录页面选择 GitHub、Google 或 Linux DO 图标，即可使用对应账号登录。
 
-> ℹ️ <strong>说明：</strong>上方注册链接包含推荐码 `aff=xc9N`。注册可能会计入本仓库作者的推广记录，但不会改变你的服务价格。
-
 ## 为什么选择 RelayRouter？
 
 RelayRouter 用一套兼容 OpenAI 的 API 连接多个模型服务商，让你少做重复接入，把更多时间留给产品。

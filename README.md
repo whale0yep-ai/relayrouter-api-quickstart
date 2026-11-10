@@ -39,8 +39,6 @@
 
 > 💡 <strong>Tip:</strong> Third-party sign-in is supported. Open a registration page, select Sign in at the bottom, then choose the GitHub, Google, or Linux DO icon.
 
-> ℹ️ <strong>Note:</strong> The registration links contain the referral code `aff=xc9N`. Registration may be credited to the repository owner; it does not change your service price.
-
 ## Why RelayRouter?
 
 RelayRouter provides one OpenAI-compatible API for multiple model providers, so you can spend less time integrating separate SDKs and more time building your product.

@@ -30,8 +30,6 @@
 
 > 💡 <strong>Kiat:</strong> Login dengan akun pihak ketiga didukung. Pada halaman pendaftaran, pilih Sign in di bagian bawah, lalu pilih ikon GitHub, Google, atau Linux DO pada halaman login.
 
-> ℹ️ <strong>Catatan:</strong> Tautan pendaftaran memuat kode referal `aff=xc9N`. Pendaftaran dapat tercatat untuk pemilik repositori, tetapi tidak mengubah harga layanan Anda.
-
 ## Mengapa RelayRouter?
 
 RelayRouter menyediakan satu API yang kompatibel dengan OpenAI untuk berbagai penyedia model, sehingga pekerjaan integrasi berulang menjadi lebih sedikit.
