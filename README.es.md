@@ -28,11 +28,9 @@
   <a href="https://relayrouter.ai/register?aff=xc9N"><img src="./assets/register-ai.svg" alt="Registrarse en relayrouter.ai" height="48"></a>
 </p>
 
-> [!TIP]
-> Se admite el inicio de sesión con terceros. En la página de registro, selecciona Sign in en la parte inferior y luego el icono de GitHub, Google o Linux DO.
+> 💡 <strong>Consejo:</strong> Se admite el inicio de sesión con terceros. En la página de registro, selecciona Sign in en la parte inferior y luego el icono de GitHub, Google o Linux DO.
 
-> [!NOTE]
-> Los enlaces de registro incluyen el código de referido `aff=xc9N`. El registro puede atribuirse al propietario del repositorio, pero no cambia el precio del servicio.
+> ℹ️ <strong>Nota:</strong> Los enlaces de registro incluyen el código de referido `aff=xc9N`. El registro puede atribuirse al propietario del repositorio, pero no cambia el precio del servicio.
 
 ## ¿Por qué RelayRouter?
 

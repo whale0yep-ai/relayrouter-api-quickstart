@@ -37,11 +37,9 @@
   <img src="https://img.shields.io/badge/PowerShell-7%2B-5391fe" alt="PowerShell 7+">
 </p>
 
-> [!TIP]
-> Third-party sign-in is supported. Open a registration page, select Sign in at the bottom, then choose the GitHub, Google, or Linux DO icon.
+> 💡 <strong>Tip:</strong> Third-party sign-in is supported. Open a registration page, select Sign in at the bottom, then choose the GitHub, Google, or Linux DO icon.
 
-> [!NOTE]
-> The registration links contain the referral code `aff=xc9N`. Registration may be credited to the repository owner; it does not change your service price.
+> ℹ️ <strong>Note:</strong> The registration links contain the referral code `aff=xc9N`. Registration may be credited to the repository owner; it does not change your service price.
 
 ## Why RelayRouter?
 

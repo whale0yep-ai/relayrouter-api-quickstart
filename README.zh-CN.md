@@ -35,11 +35,9 @@
   <img src="https://img.shields.io/badge/PowerShell-7%2B-5391fe" alt="PowerShell 7+">
 </p>
 
-> [!TIP]
-> 支持第三方账号登录。进入注册页面后点击底部的 Sign in，在登录页面选择 GitHub、Google 或 Linux DO 图标，即可使用对应账号登录。
+> 💡 <strong>提示：</strong>支持第三方账号登录。进入注册页面后点击底部的 Sign in，在登录页面选择 GitHub、Google 或 Linux DO 图标，即可使用对应账号登录。
 
-> [!NOTE]
-> 上方注册链接包含推荐码 `aff=xc9N`。注册可能会计入本仓库作者的推广记录，但不会改变你的服务价格。
+> ℹ️ <strong>说明：</strong>上方注册链接包含推荐码 `aff=xc9N`。注册可能会计入本仓库作者的推广记录，但不会改变你的服务价格。
 
 ## 为什么选择 RelayRouter？
 

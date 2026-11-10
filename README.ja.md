@@ -28,11 +28,9 @@
   <a href="https://relayrouter.ai/register?aff=xc9N"><img src="./assets/register-ai.svg" alt="relayrouter.ai で登録" height="48"></a>
 </p>
 
-> [!TIP]
-> 外部アカウントでログインできます。登録ページ下部の Sign in を選び、ログインページで GitHub、Google、または Linux DO のアイコンを選択してください。
+> 💡 <strong>ヒント：</strong>外部アカウントでログインできます。登録ページ下部の Sign in を選び、ログインページで GitHub、Google、または Linux DO のアイコンを選択してください。
 
-> [!NOTE]
-> 上の登録リンクには紹介コード `aff=xc9N` が含まれています。登録がリポジトリ所有者の実績に反映される場合がありますが、サービス料金は変わりません。
+> ℹ️ <strong>注記：</strong>上の登録リンクには紹介コード `aff=xc9N` が含まれています。登録がリポジトリ所有者の実績に反映される場合がありますが、サービス料金は変わりません。
 
 ## RelayRouter を選ぶ理由
 

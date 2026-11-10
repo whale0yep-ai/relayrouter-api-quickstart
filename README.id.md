@@ -28,11 +28,9 @@
   <a href="https://relayrouter.ai/register?aff=xc9N"><img src="./assets/register-ai.svg" alt="Daftar di relayrouter.ai" height="48"></a>
 </p>
 
-> [!TIP]
-> Login dengan akun pihak ketiga didukung. Pada halaman pendaftaran, pilih Sign in di bagian bawah, lalu pilih ikon GitHub, Google, atau Linux DO pada halaman login.
+> 💡 <strong>Kiat:</strong> Login dengan akun pihak ketiga didukung. Pada halaman pendaftaran, pilih Sign in di bagian bawah, lalu pilih ikon GitHub, Google, atau Linux DO pada halaman login.
 
-> [!NOTE]
-> Tautan pendaftaran memuat kode referal `aff=xc9N`. Pendaftaran dapat tercatat untuk pemilik repositori, tetapi tidak mengubah harga layanan Anda.
+> ℹ️ <strong>Catatan:</strong> Tautan pendaftaran memuat kode referal `aff=xc9N`. Pendaftaran dapat tercatat untuk pemilik repositori, tetapi tidak mengubah harga layanan Anda.
 
 ## Mengapa RelayRouter?
 

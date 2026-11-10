@@ -28,11 +28,9 @@
   <a href="https://relayrouter.ai/register?aff=xc9N"><img src="./assets/register-ai.svg" alt="Bei relayrouter.ai registrieren" height="48"></a>
 </p>
 
-> [!TIP]
-> Die Anmeldung über Drittanbieter wird unterstützt. Wähle auf der Registrierungsseite unten Sign in und danach das Symbol für GitHub, Google oder Linux DO.
+> 💡 <strong>Tipp:</strong> Die Anmeldung über Drittanbieter wird unterstützt. Wähle auf der Registrierungsseite unten Sign in und danach das Symbol für GitHub, Google oder Linux DO.
 
-> [!NOTE]
-> Die Registrierungslinks enthalten den Empfehlungscode `aff=xc9N`. Die Registrierung kann dem Repository-Inhaber zugeordnet werden, der Preis des Dienstes ändert sich dadurch nicht.
+> ℹ️ <strong>Hinweis:</strong> Die Registrierungslinks enthalten den Empfehlungscode `aff=xc9N`. Die Registrierung kann dem Repository-Inhaber zugeordnet werden, der Preis des Dienstes ändert sich dadurch nicht.
 
 ## Warum RelayRouter?
 
