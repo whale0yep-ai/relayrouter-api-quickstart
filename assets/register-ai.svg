@@ -1,8 +1,8 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="360" height="52" viewBox="0 0 360 52" role="img" aria-labelledby="title desc">
-  <title id="title">国际 / Global · relayrouter.ai</title>
-  <desc id="desc">Registration button for the RelayRouter global site</desc>
-  <rect x="1" y="1" width="358" height="50" rx="25" fill="#111827" stroke="#64748b" stroke-width="2"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="250" height="52" viewBox="0 0 250 52" role="img" aria-labelledby="title desc">
+  <title id="title">relayrouter.ai</title>
+  <desc id="desc">RelayRouter registration link</desc>
+  <rect x="1" y="1" width="248" height="50" rx="25" fill="#111827" stroke="#64748b" stroke-width="2"/>
   <circle cx="27" cy="26" r="8" fill="#60a5fa"/>
   <path d="M13 29c6 10 22 10 29-1M15 21c8-9 24-8 28 3" fill="none" stroke="#93c5fd" stroke-width="2" stroke-linecap="round"/>
-  <text x="53" y="32" fill="#f8fafc" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="16" font-weight="700">国际 / Global · relayrouter.ai →</text>
+  <text x="53" y="32" fill="#f8fafc" font-family="Arial, sans-serif" font-size="17" font-weight="700">relayrouter.ai →</text>
 </svg>

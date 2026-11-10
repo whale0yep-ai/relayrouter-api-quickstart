@@ -1,15 +1,26 @@
+<div lang="zh-CN" translate="no">
+
 <p align="center">
-  <strong>中文</strong> |
-  <a href="./README.md">English</a> |
-  <a href="./README.ru.md">Русский</a> |
-  <a href="./README.ko.md">한국어</a> |
-  <a href="./README.ja.md">日本語</a> |
-  <a href="./README.es.md">Español</a> |
-  <a href="./README.de.md">Deutsch</a> |
-  <a href="./README.id.md">Bahasa Indonesia</a>
+  <strong><a lang="zh-CN" translate="no" href="./README.zh-CN.md">中文 (ZH)</a></strong>
+  &nbsp;|&nbsp;
+  <a lang="en" translate="no" href="./README.md">English (EN)</a>
+  &nbsp;|&nbsp;
+  <a lang="ru" translate="no" href="./README.ru.md">Русский (RU)</a>
+  &nbsp;|&nbsp;
+  <a lang="ko" translate="no" href="./README.ko.md">한국어 (KO)</a>
+  &nbsp;|&nbsp;
+  <a lang="ja" translate="no" href="./README.ja.md">日本語 (JA)</a>
+  &nbsp;|&nbsp;
+  <a lang="es" translate="no" href="./README.es.md">Español (ES)</a>
+  &nbsp;|&nbsp;
+  <a lang="de" translate="no" href="./README.de.md">Deutsch (DE)</a>
+  &nbsp;|&nbsp;
+  <a lang="id" translate="no" href="./README.id.md">Bahasa Indonesia (ID)</a>
 </p>
 
-<p align="center"><img src="./assets/relayrouter-hero.png" alt="RelayRouter API 快速开始" width="100%"></p>
+<p align="center"><sub>当前语言：中文（ZH）。如果正文仍显示为其他语言，请关闭浏览器对 github.com 的自动翻译。</sub></p>
+
+<h1 align="center">RelayRouter API 快速开始</h1>
 
 <p align="center">
   <a href="https://relayrouter.app/register?aff=xc9N"><img src="./assets/register-app.svg" alt="通过 relayrouter.app 注册" height="48"></a>
@@ -25,10 +36,10 @@
 </p>
 
 > [!TIP]
-> **支持第三方账号登录。**进入注册页面后点击底部的 **Sign in**，在登录页面选择 **GitHub**、**Google** 或 **Linux DO** 图标，即可使用对应账号登录。
+> 支持第三方账号登录。进入注册页面后点击底部的 Sign in，在登录页面选择 GitHub、Google 或 Linux DO 图标，即可使用对应账号登录。
 
 > [!NOTE]
-> 上方注册链接包含推荐码 `aff=xc9N`，注册可能会计入本仓库作者的推广记录，但不会改变你的服务价格。
+> 上方注册链接包含推荐码 `aff=xc9N`。注册可能会计入本仓库作者的推广记录，但不会改变你的服务价格。
 
 ## 为什么选择 RelayRouter？
 
@@ -39,20 +50,30 @@ RelayRouter 用一套兼容 OpenAI 的 API 连接多个模型服务商，让你�
 | 统一 API 格式 | 用熟悉的调用方式访问 GPT、Claude、Gemini、DeepSeek、Qwen 等已支持模型。 |
 | 按量计费 | 按 RelayRouter 控制台记录的实际用量付费。 |
 | 集中管理 | 在一个控制台管理 API 密钥、模型权限、用量与账单。 |
-| 分区访问 | 根据所在地区选择更合适的注册站点和 API 地址。 |
+| 灵活连接地址 | 当不同客户端要求不同的 `BASE_URL` 格式时，可按顺序尝试文档中的地址。 |
 
 ## 5 分钟快速开始
 
 ### 1. 注册并创建 API 密钥
 
-| 区域 | 注册入口 | 常用 API Base URL |
-| --- | --- | --- |
-| 中国大陆 | [relayrouter.app](https://relayrouter.app/register?aff=xc9N) | `https://api.relayrouter.app/v1` |
-| 国际 | [relayrouter.ai](https://relayrouter.ai/register?aff=xc9N) | `https://api.relayrouter.ai/v1` |
+可选择以下任一注册页面：
 
-注册后，在 RelayRouter 控制台创建 API 密钥。如果控制台显示的接口地址与表格不同，请以控制台为准。
+- [relayrouter.app](https://relayrouter.app/register?aff=xc9N)
+- [relayrouter.ai](https://relayrouter.ai/register?aff=xc9N)
 
-### 2. 配置项目
+注册后，在 RelayRouter 控制台创建 API 密钥。
+
+### 2. 选择连接地址
+
+不同客户端可能需要使用不同的 `BASE_URL`，建议依次尝试以下地址：
+
+1. `https://api.relayrouter.app`
+2. `https://api.relayrouter.app/v1`
+3. `https://api.relayrouter.app/v1/chat/completions`
+
+本仓库中的 SDK 示例默认使用 `https://api.relayrouter.app/v1`。如果客户端要求填写完整的聊天补全接口，而不是基础地址，请使用第三个地址。
+
+### 3. 配置项目
 
 ```bash
 cp .env.example .env
@@ -66,9 +87,7 @@ RELAYROUTER_BASE_URL=https://api.relayrouter.app/v1
 RELAYROUTER_MODEL=your_model_name
 ```
 
-国际站可使用 `https://api.relayrouter.ai/v1`。
-
-### 3. 发起请求
+### 4. 发起请求
 
 ```bash
 python -m pip install -r requirements.txt
@@ -114,3 +133,5 @@ print(response.choices[0].message.content)
 不要把 API 密钥提交到 Git。请将密钥保存在 `.env` 或部署平台的密钥管理器中；仓库内的 `.gitignore` 已默认忽略 `.env`。
 
 <p align="center"><strong>一个 API 密钥，连接更多模型，减少重复接入。</strong></p>
+
+</div>

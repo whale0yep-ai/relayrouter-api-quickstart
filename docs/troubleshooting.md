@@ -23,21 +23,22 @@ Possible causes include a rate limit, insufficient account balance, or temporary
 Check:
 
 - Your network, firewall, and proxy settings.
-- The endpoint selected for your region.
+- The connection URL expected by your client.
 - Current service notices in the RelayRouter console.
 
-Common endpoints:
+Try these addresses in order:
 
-- Mainland China: `https://api.relayrouter.app/v1`
-- Global: `https://api.relayrouter.ai/v1`
+1. `https://api.relayrouter.app`
+2. `https://api.relayrouter.app/v1`
+3. `https://api.relayrouter.app/v1/chat/completions`
 
-If your console shows a different endpoint, use the console value.
+The first two values are base URL formats. The third is the complete chat-completions endpoint and should be used only when the client expects a complete endpoint.
 
 ## Invalid JSON or request format
 
 Check that:
 
-- The request uses `/v1/chat/completions` through the configured base URL.
+- The request reaches `/v1/chat/completions` exactly once.
 - `model` is included.
 - `messages` is an array.
 - The request body is valid JSON.

@@ -1,7 +1,7 @@
 const apiKey = process.env.RELAYROUTER_API_KEY;
 const baseUrl =
   process.env.RELAYROUTER_BASE_URL ||
-  "https://api.relayrouter.ai/v1";
+  "https://api.relayrouter.app/v1";
 const model = process.env.RELAYROUTER_MODEL;
 
 if (!apiKey) {

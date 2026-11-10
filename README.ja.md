@@ -1,15 +1,26 @@
+<div lang="ja" translate="no">
+
 <p align="center">
-  <a href="./README.zh-CN.md">中文</a> |
-  <a href="./README.md">English</a> |
-  <a href="./README.ru.md">Русский</a> |
-  <a href="./README.ko.md">한국어</a> |
-  <strong>日本語</strong> |
-  <a href="./README.es.md">Español</a> |
-  <a href="./README.de.md">Deutsch</a> |
-  <a href="./README.id.md">Bahasa Indonesia</a>
+  <a lang="zh-CN" translate="no" href="./README.zh-CN.md">中文 (ZH)</a>
+  &nbsp;|&nbsp;
+  <a lang="en" translate="no" href="./README.md">English (EN)</a>
+  &nbsp;|&nbsp;
+  <a lang="ru" translate="no" href="./README.ru.md">Русский (RU)</a>
+  &nbsp;|&nbsp;
+  <a lang="ko" translate="no" href="./README.ko.md">한국어 (KO)</a>
+  &nbsp;|&nbsp;
+  <strong><a lang="ja" translate="no" href="./README.ja.md">日本語 (JA)</a></strong>
+  &nbsp;|&nbsp;
+  <a lang="es" translate="no" href="./README.es.md">Español (ES)</a>
+  &nbsp;|&nbsp;
+  <a lang="de" translate="no" href="./README.de.md">Deutsch (DE)</a>
+  &nbsp;|&nbsp;
+  <a lang="id" translate="no" href="./README.id.md">Bahasa Indonesia (ID)</a>
 </p>
 
-<p align="center"><img src="./assets/relayrouter-hero.png" alt="RelayRouter API クイックスタート" width="100%"></p>
+<p align="center"><sub>現在の言語：日本語（JA）。本文が別の言語で表示される場合は、github.com の自動翻訳を無効にしてください。</sub></p>
+
+<h1 align="center">RelayRouter API クイックスタート</h1>
 
 <p align="center">
   <a href="https://relayrouter.app/register?aff=xc9N"><img src="./assets/register-app.svg" alt="relayrouter.app で登録" height="48"></a>
@@ -18,7 +29,7 @@
 </p>
 
 > [!TIP]
-> **外部アカウントでログインできます。** 登録ページ下部の **Sign in** を選び、ログインページで **GitHub**、**Google**、または **Linux DO** のアイコンを選択してください。
+> 外部アカウントでログインできます。登録ページ下部の Sign in を選び、ログインページで GitHub、Google、または Linux DO のアイコンを選択してください。
 
 > [!NOTE]
 > 上の登録リンクには紹介コード `aff=xc9N` が含まれています。登録がリポジトリ所有者の実績に反映される場合がありますが、サービス料金は変わりません。
@@ -29,23 +40,33 @@ RelayRouter は複数のモデルプロバイダーを単一の OpenAI 互換 AP
 
 | 機能 | メリット |
 | --- | --- |
-| 統一 API 形式 | GPT、Claude、Gemini、DeepSeek、Qwen などの対応モデルを同じ形式で呼び出せる |
-| 従量課金 | RelayRouter コンソールに記録された実際の利用量に基づく料金 |
-| 一元管理 | API キー、モデル、利用量、請求を一か所で管理 |
-| 地域別アクセス | 所在地に合う登録サイトと API アドレスを選択 |
+| 統一 API 形式 | GPT、Claude、Gemini、DeepSeek、Qwen などの対応モデルを同じ形式で呼び出せます。 |
+| 従量課金 | RelayRouter コンソールに記録された実際の利用量に基づく料金です。 |
+| 一元管理 | API キー、モデル、利用量、請求を一か所で管理します。 |
+| 柔軟な接続先 | クライアントが別の `BASE_URL` 形式を求める場合、案内されたアドレスを順番に試せます。 |
 
 ## 5 分で始める
 
 ### 1. 登録して API キーを作成
 
-| 地域 | 登録 | 一般的な API Base URL |
-| --- | --- | --- |
-| 中国本土 | [relayrouter.app](https://relayrouter.app/register?aff=xc9N) | `https://api.relayrouter.app/v1` |
-| グローバル | [relayrouter.ai](https://relayrouter.ai/register?aff=xc9N) | `https://api.relayrouter.ai/v1` |
+次の登録ページからいずれかを選択してください。
 
-登録後、RelayRouter コンソールで API キーを作成します。コンソールに別のアドレスが表示される場合は、その値を使ってください。
+- [relayrouter.app](https://relayrouter.app/register?aff=xc9N)
+- [relayrouter.ai](https://relayrouter.ai/register?aff=xc9N)
 
-### 2. プロジェクトを設定
+登録後、RelayRouter コンソールで API キーを作成します。
+
+### 2. 接続アドレスを選択
+
+クライアントによって必要な `BASE_URL` 形式が異なる場合があります。次の順に試してください。
+
+1. `https://api.relayrouter.app`
+2. `https://api.relayrouter.app/v1`
+3. `https://api.relayrouter.app/v1/chat/completions`
+
+このリポジトリの SDK サンプルは、既定で `https://api.relayrouter.app/v1` を使用します。クライアントがベース URL ではなくチャット補完の完全なアドレスを要求する場合は、3 番目を使用してください。
+
+### 3. プロジェクトを設定
 
 ```bash
 cp .env.example .env
@@ -53,13 +74,11 @@ cp .env.example .env
 
 ```dotenv
 RELAYROUTER_API_KEY=your_api_key_here
-RELAYROUTER_BASE_URL=https://api.relayrouter.ai/v1
+RELAYROUTER_BASE_URL=https://api.relayrouter.app/v1
 RELAYROUTER_MODEL=your_model_name
 ```
 
-中国本土向けエンドポイントは `https://api.relayrouter.app/v1` です。
-
-### 3. 実行
+### 4. リクエストを実行
 
 ```bash
 python -m pip install -r requirements.txt
@@ -68,7 +87,7 @@ python examples/python/chat.py
 
 ## 実行可能なサンプル
 
-| 言語 | ファイル | コマンド |
+| 言語 | ファイル | 実行コマンド |
 | --- | --- | --- |
 | Python | [`examples/python/chat.py`](./examples/python/chat.py) | `python examples/python/chat.py` |
 | JavaScript | [`examples/javascript/chat.mjs`](./examples/javascript/chat.mjs) | `node examples/javascript/chat.mjs` |
@@ -84,3 +103,5 @@ python examples/python/chat.py
 API キーを Git にコミットしないでください。`.env` またはデプロイ先のシークレット管理に保存してください。
 
 <p align="center"><strong>1 つの API キーで、より多くのモデルを、より少ない連携作業で。</strong></p>
+
+</div>

@@ -2,18 +2,16 @@
 
 ## 1. Register
 
-Choose the site that works best for your location:
+Choose either registration page:
 
-| Region | Registration | Common API base URL |
-| --- | --- | --- |
-| Mainland China | [relayrouter.app](https://relayrouter.app/register?aff=xc9N) | `https://api.relayrouter.app/v1` |
-| Global | [relayrouter.ai](https://relayrouter.ai/register?aff=xc9N) | `https://api.relayrouter.ai/v1` |
+- [relayrouter.app](https://relayrouter.app/register?aff=xc9N)
+- [relayrouter.ai](https://relayrouter.ai/register?aff=xc9N)
 
 The registration links contain the referral code `aff=xc9N`.
 
 ### Sign in with another account
 
-On the registration page, select **Sign in** at the bottom. On the login page, choose the **GitHub**, **Google**, or **Linux DO** icon to use that account.
+On the registration page, select Sign in at the bottom. On the login page, choose the GitHub, Google, or Linux DO icon to use that account.
 
 ## 2. Create an API key
 
@@ -28,7 +26,17 @@ After signing in:
 
 Open the current model list in the RelayRouter console and copy an available model name. Model availability can change, so use the value currently shown in your account.
 
-## 4. Configure the environment
+## 4. Choose the connection URL
+
+Different clients may require different `BASE_URL` formats. Try these addresses in order:
+
+1. `https://api.relayrouter.app`
+2. `https://api.relayrouter.app/v1`
+3. `https://api.relayrouter.app/v1/chat/completions`
+
+The SDK examples in this repository use `https://api.relayrouter.app/v1` by default. If a client asks for a complete chat-completions endpoint instead of a base URL, use the third address.
+
+## 5. Configure the environment
 
 Copy the example configuration:
 
@@ -40,13 +48,11 @@ Then edit `.env`:
 
 ```dotenv
 RELAYROUTER_API_KEY=your_api_key_here
-RELAYROUTER_BASE_URL=https://api.relayrouter.ai/v1
+RELAYROUTER_BASE_URL=https://api.relayrouter.app/v1
 RELAYROUTER_MODEL=your_model_name
 ```
 
-Use `https://api.relayrouter.app/v1` for the Mainland China endpoint. If your console shows a different endpoint, use the console value.
-
-## 5. Run an example
+## 6. Run an example
 
 Python:
 
@@ -69,6 +75,6 @@ PowerShell:
 pwsh examples\powershell\request.ps1
 ```
 
-## 6. Check the result
+## 7. Check the result
 
-A successful request returns a model response. If it fails, check the model name, account balance, API key, endpoint, network connection, and rate limits.
+A successful request returns a model response. If it fails, check the model name, account balance, API key, selected connection URL, network connection, and rate limits.

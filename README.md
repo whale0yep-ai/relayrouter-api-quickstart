@@ -1,22 +1,33 @@
+<div lang="en" translate="no">
+
 <p align="center">
-  <a href="./README.zh-CN.md">中文</a> |
-  <strong>English</strong> |
-  <a href="./README.ru.md">Русский</a> |
-  <a href="./README.ko.md">한국어</a> |
-  <a href="./README.ja.md">日本語</a> |
-  <a href="./README.es.md">Español</a> |
-  <a href="./README.de.md">Deutsch</a> |
-  <a href="./README.id.md">Bahasa Indonesia</a>
+  <a lang="zh-CN" translate="no" href="./README.zh-CN.md">中文 (ZH)</a>
+  &nbsp;|&nbsp;
+  <strong><a lang="en" translate="no" href="./README.md">English (EN)</a></strong>
+  &nbsp;|&nbsp;
+  <a lang="ru" translate="no" href="./README.ru.md">Русский (RU)</a>
+  &nbsp;|&nbsp;
+  <a lang="ko" translate="no" href="./README.ko.md">한국어 (KO)</a>
+  &nbsp;|&nbsp;
+  <a lang="ja" translate="no" href="./README.ja.md">日本語 (JA)</a>
+  &nbsp;|&nbsp;
+  <a lang="es" translate="no" href="./README.es.md">Español (ES)</a>
+  &nbsp;|&nbsp;
+  <a lang="de" translate="no" href="./README.de.md">Deutsch (DE)</a>
+  &nbsp;|&nbsp;
+  <a lang="id" translate="no" href="./README.id.md">Bahasa Indonesia (ID)</a>
 </p>
+
+<p align="center"><sub>Current language: English (EN). If this page appears in another language, disable automatic translation for github.com.</sub></p>
 
 <p align="center">
   <img src="./assets/relayrouter-hero.png" alt="RelayRouter API Quickstart" width="100%">
 </p>
 
 <p align="center">
-  <a href="https://relayrouter.app/register?aff=xc9N"><img src="./assets/register-app.svg" alt="Register via relayrouter.app" height="48"></a>
+  <a href="https://relayrouter.app/register?aff=xc9N"><img src="./assets/register-app.svg" alt="Register at relayrouter.app" height="48"></a>
   &nbsp;&nbsp;
-  <a href="https://relayrouter.ai/register?aff=xc9N"><img src="./assets/register-ai.svg" alt="Register via relayrouter.ai" height="48"></a>
+  <a href="https://relayrouter.ai/register?aff=xc9N"><img src="./assets/register-ai.svg" alt="Register at relayrouter.ai" height="48"></a>
 </p>
 
 <p align="center">
@@ -27,10 +38,10 @@
 </p>
 
 > [!TIP]
-> **Third-party sign-in is supported.** Open a registration page, select **Sign in** at the bottom, then choose the **GitHub**, **Google**, or **Linux DO** icon on the login page.
+> Third-party sign-in is supported. Open a registration page, select Sign in at the bottom, then choose the GitHub, Google, or Linux DO icon.
 
 > [!NOTE]
-> The registration buttons above contain the referral code `aff=xc9N`. Registration may be credited to the repository owner; it does not change your service price.
+> The registration links contain the referral code `aff=xc9N`. Registration may be credited to the repository owner; it does not change your service price.
 
 ## Why RelayRouter?
 
@@ -41,20 +52,30 @@ RelayRouter provides one OpenAI-compatible API for multiple model providers, so 
 | One API format | Call GPT, Claude, Gemini, DeepSeek, Qwen, and other supported models through a familiar interface. |
 | Usage-based billing | Pay for the usage recorded in your RelayRouter console. |
 | Centralized management | Keep API keys, model access, usage, and billing in one place. |
-| Regional access | Choose the registration site and API endpoint that work best for your location. |
+| Flexible connection URLs | Try the documented RelayRouter URLs in order when a client expects a different `BASE_URL` format. |
 
 ## 5-minute quickstart
 
 ### 1. Register and create an API key
 
-| Region | Registration | Common API base URL |
-| --- | --- | --- |
-| Mainland China | [relayrouter.app](https://relayrouter.app/register?aff=xc9N) | `https://api.relayrouter.app/v1` |
-| Global | [relayrouter.ai](https://relayrouter.ai/register?aff=xc9N) | `https://api.relayrouter.ai/v1` |
+Choose either registration page:
 
-After registration, create an API key in the RelayRouter console. If the endpoint shown in your console differs from the table, use the console value.
+- [relayrouter.app](https://relayrouter.app/register?aff=xc9N)
+- [relayrouter.ai](https://relayrouter.ai/register?aff=xc9N)
 
-### 2. Configure the project
+After registration, create an API key in the RelayRouter console.
+
+### 2. Choose the connection URL
+
+Different clients may require different `BASE_URL` formats. Try these addresses in order:
+
+1. `https://api.relayrouter.app`
+2. `https://api.relayrouter.app/v1`
+3. `https://api.relayrouter.app/v1/chat/completions`
+
+The SDK examples in this repository use `https://api.relayrouter.app/v1` by default. If a client asks for a complete chat-completions endpoint instead of a base URL, use the third address.
+
+### 3. Configure the project
 
 ```bash
 cp .env.example .env
@@ -64,13 +85,11 @@ Edit `.env`:
 
 ```dotenv
 RELAYROUTER_API_KEY=your_api_key_here
-RELAYROUTER_BASE_URL=https://api.relayrouter.ai/v1
+RELAYROUTER_BASE_URL=https://api.relayrouter.app/v1
 RELAYROUTER_MODEL=your_model_name
 ```
 
-Use `https://api.relayrouter.app/v1` for the Mainland China endpoint.
-
-### 3. Run a request
+### 4. Run a request
 
 ```bash
 python -m pip install -r requirements.txt
@@ -85,7 +104,7 @@ from openai import OpenAI
 
 client = OpenAI(
     api_key=os.environ["RELAYROUTER_API_KEY"],
-    base_url=os.getenv("RELAYROUTER_BASE_URL", "https://api.relayrouter.ai/v1"),
+    base_url=os.getenv("RELAYROUTER_BASE_URL", "https://api.relayrouter.app/v1"),
 )
 
 response = client.chat.completions.create(
@@ -116,3 +135,5 @@ print(response.choices[0].message.content)
 Never commit your API key. Keep it in `.env` or your deployment platform's secret manager. The included `.gitignore` already excludes `.env`.
 
 <p align="center"><strong>One API key. More models. Less integration work.</strong></p>
+
+</div>

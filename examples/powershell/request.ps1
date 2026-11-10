@@ -4,7 +4,7 @@ $apiKey = $env:RELAYROUTER_API_KEY
 $baseUrl = if ($env:RELAYROUTER_BASE_URL) {
     $env:RELAYROUTER_BASE_URL
 } else {
-    "https://api.relayrouter.ai/v1"
+    "https://api.relayrouter.app/v1"
 }
 $model = $env:RELAYROUTER_MODEL
 

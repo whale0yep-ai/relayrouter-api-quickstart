@@ -2,25 +2,28 @@
 
 ## Where do I register?
 
-- Mainland China: [relayrouter.app](https://relayrouter.app/register?aff=xc9N)
-- Global: [relayrouter.ai](https://relayrouter.ai/register?aff=xc9N)
+- [relayrouter.app](https://relayrouter.app/register?aff=xc9N)
+- [relayrouter.ai](https://relayrouter.ai/register?aff=xc9N)
 
 These links contain the referral code `aff=xc9N`.
 
 ## Can I sign in with GitHub, Google, or Linux DO?
 
-Yes. Open a registration page, select **Sign in** at the bottom, then choose the corresponding provider icon on the login page.
+Yes. Open a registration page, select Sign in at the bottom, then choose the corresponding provider icon on the login page.
 
 ## Where do I create an API key?
 
 Sign in to the RelayRouter console and open the API key or token management page.
 
-## Which API base URL should I use?
+## Which connection URL should I use?
 
-- Mainland China: `https://api.relayrouter.app/v1`
-- Global: `https://api.relayrouter.ai/v1`
+Different clients may require different `BASE_URL` formats. Try these addresses in order:
 
-If your RelayRouter console shows a different endpoint, use the console value.
+1. `https://api.relayrouter.app`
+2. `https://api.relayrouter.app/v1`
+3. `https://api.relayrouter.app/v1/chat/completions`
+
+The examples in this repository use the second address by default. Use the third address only when a client requests the complete chat-completions endpoint.
 
 ## Where can I find model names?
 

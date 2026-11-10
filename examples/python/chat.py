@@ -8,7 +8,7 @@ load_dotenv()
 api_key = os.getenv("RELAYROUTER_API_KEY")
 base_url = os.getenv(
     "RELAYROUTER_BASE_URL",
-    "https://api.relayrouter.ai/v1",
+    "https://api.relayrouter.app/v1",
 )
 model = os.getenv("RELAYROUTER_MODEL")
 
