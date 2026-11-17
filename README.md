@@ -122,37 +122,27 @@ Choose a goal and jump directly to its tutorial. You do not need to read the who
 
 </details>
 
-<a id="model-playground"></a>
-<details>
-<summary><strong>🧪 Try a model before integration</strong></summary>
-
-1. Open the model marketplace or playground in the RelayRouter console.
-2. Choose a supported model and send a small test prompt.
-3. Check the response and usage, then copy the exact model identifier into `RELAYROUTER_MODEL`.
-
-</details>
-
 <a id="client-integration"></a>
 ## Client integration tutorials
 
 Different clients may ask for a base URL or a complete chat-completions endpoint. Start with `https://api.relayrouter.app/v1` and use the [quick reference](#quick-reference) if the client expects another format.
 
 <details>
-<summary><strong>◉ ChatGPT shortcut</strong></summary>
+<summary><strong>ChatGPT shortcut</strong></summary>
 
 Open the shortcut's provider settings, choose a custom or OpenAI-compatible provider, enter the RelayRouter API key and endpoint, and select a supported model.
 
 </details>
 
 <details>
-<summary><strong>✳ Claude shortcut</strong></summary>
+<summary><strong>Claude shortcut</strong></summary>
 
 Open the shortcut's provider settings, choose a custom or OpenAI-compatible provider, enter the RelayRouter API key and endpoint, and select a supported model.
 
 </details>
 
 <details open>
-<summary><strong>🔴 Cherry Studio</strong></summary>
+<summary><strong>Cherry Studio</strong></summary>
 
 **API endpoint:** `https://api.relayrouter.app/v1`
 
@@ -163,14 +153,14 @@ Open the shortcut's provider settings, choose a custom or OpenAI-compatible prov
 </details>
 
 <details>
-<summary><strong>✦ Gemini</strong></summary>
+<summary><strong>Gemini</strong></summary>
 
 To use Gemini models through RelayRouter, configure an OpenAI-compatible custom provider with the RelayRouter endpoint and key, then select a supported Gemini model identifier.
 
 </details>
 
 <details>
-<summary><strong>🐋 DeepSeek Harness</strong></summary>
+<summary><strong>DeepSeek Harness</strong></summary>
 
 Set the harness provider to an OpenAI-compatible endpoint, enter the RelayRouter `BASE_URL` and API key, then select a supported DeepSeek model and run a connection test.
 

@@ -122,37 +122,27 @@ RelayRouter предоставляет единый API, совместимый 
 
 </details>
 
-<a id="model-playground"></a>
-<details>
-<summary><strong>🧪 Проверка модели перед интеграцией</strong></summary>
-
-1. Откройте каталог или площадку тестирования моделей в консоли RelayRouter.
-2. Выберите поддерживаемую модель и отправьте короткий тестовый запрос.
-3. Проверьте ответ и расход, затем укажите точный идентификатор модели в `RELAYROUTER_MODEL`.
-
-</details>
-
 <a id="client-integration"></a>
 ## Подключение клиентов
 
 Клиент может запрашивать базовый URL или полный адрес chat completions. Сначала используйте `https://api.relayrouter.app/v1`, а при другом формате смотрите [краткий справочник](#quick-reference).
 
 <details>
-<summary><strong>◉ Ярлык ChatGPT</strong></summary>
+<summary><strong>Ярлык ChatGPT</strong></summary>
 
 В настройках поставщика выберите пользовательский или OpenAI-совместимый сервис, укажите API-ключ и адрес RelayRouter, затем выберите поддерживаемую модель.
 
 </details>
 
 <details>
-<summary><strong>✳ Ярлык Claude</strong></summary>
+<summary><strong>Ярлык Claude</strong></summary>
 
 В настройках поставщика выберите пользовательский или OpenAI-совместимый сервис, укажите API-ключ и адрес RelayRouter, затем выберите поддерживаемую модель.
 
 </details>
 
 <details open>
-<summary><strong>🔴 Cherry Studio</strong></summary>
+<summary><strong>Cherry Studio</strong></summary>
 
 **Адрес API:** `https://api.relayrouter.app/v1`
 
@@ -163,14 +153,14 @@ RelayRouter предоставляет единый API, совместимый 
 </details>
 
 <details>
-<summary><strong>✦ Gemini</strong></summary>
+<summary><strong>Gemini</strong></summary>
 
 Для моделей Gemini через RelayRouter настройте пользовательского OpenAI-совместимого поставщика, укажите адрес и ключ RelayRouter, затем выберите поддерживаемый идентификатор Gemini.
 
 </details>
 
 <details>
-<summary><strong>🐋 DeepSeek Harness</strong></summary>
+<summary><strong>DeepSeek Harness</strong></summary>
 
 Выберите OpenAI-совместимый адрес, укажите `BASE_URL` и API-ключ RelayRouter, затем выберите поддерживаемую модель DeepSeek и проверьте подключение.
 

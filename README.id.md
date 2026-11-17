@@ -122,37 +122,27 @@ Pilih tujuan dan langsung buka tutorial terkait. Anda tidak perlu membaca seluru
 
 </details>
 
-<a id="model-playground"></a>
-<details>
-<summary><strong>🧪 Coba model sebelum integrasi</strong></summary>
-
-1. Buka katalog atau area uji model di konsol RelayRouter.
-2. Pilih model yang didukung dan kirim prompt pengujian singkat.
-3. Periksa respons dan penggunaan, lalu masukkan pengenal model yang tepat ke `RELAYROUTER_MODEL`.
-
-</details>
-
 <a id="client-integration"></a>
 ## Tutorial integrasi klien
 
 Klien dapat meminta URL dasar atau alamat chat-completions lengkap. Mulai dengan `https://api.relayrouter.app/v1` dan gunakan [referensi cepat](#quick-reference) jika formatnya berbeda.
 
 <details>
-<summary><strong>◉ Pintasan ChatGPT</strong></summary>
+<summary><strong>Pintasan ChatGPT</strong></summary>
 
 Pada pengaturan penyedia, pilih layanan kustom atau kompatibel dengan OpenAI, masukkan API key dan alamat RelayRouter, lalu pilih model yang didukung.
 
 </details>
 
 <details>
-<summary><strong>✳ Pintasan Claude</strong></summary>
+<summary><strong>Pintasan Claude</strong></summary>
 
 Pada pengaturan penyedia, pilih layanan kustom atau kompatibel dengan OpenAI, masukkan API key dan alamat RelayRouter, lalu pilih model yang didukung.
 
 </details>
 
 <details open>
-<summary><strong>🔴 Cherry Studio</strong></summary>
+<summary><strong>Cherry Studio</strong></summary>
 
 **Endpoint API:** `https://api.relayrouter.app/v1`
 
@@ -163,14 +153,14 @@ Pada pengaturan penyedia, pilih layanan kustom atau kompatibel dengan OpenAI, ma
 </details>
 
 <details>
-<summary><strong>✦ Gemini</strong></summary>
+<summary><strong>Gemini</strong></summary>
 
 Untuk menggunakan model Gemini melalui RelayRouter, atur penyedia kustom yang kompatibel dengan OpenAI menggunakan alamat dan key RelayRouter, lalu pilih pengenal model Gemini yang didukung.
 
 </details>
 
 <details>
-<summary><strong>🐋 DeepSeek Harness</strong></summary>
+<summary><strong>DeepSeek Harness</strong></summary>
 
 Atur penyedia Harness ke endpoint yang kompatibel dengan OpenAI, masukkan `BASE_URL` dan API key RelayRouter, lalu uji koneksi dengan model DeepSeek yang didukung.
 

@@ -122,37 +122,27 @@ RelayRouter 用一套兼容 OpenAI 的 API 连接多个模型服务商，让你�
 
 </details>
 
-<a id="model-playground"></a>
-<details>
-<summary><strong>🧪 模型体验</strong></summary>
-
-1. 打开 RelayRouter 控制台中的 **模型广场** 或模型体验入口。
-2. 选择已支持的模型，发送一条简短测试提示词。
-3. 检查回复与用量，再把准确的模型标识填写到 `RELAYROUTER_MODEL`。
-
-</details>
-
 <a id="client-integration"></a>
 ## 客户端接入教程
 
 不同客户端可能要求填写基础地址或完整的聊天补全地址。建议先使用 `https://api.relayrouter.app/v1`；如果格式不匹配，请查看下方[快速参考](#quick-reference)。
 
 <details>
-<summary><strong>◉ ChatGPT 快捷方式</strong></summary>
+<summary><strong>ChatGPT 快捷方式</strong></summary>
 
 打开快捷方式的服务商设置，选择自定义或 OpenAI 兼容服务商，填写 RelayRouter API Key 和接口地址，再选择已支持的模型。
 
 </details>
 
 <details>
-<summary><strong>✳ Claude 快捷方式</strong></summary>
+<summary><strong>Claude 快捷方式</strong></summary>
 
 打开快捷方式的服务商设置，选择自定义或 OpenAI 兼容服务商，填写 RelayRouter API Key 和接口地址，再选择已支持的模型。
 
 </details>
 
 <details open>
-<summary><strong>🔴 Cherry Studio</strong></summary>
+<summary><strong>Cherry Studio</strong></summary>
 
 **API 端点：** `https://api.relayrouter.app/v1`
 
@@ -163,14 +153,14 @@ RelayRouter 用一套兼容 OpenAI 的 API 连接多个模型服务商，让你�
 </details>
 
 <details>
-<summary><strong>✦ Gemini</strong></summary>
+<summary><strong>Gemini</strong></summary>
 
 如需通过 RelayRouter 调用 Gemini 模型，请在支持自定义服务商的客户端中选择 OpenAI 兼容模式，填写 RelayRouter 接口地址与密钥，再选择已支持的 Gemini 模型标识。
 
 </details>
 
 <details>
-<summary><strong>🐋 DeepSeek Harness</strong></summary>
+<summary><strong>DeepSeek Harness</strong></summary>
 
 将 Harness 服务商设为 OpenAI 兼容端点，填写 RelayRouter `BASE_URL` 与 API Key，选择已支持的 DeepSeek 模型后进行连接测试。
 

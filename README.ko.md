@@ -122,37 +122,27 @@ RelayRouter는 여러 모델 공급자를 하나의 OpenAI 호환 API로 연결�
 
 </details>
 
-<a id="model-playground"></a>
-<details>
-<summary><strong>🧪 연동 전 모델 체험</strong></summary>
-
-1. RelayRouter 콘솔에서 모델 마켓 또는 체험 화면을 엽니다.
-2. 지원 모델을 선택해 짧은 테스트 프롬프트를 전송합니다.
-3. 응답과 사용량을 확인한 뒤 정확한 모델 식별자를 `RELAYROUTER_MODEL`에 입력합니다.
-
-</details>
-
 <a id="client-integration"></a>
 ## 클라이언트 연동 튜토리얼
 
 클라이언트에 따라 기본 URL 또는 전체 chat-completions 주소를 요구할 수 있습니다. 먼저 `https://api.relayrouter.app/v1`을 사용하고 형식이 다르면 [빠른 참조](#quick-reference)를 확인하세요.
 
 <details>
-<summary><strong>◉ ChatGPT 바로가기</strong></summary>
+<summary><strong>ChatGPT 바로가기</strong></summary>
 
 바로가기의 공급자 설정에서 사용자 지정 또는 OpenAI 호환 공급자를 선택하고 RelayRouter API 키와 주소를 입력한 뒤 지원 모델을 선택합니다.
 
 </details>
 
 <details>
-<summary><strong>✳ Claude 바로가기</strong></summary>
+<summary><strong>Claude 바로가기</strong></summary>
 
 바로가기의 공급자 설정에서 사용자 지정 또는 OpenAI 호환 공급자를 선택하고 RelayRouter API 키와 주소를 입력한 뒤 지원 모델을 선택합니다.
 
 </details>
 
 <details open>
-<summary><strong>🔴 Cherry Studio</strong></summary>
+<summary><strong>Cherry Studio</strong></summary>
 
 **API 엔드포인트:** `https://api.relayrouter.app/v1`
 
@@ -163,14 +153,14 @@ RelayRouter는 여러 모델 공급자를 하나의 OpenAI 호환 API로 연결�
 </details>
 
 <details>
-<summary><strong>✦ Gemini</strong></summary>
+<summary><strong>Gemini</strong></summary>
 
 RelayRouter로 Gemini 모델을 사용하려면 사용자 지정 OpenAI 호환 공급자에 RelayRouter 주소와 키를 입력하고 지원되는 Gemini 모델 식별자를 선택합니다.
 
 </details>
 
 <details>
-<summary><strong>🐋 DeepSeek Harness</strong></summary>
+<summary><strong>DeepSeek Harness</strong></summary>
 
 Harness 공급자를 OpenAI 호환 엔드포인트로 설정하고 RelayRouter `BASE_URL`과 API 키를 입력한 뒤 지원 DeepSeek 모델로 연결을 테스트합니다.
 

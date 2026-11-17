@@ -122,37 +122,27 @@ RelayRouter は複数のモデルプロバイダーを単一の OpenAI 互換 AP
 
 </details>
 
-<a id="model-playground"></a>
-<details>
-<summary><strong>🧪 連携前にモデルを試す</strong></summary>
-
-1. RelayRouter コンソールのモデル一覧または体験画面を開きます。
-2. 対応モデルを選び、短いテストプロンプトを送信します。
-3. 応答と利用量を確認し、正確なモデル識別子を `RELAYROUTER_MODEL` に設定します。
-
-</details>
-
 <a id="client-integration"></a>
 ## クライアント接続チュートリアル
 
 クライアントによってベース URL または完全な chat-completions アドレスが必要です。まず `https://api.relayrouter.app/v1` を使用し、形式が異なる場合は[クイックリファレンス](#quick-reference)を確認してください。
 
 <details>
-<summary><strong>◉ ChatGPT ショートカット</strong></summary>
+<summary><strong>ChatGPT ショートカット</strong></summary>
 
 ショートカットのプロバイダー設定でカスタムまたは OpenAI 互換を選び、RelayRouter の API キーと接続先を入力して対応モデルを選択します。
 
 </details>
 
 <details>
-<summary><strong>✳ Claude ショートカット</strong></summary>
+<summary><strong>Claude ショートカット</strong></summary>
 
 ショートカットのプロバイダー設定でカスタムまたは OpenAI 互換を選び、RelayRouter の API キーと接続先を入力して対応モデルを選択します。
 
 </details>
 
 <details open>
-<summary><strong>🔴 Cherry Studio</strong></summary>
+<summary><strong>Cherry Studio</strong></summary>
 
 **API エンドポイント：** `https://api.relayrouter.app/v1`
 
@@ -163,14 +153,14 @@ RelayRouter は複数のモデルプロバイダーを単一の OpenAI 互換 AP
 </details>
 
 <details>
-<summary><strong>✦ Gemini</strong></summary>
+<summary><strong>Gemini</strong></summary>
 
 RelayRouter 経由で Gemini モデルを使うには、カスタム OpenAI 互換プロバイダーに RelayRouter の接続先とキーを設定し、対応する Gemini モデル識別子を選択します。
 
 </details>
 
 <details>
-<summary><strong>🐋 DeepSeek Harness</strong></summary>
+<summary><strong>DeepSeek Harness</strong></summary>
 
 Harness のプロバイダーを OpenAI 互換に設定し、RelayRouter の `BASE_URL` と API キーを入力して、対応する DeepSeek モデルで接続テストを行います。
 
