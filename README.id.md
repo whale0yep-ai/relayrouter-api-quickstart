@@ -39,12 +39,22 @@
 
 > 💡 <strong>Kiat:</strong> Login dengan akun pihak ketiga didukung. Pada halaman pendaftaran, pilih Sign in di bagian bawah, lalu pilih ikon GitHub, Google, atau Linux DO pada halaman login.
 
+<!-- relayrouter-announcements:start -->
 > [!IMPORTANT]
-> **Ringkasan pengumuman**
+> **Pengumuman terbaru · Sinkronisasi otomatis**
 >
-> Masuk ke konsol RelayRouter dan gunakan ikon lonceng di kanan atas untuk melihat peluncuran model, perubahan harga, gangguan sementara, penghentian model, dan promosi.
+> 5 pengumuman RelayRouter terbaru:
 >
-> [Buka RelayRouter dan lihat pengumuman →](https://relayrouter.app/register?aff=xc9N)
+> - `2026-11-16 21:24 (UTC+8)` — Model Launch: hy4-flash
+> - `2026-11-15 10:46 (UTC+8)` — Notice: gpt-6-luna codex resources are in short supply, temporarily removing the codex resource group for this model
+> - `2026-11-13 22:12 (UTC+8)` — Model Launch: gemini-4-hydrogen
+> - `2026-11-12 18:11 (UTC+8)` — Notice: Group deepseek-1 resources are under maintenance and temporarily offline, restoration will be notified
+> - `2026-11-12 17:29 (UTC+8)` — Notice: The jev series models are under maintenance and temporarily offline. Notifications for recovery will follow; Qwen/Qwen3-Reranker-0.6B, BAAI/bge-reranker-v2-m3, Pro/BAAI/bge-reranker-v2-m3, netease-youdao/bce-reranker-base_v1 will be offline at 23:59:5…
+>
+> _Sumber belum menyediakan terjemahan Bahasa Indonesia; pengumuman ditampilkan dalam bahasa Inggris._
+>
+> [Buka RelayRouter dan lihat semua pengumuman →](https://relayrouter.app/register?aff=xc9N)
+<!-- relayrouter-announcements:end -->
 
 ## Mengapa RelayRouter?
 

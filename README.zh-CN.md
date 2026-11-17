@@ -39,12 +39,20 @@
 
 > 💡 <strong>提示：</strong>支持第三方账号登录。进入注册页面后点击底部的 Sign in，在登录页面选择 GitHub、Google 或 Linux DO 图标，即可使用对应账号登录。
 
+<!-- relayrouter-announcements:start -->
 > [!IMPORTANT]
-> **公告速知**
+> **公告速知 · 自动同步**
 >
-> 登录 RelayRouter 控制台后，点击右上角铃铛进入消息中心，可及时查看模型上新、价格变动、临时故障、下架调整和活动资讯。
+> RelayRouter 最新 5 条公告：
 >
-> [进入 RelayRouter 查看公告 →](https://relayrouter.app/register?aff=xc9N)
+> - `2026-11-16 21:24 (UTC+8)` — 模型上架：hy4-flash
+> - `2026-11-15 10:46 (UTC+8)` — 通知：gpt-6-luna codex资源紧缺，暂时下架该模型的codex资源分组
+> - `2026-11-13 22:12 (UTC+8)` — 模型上架：gemini-4-hydrogen
+> - `2026-11-12 18:11 (UTC+8)` — 通知：deepseek-1分组资源维护中，暂时下线，恢复等通知
+> - `2026-11-12 17:29 (UTC+8)` — 通知：jev系列模型维护中，暂时下线，恢复等通知； Qwen/Qwen3-Reranker-0.6B、BAAI/bge-reranker-v2-m3、Pro/BAAI/bge-reranker-v2-m3、netease-youdao/bce-reranker-base_v1将于北京时间2026/11/12 23:59:59下线
+>
+> [进入 RelayRouter 查看全部公告 →](https://relayrouter.app/register?aff=xc9N)
+<!-- relayrouter-announcements:end -->
 
 ## 为什么选择 RelayRouter？
 

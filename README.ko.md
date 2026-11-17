@@ -39,12 +39,20 @@
 
 > 💡 <strong>도움말:</strong> 타사 계정 로그인을 지원합니다. 가입 페이지 하단의 Sign in을 누른 뒤 로그인 페이지에서 GitHub, Google 또는 Linux DO 아이콘을 선택하세요.
 
+<!-- relayrouter-announcements:start -->
 > [!IMPORTANT]
-> **공지 빠른 확인**
+> **최신 공지 · 자동 동기화**
 >
-> RelayRouter 콘솔에 로그인한 뒤 오른쪽 위의 종 아이콘을 누르면 모델 출시, 가격 변경, 일시 장애, 모델 종료 및 이벤트 소식을 확인할 수 있습니다.
+> RelayRouter 최신 공지 5개:
 >
-> [RelayRouter에서 공지 보기 →](https://relayrouter.app/register?aff=xc9N)
+> - `2026-11-16 21:24 (UTC+8)` — 모델 배포: hy4-flash
+> - `2026-11-15 10:46 (UTC+8)` — 공지: gpt-6-luna codex 자원이 부족하여 해당 모델의 codex 자원 그룹이 일시적으로 중단되었습니다.
+> - `2026-11-13 22:12 (UTC+8)` — 모델 배포: gemini-4-hydrogen
+> - `2026-11-12 18:11 (UTC+8)` — 알림: deepseek-1 그룹 리소스 유지보수 중, 일시적으로 오프라인, 복구 등 알림
+> - `2026-11-12 17:29 (UTC+8)` — 공지: jev 시리즈 모델 유지보수 중, 잠시 오프라인, 복구 등 공지; Qwen/Qwen3-Reranker-0.6B, BAAI/bge-reranker-v2-m3, Pro/BAAI/bge-reranker-v2-m3, netease-youdao/bce-reranker-base_v1은 베이징 시간 2026/11/12 23:59:59에 오프라인 됩니다.
+>
+> [RelayRouter에서 모든 공지 보기 →](https://relayrouter.app/register?aff=xc9N)
+<!-- relayrouter-announcements:end -->
 
 ## RelayRouter를 선택하는 이유
 

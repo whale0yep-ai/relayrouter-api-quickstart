@@ -39,12 +39,20 @@
 
 > 💡 <strong>Tipp:</strong> Die Anmeldung über Drittanbieter wird unterstützt. Wähle auf der Registrierungsseite unten Sign in und danach das Symbol für GitHub, Google oder Linux DO.
 
+<!-- relayrouter-announcements:start -->
 > [!IMPORTANT]
-> **Ankündigungen im Überblick**
+> **Neueste Ankündigungen · Automatisch synchronisiert**
 >
-> Melde dich in der RelayRouter-Konsole an und öffne über die Glocke oben rechts neue Modelle, Preisänderungen, vorübergehende Störungen, Modellabschaltungen und Aktionen.
+> Die neuesten 5 RelayRouter-Ankündigungen:
 >
-> [RelayRouter öffnen und Ankündigungen ansehen →](https://relayrouter.app/register?aff=xc9N)
+> - `2026-11-16 21:24 (UTC+8)` — Modellveröffentlichung: hy4-flash
+> - `2026-11-15 10:46 (UTC+8)` — Benachrichtigung: gpt-6-luna codex-Ressourcen sind knapp, das Codex-Ressourcengruppierungsmodell ist vorübergehend nicht verfügbar
+> - `2026-11-13 22:12 (UTC+8)` — Modell bereitstellen: gemini-4-hydrogen
+> - `2026-11-12 18:11 (UTC+8)` — Benachrichtigung: deepseek-1 Gruppenressourcen werden gewartet, vorübergehend offline, Wiederherstellung folgt nach Benachrichtigung
+> - `2026-11-12 17:29 (UTC+8)` — Benachrichtigung: Die Modelle der jev-Serie werden gewartet und sind vorübergehend offline. Weitere Informationen zur Wiederherstellung folgen; Qwen/Qwen3-Reranker-0.6B, BAAI/bge-reranker-v2-m3, Pro/BAAI/bge-reranker-v2-m3, netease-youdao/bce-reranker-base_v1…
+>
+> [RelayRouter öffnen und alle Ankündigungen ansehen →](https://relayrouter.app/register?aff=xc9N)
+<!-- relayrouter-announcements:end -->
 
 ## Warum RelayRouter?
 

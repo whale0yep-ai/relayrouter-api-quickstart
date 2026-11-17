@@ -39,12 +39,20 @@
 
 > 💡 <strong>Tip:</strong> Third-party sign-in is supported. Open a registration page, select Sign in at the bottom, then choose the GitHub, Google, or Linux DO icon.
 
+<!-- relayrouter-announcements:start -->
 > [!IMPORTANT]
-> **Announcement snapshot**
+> **Announcement updates · Auto-synced**
 >
-> Sign in to the RelayRouter console and use the bell in the upper-right corner to see model launches, price changes, temporary incidents, model removals, and campaigns.
+> The latest 5 RelayRouter announcements:
 >
-> [Open RelayRouter and view announcements →](https://relayrouter.app/register?aff=xc9N)
+> - `2026-11-16 21:24 (UTC+8)` — Model Launch: hy4-flash
+> - `2026-11-15 10:46 (UTC+8)` — Notice: gpt-6-luna codex resources are in short supply, temporarily removing the codex resource group for this model
+> - `2026-11-13 22:12 (UTC+8)` — Model Launch: gemini-4-hydrogen
+> - `2026-11-12 18:11 (UTC+8)` — Notice: Group deepseek-1 resources are under maintenance and temporarily offline, restoration will be notified
+> - `2026-11-12 17:29 (UTC+8)` — Notice: The jev series models are under maintenance and temporarily offline. Notifications for recovery will follow; Qwen/Qwen3-Reranker-0.6B, BAAI/bge-reranker-v2-m3, Pro/BAAI/bge-reranker-v2-m3, netease-youdao/bce-reranker-base_v1 will be offline at 23:59:5…
+>
+> [Open RelayRouter to view all announcements →](https://relayrouter.app/register?aff=xc9N)
+<!-- relayrouter-announcements:end -->
 
 ## Why RelayRouter?
 

@@ -39,12 +39,20 @@
 
 > 💡 <strong>Consejo:</strong> Se admite el inicio de sesión con terceros. En la página de registro, selecciona Sign in en la parte inferior y luego el icono de GitHub, Google o Linux DO.
 
+<!-- relayrouter-announcements:start -->
 > [!IMPORTANT]
-> **Resumen de avisos**
+> **Últimos avisos · Sincronización automática**
 >
-> Inicia sesión en la consola de RelayRouter y usa la campana de la esquina superior derecha para consultar nuevos modelos, cambios de precio, incidencias temporales, retiradas y campañas.
+> Los 5 avisos más recientes de RelayRouter:
 >
-> [Abrir RelayRouter y ver los avisos →](https://relayrouter.app/register?aff=xc9N)
+> - `2026-11-16 21:24 (UTC+8)` — Publicación del modelo: hy4-flash
+> - `2026-11-15 10:46 (UTC+8)` — Notificación: los recursos de gpt-6-luna codex son escasos, el grupo de recursos codex de este modelo ha sido temporalmente retirado.
+> - `2026-11-13 22:12 (UTC+8)` — Publicación del modelo: gemini-4-hydrogen
+> - `2026-11-12 18:11 (UTC+8)` — Notificación: deepseek-1 los recursos del grupo están en mantenimiento, fuera de línea temporalmente, se notificará la reanudación.
+> - `2026-11-12 17:29 (UTC+8)` — Notificación: el modelo de la serie jev está en mantenimiento, temporalmente fuera de línea, se notificará la recuperación; Qwen/Qwen3-Reranker-0.6B, BAAI/bge-reranker-v2-m3, Pro/BAAI/bge-reranker-v2-m3, netease-youdao/bce-reranker-base_v1 se desconectará el …
+>
+> [Abrir RelayRouter y ver todos los avisos →](https://relayrouter.app/register?aff=xc9N)
+<!-- relayrouter-announcements:end -->
 
 ## ¿Por qué RelayRouter?
 
