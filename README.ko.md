@@ -204,12 +204,10 @@ API 키를 Git에 커밋하지 마세요. `.env` 또는 배포 플랫폼의 비�
 
 <p align="center"><strong>하나의 API 키로 더 많은 모델을 더 간단하게.</strong></p>
 
-## 지원 그룹 참여
-
-아래 QR 코드를 스캔해 고객 지원 담당자를 추가하세요. 사용자 그룹으로 초대해 드리며, 이후 사용, 설정 또는 연동 관련 질문을 그룹에서 바로 문의할 수 있습니다.
-
 <p align="center">
-  <img src="./assets/customer-service-qr.jpg" alt="기업용 WeChat 고객 지원 QR 코드" width="400">
+  <img src="./assets/customer-service-qr.png" alt="기업용 WeChat 고객 지원 QR 코드" width="420">
 </p>
+
+<p align="center"><sub>QR 코드를 스캔해 고객 지원 담당자를 추가하세요. 사용자 그룹으로 초대해 드리며, 이후 궁금한 점은 그룹에서 바로 문의할 수 있습니다.</sub></p>
 
 </div>

@@ -204,12 +204,10 @@ API キーを Git にコミットしないでください。`.env` またはデ�
 
 <p align="center"><strong>1 つの API キーで、より多くのモデルを、より少ない連携作業で。</strong></p>
 
-## サポートグループに参加
-
-下の QR コードを読み取ってサポート担当を追加してください。ユーザーグループへご招待します。今後、利用方法、設定、連携に関する質問はグループ内で直接お問い合わせいただけます。
-
 <p align="center">
-  <img src="./assets/customer-service-qr.jpg" alt="WeCom サポートの QR コード" width="400">
+  <img src="./assets/customer-service-qr.png" alt="WeCom サポートの QR コード" width="420">
 </p>
+
+<p align="center"><sub>QR コードを読み取ってサポート担当を追加してください。ユーザーグループへご招待します。今後のご質問はグループ内で直接お問い合わせいただけます。</sub></p>
 
 </div>

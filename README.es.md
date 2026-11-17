@@ -204,12 +204,10 @@ No subas tu clave API a Git. Guárdala en `.env` o en el gestor de secretos de t
 
 <p align="center"><strong>Una clave API. Más modelos. Menos integración.</strong></p>
 
-## Únete al grupo de soporte
-
-Escanea el código QR para añadir a nuestro contacto de soporte. Te invitaremos al grupo de usuarios, donde podrás preguntar directamente cualquier duda sobre el uso, la configuración o la integración.
-
 <p align="center">
-  <img src="./assets/customer-service-qr.jpg" alt="Código QR de soporte de WeCom" width="400">
+  <img src="./assets/customer-service-qr.png" alt="Código QR de soporte de WeCom" width="420">
 </p>
+
+<p align="center"><sub>Escanea el código QR para añadir a nuestro contacto de soporte. Te invitaremos al grupo de usuarios, donde podrás consultar directamente cualquier duda posterior.</sub></p>
 
 </div>

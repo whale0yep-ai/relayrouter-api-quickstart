@@ -206,12 +206,10 @@ Jangan pernah memasukkan API key ke Git. Simpan di `.env` atau pengelola rahasia
 
 <p align="center"><strong>Satu API key. Lebih banyak model. Lebih sedikit integrasi.</strong></p>
 
-## Bergabung dengan grup dukungan
-
-Pindai kode QR di bawah untuk menambahkan kontak dukungan kami. Kami akan mengundang Anda ke grup pengguna, tempat Anda dapat langsung menanyakan masalah penggunaan, konfigurasi, atau integrasi.
-
 <p align="center">
-  <img src="./assets/customer-service-qr.jpg" alt="Kode QR dukungan WeCom" width="400">
+  <img src="./assets/customer-service-qr.png" alt="Kode QR dukungan WeCom" width="420">
 </p>
+
+<p align="center"><sub>Pindai kode QR untuk menambahkan kontak dukungan kami. Kami akan mengundang Anda ke grup pengguna, tempat Anda dapat langsung menanyakan pertanyaan berikutnya.</sub></p>
 
 </div>
