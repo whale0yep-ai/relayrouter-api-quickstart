@@ -30,7 +30,21 @@
   <a href="https://relayrouter.ai/register?aff=xc9N"><img src="./assets/register-ai.svg" alt="relayrouter.ai で登録" height="48"></a>
 </p>
 
+<p align="center">
+  <img src="https://img.shields.io/badge/API-OpenAI%20compatible-2563eb" alt="OpenAI 互換 API">
+  <img src="https://img.shields.io/badge/Python-3.9%2B-3776ab" alt="Python 3.9+">
+  <img src="https://img.shields.io/badge/JavaScript-Node.js-f7df1e" alt="Node.js">
+  <img src="https://img.shields.io/badge/PowerShell-7%2B-5391fe" alt="PowerShell 7+">
+</p>
+
 > 💡 <strong>ヒント：</strong>外部アカウントでログインできます。登録ページ下部の Sign in を選び、ログインページで GitHub、Google、または Linux DO のアイコンを選択してください。
+
+> [!IMPORTANT]
+> **お知らせ速報**
+>
+> RelayRouter コンソールにログインし、右上のベルをクリックすると、モデル追加、価格変更、一時障害、提供終了、キャンペーン情報を確認できます。
+>
+> [RelayRouter でお知らせを見る →](https://relayrouter.app/register?aff=xc9N)
 
 ## RelayRouter を選ぶ理由
 
@@ -41,20 +55,129 @@ RelayRouter は複数のモデルプロバイダーを単一の OpenAI 互換 AP
 | 統一 API 形式 | GPT、Claude、Gemini、DeepSeek、Qwen などの対応モデルを同じ形式で呼び出せます。 |
 | 従量課金 | RelayRouter コンソールに記録された実際の利用量に基づく料金です。 |
 | 一元管理 | API キー、モデル、利用量、請求を一か所で管理します。 |
+| 組織の一元管理 | 組織の作成、メンバー招待、残高配分、メンバー利用量と振替履歴の確認ができます。 |
 | 柔軟な接続先 | クライアントが別の `BASE_URL` 形式を求める場合、案内されたアドレスを順番に試せます。 |
 
-## 5 分で始める
+## 何を行いたいですか？
 
-### 1. 登録して API キーを作成
+目的を選ぶと、該当する手順へ直接移動できます。ページ全体を最初から読む必要はありません。
 
-次の登録ページからいずれかを選択してください。
+| 目的 | 目的 |
+| --- | --- |
+| **[最初の API 呼び出し →](#first-api-call)**<br><sub>約 5 分 · API キー → BASE_URL → 最初のリクエスト</sub> | **[コード交換と残高確認 →](#redeem-code)**<br><sub>約 2 分 · クレジットを交換して残高を確認</sub> |
+| **[チーム・組織管理 →](#organization-management)**<br><sub>約 8 分 · 作成 → 招待 → 配分 → 利用量確認</sub> | **[クライアント接続 →](#client-integration)**<br><sub>ChatGPT、Claude、Cherry Studio、Gemini、DeepSeek Harness</sub> |
 
-- [relayrouter.app](https://relayrouter.app/register?aff=xc9N)
-- [relayrouter.ai](https://relayrouter.ai/register?aff=xc9N)
+## 基本チュートリアル
 
-登録後、RelayRouter コンソールで API キーを作成します。
+<a id="first-api-call"></a>
+<details open>
+<summary><strong>🔑 API キーの作成と最初のリクエスト</strong></summary>
 
-### 2. 接続アドレスを選択
+1. [relayrouter.app](https://relayrouter.app/register?aff=xc9N) または [relayrouter.ai](https://relayrouter.ai/register?aff=xc9N) で登録します。
+2. RelayRouter コンソールの **API トークン**を開き、新しいキーを作成してコピーします。
+3. ローカル環境変数ファイルを作成します。
+
+   ```bash
+   cp .env.example .env
+   ```
+
+4. `.env` を編集します。
+
+   ```dotenv
+   RELAYROUTER_API_KEY=your_api_key_here
+   RELAYROUTER_BASE_URL=https://api.relayrouter.app/v1
+   RELAYROUTER_MODEL=your_model_name
+   ```
+
+5. 付属の Python サンプルを実行します。
+
+   ```bash
+   python -m pip install -r requirements.txt
+   python examples/python/chat.py
+   ```
+
+</details>
+
+<a id="redeem-code"></a>
+<details>
+<summary><strong>🎁 コード交換と残高確認</strong></summary>
+
+1. RelayRouter コンソールにログインします。
+2. アカウントまたは資金関連の画面からコード交換画面を開きます。
+3. アカウント情報を確認してコードを入力し、送信します。
+4. 資金口座に戻り、残高または取引履歴が更新されたことを確認します。
+
+</details>
+
+<a id="organization-management"></a>
+<details>
+<summary><strong>👥 組織メンバーと利用量の管理</strong></summary>
+
+1. コンソールの **マイ組織**を開き、組織を作成または参加します。
+2. **メンバーを招待**を選択し、対象アカウントへ招待を送ります。
+3. メンバー一覧から残高を配分または振り替えます。
+4. **利用量**と**振替履歴**で消費量と残高移動を確認します。
+
+> 信頼できるアカウントにのみ組織権限と残高を付与してください。
+
+</details>
+
+<a id="model-playground"></a>
+<details>
+<summary><strong>🧪 連携前にモデルを試す</strong></summary>
+
+1. RelayRouter コンソールのモデル一覧または体験画面を開きます。
+2. 対応モデルを選び、短いテストプロンプトを送信します。
+3. 応答と利用量を確認し、正確なモデル識別子を `RELAYROUTER_MODEL` に設定します。
+
+</details>
+
+<a id="client-integration"></a>
+## クライアント接続チュートリアル
+
+クライアントによってベース URL または完全な chat-completions アドレスが必要です。まず `https://api.relayrouter.app/v1` を使用し、形式が異なる場合は[クイックリファレンス](#quick-reference)を確認してください。
+
+<details>
+<summary><strong>◉ ChatGPT ショートカット</strong></summary>
+
+ショートカットのプロバイダー設定でカスタムまたは OpenAI 互換を選び、RelayRouter の API キーと接続先を入力して対応モデルを選択します。
+
+</details>
+
+<details>
+<summary><strong>✳ Claude ショートカット</strong></summary>
+
+ショートカットのプロバイダー設定でカスタムまたは OpenAI 互換を選び、RelayRouter の API キーと接続先を入力して対応モデルを選択します。
+
+</details>
+
+<details open>
+<summary><strong>🔴 Cherry Studio</strong></summary>
+
+**API エンドポイント：** `https://api.relayrouter.app/v1`
+
+1. Cherry Studio にカスタム OpenAI 互換プロバイダーを追加します。
+2. `BASE_URL` と RelayRouter API キーを入力します。
+3. 対応モデルを追加し、設定を保存してテストメッセージを送ります。
+
+</details>
+
+<details>
+<summary><strong>✦ Gemini</strong></summary>
+
+RelayRouter 経由で Gemini モデルを使うには、カスタム OpenAI 互換プロバイダーに RelayRouter の接続先とキーを設定し、対応する Gemini モデル識別子を選択します。
+
+</details>
+
+<details>
+<summary><strong>🐋 DeepSeek Harness</strong></summary>
+
+Harness のプロバイダーを OpenAI 互換に設定し、RelayRouter の `BASE_URL` と API キーを入力して、対応する DeepSeek モデルで接続テストを行います。
+
+</details>
+
+<a id="quick-reference"></a>
+## クイックリファレンス
 
 クライアントによって必要な `BASE_URL` 形式が異なる場合があります。次の順に試してください。
 
@@ -63,25 +186,6 @@ RelayRouter は複数のモデルプロバイダーを単一の OpenAI 互換 AP
 3. `https://api.relayrouter.app/v1/chat/completions`
 
 このリポジトリの SDK サンプルは、既定で `https://api.relayrouter.app/v1` を使用します。クライアントがベース URL ではなくチャット補完の完全なアドレスを要求する場合は、3 番目を使用してください。
-
-### 3. プロジェクトを設定
-
-```bash
-cp .env.example .env
-```
-
-```dotenv
-RELAYROUTER_API_KEY=your_api_key_here
-RELAYROUTER_BASE_URL=https://api.relayrouter.app/v1
-RELAYROUTER_MODEL=your_model_name
-```
-
-### 4. リクエストを実行
-
-```bash
-python -m pip install -r requirements.txt
-python examples/python/chat.py
-```
 
 ## 実行可能なサンプル
 

@@ -39,6 +39,13 @@
 
 > 💡 <strong>Tip:</strong> Third-party sign-in is supported. Open a registration page, select Sign in at the bottom, then choose the GitHub, Google, or Linux DO icon.
 
+> [!IMPORTANT]
+> **Announcement snapshot**
+>
+> Sign in to the RelayRouter console and use the bell in the upper-right corner to see model launches, price changes, temporary incidents, model removals, and campaigns.
+>
+> [Open RelayRouter and view announcements →](https://relayrouter.app/register?aff=xc9N)
+
 ## Why RelayRouter?
 
 RelayRouter provides one OpenAI-compatible API for multiple model providers, so you can spend less time integrating separate SDKs and more time building your product.
@@ -48,20 +55,129 @@ RelayRouter provides one OpenAI-compatible API for multiple model providers, so 
 | One API format | Call GPT, Claude, Gemini, DeepSeek, Qwen, and other supported models through a familiar interface. |
 | Usage-based billing | Pay for the usage recorded in your RelayRouter console. |
 | Centralized management | Keep API keys, model access, usage, and billing in one place. |
+| Organization management | Create an organization, invite members, allocate balances, and review member usage and transfer records. |
 | Flexible connection URLs | Try the documented RelayRouter URLs in order when a client expects a different `BASE_URL` format. |
 
-## 5-minute quickstart
+## What do you want to accomplish?
 
-### 1. Register and create an API key
+Choose a goal and jump directly to its tutorial. You do not need to read the whole page from top to bottom.
 
-Choose either registration page:
+| Goal | Goal |
+| --- | --- |
+| **[Make your first API call →](#first-api-call)**<br><sub>About 5 minutes · API key → BASE_URL → first request</sub> | **[Redeem a code and check the balance →](#redeem-code)**<br><sub>About 2 minutes · Redeem credit and verify the account balance</sub> |
+| **[Manage a team or organization →](#organization-management)**<br><sub>About 8 minutes · Create → invite → allocate → review usage</sub> | **[Connect a client →](#client-integration)**<br><sub>ChatGPT, Claude, Cherry Studio, Gemini, and DeepSeek Harness</sub> |
 
-- [relayrouter.app](https://relayrouter.app/register?aff=xc9N)
-- [relayrouter.ai](https://relayrouter.ai/register?aff=xc9N)
+## Basic tutorials
 
-After registration, create an API key in the RelayRouter console.
+<a id="first-api-call"></a>
+<details open>
+<summary><strong>🔑 Create an API key and make the first request</strong></summary>
 
-### 2. Choose the connection URL
+1. Register through [relayrouter.app](https://relayrouter.app/register?aff=xc9N) or [relayrouter.ai](https://relayrouter.ai/register?aff=xc9N).
+2. Open the RelayRouter console, go to **API Tokens**, and create and copy a new key.
+3. Create a local environment file:
+
+   ```bash
+   cp .env.example .env
+   ```
+
+4. Fill in `.env`:
+
+   ```dotenv
+   RELAYROUTER_API_KEY=your_api_key_here
+   RELAYROUTER_BASE_URL=https://api.relayrouter.app/v1
+   RELAYROUTER_MODEL=your_model_name
+   ```
+
+5. Run the included Python example:
+
+   ```bash
+   python -m pip install -r requirements.txt
+   python examples/python/chat.py
+   ```
+
+</details>
+
+<a id="redeem-code"></a>
+<details>
+<summary><strong>🎁 Redeem a code and check the balance</strong></summary>
+
+1. Sign in to the RelayRouter console.
+2. Open the redemption entry in the account or funds area.
+3. Enter the redemption code and confirm it after checking the account information.
+4. Return to the funds page and verify the balance or transaction record.
+
+</details>
+
+<a id="organization-management"></a>
+<details>
+<summary><strong>👥 Manage organization members and usage</strong></summary>
+
+1. Open **My Organization** in the console and create or join an organization.
+2. Select **Invite member** and send the invitation to the intended account.
+3. Use the organization member list to allocate or transfer balances.
+4. Review the **Usage** and **Transfer records** tabs to audit consumption and balance movements.
+
+> Only grant organization access and balances to accounts you trust.
+
+</details>
+
+<a id="model-playground"></a>
+<details>
+<summary><strong>🧪 Try a model before integration</strong></summary>
+
+1. Open the model marketplace or playground in the RelayRouter console.
+2. Choose a supported model and send a small test prompt.
+3. Check the response and usage, then copy the exact model identifier into `RELAYROUTER_MODEL`.
+
+</details>
+
+<a id="client-integration"></a>
+## Client integration tutorials
+
+Different clients may ask for a base URL or a complete chat-completions endpoint. Start with `https://api.relayrouter.app/v1` and use the [quick reference](#quick-reference) if the client expects another format.
+
+<details>
+<summary><strong>◉ ChatGPT shortcut</strong></summary>
+
+Open the shortcut's provider settings, choose a custom or OpenAI-compatible provider, enter the RelayRouter API key and endpoint, and select a supported model.
+
+</details>
+
+<details>
+<summary><strong>✳ Claude shortcut</strong></summary>
+
+Open the shortcut's provider settings, choose a custom or OpenAI-compatible provider, enter the RelayRouter API key and endpoint, and select a supported model.
+
+</details>
+
+<details open>
+<summary><strong>🔴 Cherry Studio</strong></summary>
+
+**API endpoint:** `https://api.relayrouter.app/v1`
+
+1. Add a custom OpenAI-compatible provider in Cherry Studio.
+2. Paste the `BASE_URL` and your RelayRouter API key.
+3. Add a supported model, save the configuration, and send a test message.
+
+</details>
+
+<details>
+<summary><strong>✦ Gemini</strong></summary>
+
+To use Gemini models through RelayRouter, configure an OpenAI-compatible custom provider with the RelayRouter endpoint and key, then select a supported Gemini model identifier.
+
+</details>
+
+<details>
+<summary><strong>🐋 DeepSeek Harness</strong></summary>
+
+Set the harness provider to an OpenAI-compatible endpoint, enter the RelayRouter `BASE_URL` and API key, then select a supported DeepSeek model and run a connection test.
+
+</details>
+
+<a id="quick-reference"></a>
+## Quick reference
 
 Different clients may require different `BASE_URL` formats. Try these addresses in order:
 
@@ -70,46 +186,6 @@ Different clients may require different `BASE_URL` formats. Try these addresses 
 3. `https://api.relayrouter.app/v1/chat/completions`
 
 The SDK examples in this repository use `https://api.relayrouter.app/v1` by default. If a client asks for a complete chat-completions endpoint instead of a base URL, use the third address.
-
-### 3. Configure the project
-
-```bash
-cp .env.example .env
-```
-
-Edit `.env`:
-
-```dotenv
-RELAYROUTER_API_KEY=your_api_key_here
-RELAYROUTER_BASE_URL=https://api.relayrouter.app/v1
-RELAYROUTER_MODEL=your_model_name
-```
-
-### 4. Run a request
-
-```bash
-python -m pip install -r requirements.txt
-python examples/python/chat.py
-```
-
-Minimal Python example:
-
-```python
-import os
-from openai import OpenAI
-
-client = OpenAI(
-    api_key=os.environ["RELAYROUTER_API_KEY"],
-    base_url=os.getenv("RELAYROUTER_BASE_URL", "https://api.relayrouter.app/v1"),
-)
-
-response = client.chat.completions.create(
-    model=os.environ["RELAYROUTER_MODEL"],
-    messages=[{"role": "user", "content": "Hello from RelayRouter!"}],
-)
-
-print(response.choices[0].message.content)
-```
 
 ## Ready-to-run examples
 

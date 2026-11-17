@@ -30,7 +30,21 @@
   <a href="https://relayrouter.ai/register?aff=xc9N"><img src="./assets/register-ai.svg" alt="Daftar di relayrouter.ai" height="48"></a>
 </p>
 
+<p align="center">
+  <img src="https://img.shields.io/badge/API-OpenAI%20compatible-2563eb" alt="API yang kompatibel dengan OpenAI">
+  <img src="https://img.shields.io/badge/Python-3.9%2B-3776ab" alt="Python 3.9+">
+  <img src="https://img.shields.io/badge/JavaScript-Node.js-f7df1e" alt="Node.js">
+  <img src="https://img.shields.io/badge/PowerShell-7%2B-5391fe" alt="PowerShell 7+">
+</p>
+
 > 💡 <strong>Kiat:</strong> Login dengan akun pihak ketiga didukung. Pada halaman pendaftaran, pilih Sign in di bagian bawah, lalu pilih ikon GitHub, Google, atau Linux DO pada halaman login.
+
+> [!IMPORTANT]
+> **Ringkasan pengumuman**
+>
+> Masuk ke konsol RelayRouter dan gunakan ikon lonceng di kanan atas untuk melihat peluncuran model, perubahan harga, gangguan sementara, penghentian model, dan promosi.
+>
+> [Buka RelayRouter dan lihat pengumuman →](https://relayrouter.app/register?aff=xc9N)
 
 ## Mengapa RelayRouter?
 
@@ -41,20 +55,129 @@ RelayRouter menyediakan satu API yang kompatibel dengan OpenAI untuk berbagai pe
 | Satu format API | Gunakan GPT, Claude, Gemini, DeepSeek, Qwen, dan model lain yang didukung melalui antarmuka yang familier. |
 | Bayar sesuai penggunaan | Bayar berdasarkan penggunaan yang tercatat di konsol RelayRouter. |
 | Pengelolaan terpusat | Kelola API key, akses model, penggunaan, dan tagihan di satu tempat. |
+| Pengelolaan organisasi | Buat organisasi, undang anggota, alokasikan saldo, serta tinjau penggunaan dan catatan transfer. |
 | Alamat koneksi fleksibel | Jika klien mengharapkan format `BASE_URL` lain, coba alamat yang tersedia secara berurutan. |
 
-## Mulai dalam 5 menit
+## Apa yang ingin Anda selesaikan?
 
-### 1. Daftar dan buat API key
+Pilih tujuan dan langsung buka tutorial terkait. Anda tidak perlu membaca seluruh halaman dari awal.
 
-Pilih salah satu halaman pendaftaran berikut:
+| Tujuan | Tujuan |
+| --- | --- |
+| **[Lakukan panggilan API pertama →](#first-api-call)**<br><sub>Sekitar 5 menit · API key → BASE_URL → permintaan pertama</sub> | **[Tukarkan kode dan periksa saldo →](#redeem-code)**<br><sub>Sekitar 2 menit · Tukarkan kredit dan verifikasi saldo</sub> |
+| **[Kelola tim atau organisasi →](#organization-management)**<br><sub>Sekitar 8 menit · Buat → undang → alokasikan → tinjau penggunaan</sub> | **[Hubungkan klien →](#client-integration)**<br><sub>ChatGPT, Claude, Cherry Studio, Gemini, dan DeepSeek Harness</sub> |
 
-- [relayrouter.app](https://relayrouter.app/register?aff=xc9N)
-- [relayrouter.ai](https://relayrouter.ai/register?aff=xc9N)
+## Tutorial dasar
 
-Setelah mendaftar, buat API key di konsol RelayRouter.
+<a id="first-api-call"></a>
+<details open>
+<summary><strong>🔑 Buat API key dan kirim permintaan pertama</strong></summary>
 
-### 2. Pilih alamat koneksi
+1. Daftar melalui [relayrouter.app](https://relayrouter.app/register?aff=xc9N) atau [relayrouter.ai](https://relayrouter.ai/register?aff=xc9N).
+2. Buka **Token API** di konsol RelayRouter, lalu buat dan salin key baru.
+3. Buat file variabel lingkungan lokal:
+
+   ```bash
+   cp .env.example .env
+   ```
+
+4. Isi `.env`:
+
+   ```dotenv
+   RELAYROUTER_API_KEY=your_api_key_here
+   RELAYROUTER_BASE_URL=https://api.relayrouter.app/v1
+   RELAYROUTER_MODEL=your_model_name
+   ```
+
+5. Jalankan contoh Python yang tersedia:
+
+   ```bash
+   python -m pip install -r requirements.txt
+   python examples/python/chat.py
+   ```
+
+</details>
+
+<a id="redeem-code"></a>
+<details>
+<summary><strong>🎁 Tukarkan kode dan periksa saldo</strong></summary>
+
+1. Masuk ke konsol RelayRouter.
+2. Buka menu penukaran di area akun atau dana.
+3. Masukkan kode dan konfirmasi setelah memeriksa informasi akun.
+4. Kembali ke akun dana dan periksa saldo atau catatan transaksi.
+
+</details>
+
+<a id="organization-management"></a>
+<details>
+<summary><strong>👥 Kelola anggota dan penggunaan organisasi</strong></summary>
+
+1. Buka **Organisasi Saya** lalu buat organisasi atau bergabung dengan organisasi.
+2. Pilih **Undang anggota** dan kirim undangan ke akun yang dituju.
+3. Alokasikan atau transfer saldo melalui daftar anggota.
+4. Tinjau tab **Penggunaan** dan **Catatan transfer** untuk memeriksa konsumsi dan perpindahan saldo.
+
+> Berikan akses organisasi dan saldo hanya kepada akun tepercaya.
+
+</details>
+
+<a id="model-playground"></a>
+<details>
+<summary><strong>🧪 Coba model sebelum integrasi</strong></summary>
+
+1. Buka katalog atau area uji model di konsol RelayRouter.
+2. Pilih model yang didukung dan kirim prompt pengujian singkat.
+3. Periksa respons dan penggunaan, lalu masukkan pengenal model yang tepat ke `RELAYROUTER_MODEL`.
+
+</details>
+
+<a id="client-integration"></a>
+## Tutorial integrasi klien
+
+Klien dapat meminta URL dasar atau alamat chat-completions lengkap. Mulai dengan `https://api.relayrouter.app/v1` dan gunakan [referensi cepat](#quick-reference) jika formatnya berbeda.
+
+<details>
+<summary><strong>◉ Pintasan ChatGPT</strong></summary>
+
+Pada pengaturan penyedia, pilih layanan kustom atau kompatibel dengan OpenAI, masukkan API key dan alamat RelayRouter, lalu pilih model yang didukung.
+
+</details>
+
+<details>
+<summary><strong>✳ Pintasan Claude</strong></summary>
+
+Pada pengaturan penyedia, pilih layanan kustom atau kompatibel dengan OpenAI, masukkan API key dan alamat RelayRouter, lalu pilih model yang didukung.
+
+</details>
+
+<details open>
+<summary><strong>🔴 Cherry Studio</strong></summary>
+
+**Endpoint API:** `https://api.relayrouter.app/v1`
+
+1. Tambahkan penyedia kustom yang kompatibel dengan OpenAI di Cherry Studio.
+2. Masukkan `BASE_URL` dan API key RelayRouter.
+3. Tambahkan model yang didukung, simpan konfigurasi, lalu kirim pesan uji.
+
+</details>
+
+<details>
+<summary><strong>✦ Gemini</strong></summary>
+
+Untuk menggunakan model Gemini melalui RelayRouter, atur penyedia kustom yang kompatibel dengan OpenAI menggunakan alamat dan key RelayRouter, lalu pilih pengenal model Gemini yang didukung.
+
+</details>
+
+<details>
+<summary><strong>🐋 DeepSeek Harness</strong></summary>
+
+Atur penyedia Harness ke endpoint yang kompatibel dengan OpenAI, masukkan `BASE_URL` dan API key RelayRouter, lalu uji koneksi dengan model DeepSeek yang didukung.
+
+</details>
+
+<a id="quick-reference"></a>
+## Referensi cepat
 
 Setiap klien dapat memerlukan format `BASE_URL` yang berbeda. Coba alamat berikut secara berurutan:
 
@@ -63,25 +186,6 @@ Setiap klien dapat memerlukan format `BASE_URL` yang berbeda. Coba alamat beriku
 3. `https://api.relayrouter.app/v1/chat/completions`
 
 Contoh SDK dalam repositori ini menggunakan `https://api.relayrouter.app/v1` secara default. Jika klien meminta alamat lengkap metode chat, gunakan pilihan ketiga.
-
-### 3. Konfigurasikan proyek
-
-```bash
-cp .env.example .env
-```
-
-```dotenv
-RELAYROUTER_API_KEY=your_api_key_here
-RELAYROUTER_BASE_URL=https://api.relayrouter.app/v1
-RELAYROUTER_MODEL=your_model_name
-```
-
-### 4. Jalankan permintaan
-
-```bash
-python -m pip install -r requirements.txt
-python examples/python/chat.py
-```
 
 ## Contoh siap pakai
 
