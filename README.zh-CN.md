@@ -206,4 +206,12 @@ RelayRouter 用一套兼容 OpenAI 的 API 连接多个模型服务商，让你�
 
 <p align="center"><strong>一个 API 密钥，连接更多模型，减少重复接入。</strong></p>
 
+## 加入交流群
+
+扫描下方二维码添加客服，我们会邀请你进入交流群。后续遇到任何使用、配置或接入问题，都可以直接在群里提问。
+
+<p align="center">
+  <img src="./assets/customer-service-qr.jpg" alt="企业微信客服二维码" width="400">
+</p>
+
 </div>

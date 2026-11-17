@@ -204,4 +204,12 @@ Die SDK-Beispiele in diesem Repository verwenden standardmäßig `https://api.re
 
 <p align="center"><strong>Ein API-Schlüssel. Mehr Modelle. Weniger Integrationsarbeit.</strong></p>
 
+## Der Support-Gruppe beitreten
+
+Scanne den QR-Code unten, um unseren Supportkontakt hinzuzufügen. Wir laden dich anschließend in die Benutzergruppe ein, in der du Fragen zur Nutzung, Konfiguration oder Integration direkt stellen kannst.
+
+<p align="center">
+  <img src="./assets/customer-service-qr.jpg" alt="WeCom-Support-QR-Code" width="400">
+</p>
+
 </div>

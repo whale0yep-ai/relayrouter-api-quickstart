@@ -206,4 +206,12 @@ Never commit your API key. Keep it in `.env` or your deployment platform's secre
 
 <p align="center"><strong>One API key. More models. Less integration work.</strong></p>
 
+## Join the support group
+
+Scan the QR code below to add our support contact. We will invite you to the user group, where you can ask any follow-up questions about setup, configuration, or integration directly.
+
+<p align="center">
+  <img src="./assets/customer-service-qr.jpg" alt="Enterprise WeChat support QR code" width="400">
+</p>
+
 </div>
