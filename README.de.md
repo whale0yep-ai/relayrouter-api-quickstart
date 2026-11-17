@@ -45,11 +45,11 @@
 >
 > Die neuesten 5 RelayRouter-Ankündigungen:
 >
+> - `2026-11-17 22:46 (UTC+8)` — Benachrichtigung: AWS-Gpt-1 Gruppenressourcen sind knapp, daher wird diese Ressourcen-Gruppe vorübergehend entfernt.
 > - `2026-11-16 21:24 (UTC+8)` — Modellveröffentlichung: hy4-flash
 > - `2026-11-15 10:46 (UTC+8)` — Benachrichtigung: gpt-6-luna codex-Ressourcen sind knapp, das Codex-Ressourcengruppierungsmodell ist vorübergehend nicht verfügbar
 > - `2026-11-13 22:12 (UTC+8)` — Modell bereitstellen: gemini-4-hydrogen
 > - `2026-11-12 18:11 (UTC+8)` — Benachrichtigung: deepseek-1 Gruppenressourcen werden gewartet, vorübergehend offline, Wiederherstellung folgt nach Benachrichtigung
-> - `2026-11-12 17:29 (UTC+8)` — Benachrichtigung: Die Modelle der jev-Serie werden gewartet und sind vorübergehend offline. Weitere Informationen zur Wiederherstellung folgen; Qwen/Qwen3-Reranker-0.6B, BAAI/bge-reranker-v2-m3, Pro/BAAI/bge-reranker-v2-m3, netease-youdao/bce-reranker-base_v1…
 >
 > [RelayRouter öffnen und alle Ankündigungen ansehen →](https://relayrouter.app/register?aff=xc9N)
 <!-- relayrouter-announcements:end -->

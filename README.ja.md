@@ -45,11 +45,11 @@
 >
 > RelayRouter の最新のお知らせ 5 件：
 >
+> - `2026-11-17 22:46 (UTC+8)` — 通知：AWS-Gpt-1グループリソースが不足しているため、一時的にこのリソースグループを下架します
 > - `2026-11-16 21:24 (UTC+8)` — モデルのアップロード：hy4-flash
 > - `2026-11-15 10:46 (UTC+8)` — 通知：gpt-6-luna codexリソースが不足しているため、一時的にこのモデルのcodexリソースグループを下架しました
 > - `2026-11-13 22:12 (UTC+8)` — モデルのアップロード：gemini-4-hydrogen
 > - `2026-11-12 18:11 (UTC+8)` — 通知：deepseek-1グループリソースのメンテナンス中、一時的にオフライン、復旧等の通知
-> - `2026-11-12 17:29 (UTC+8)` — 通知：jevシリーズモデルはメンテナンス中で、一時的にオフラインです。復旧などの通知； Qwen/Qwen3-Reranker-0.6B、BAAI/bge-reranker-v2-m3、Pro/BAAI/bge-reranker-v2-m3、netease-youdao/bce-reranker-base_v1は北京時間2026/11/12 23:59:59にオフラインになります
 >
 > [RelayRouter ですべてのお知らせを見る →](https://relayrouter.app/register?aff=xc9N)
 <!-- relayrouter-announcements:end -->

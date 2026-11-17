@@ -45,11 +45,11 @@
 >
 > RelayRouter 最新 5 条公告：
 >
+> - `2026-11-17 22:46 (UTC+8)` — 通知：AWS-Gpt-1分组资源紧缺，暂时下架该资源分组
 > - `2026-11-16 21:24 (UTC+8)` — 模型上架：hy4-flash
 > - `2026-11-15 10:46 (UTC+8)` — 通知：gpt-6-luna codex资源紧缺，暂时下架该模型的codex资源分组
 > - `2026-11-13 22:12 (UTC+8)` — 模型上架：gemini-4-hydrogen
 > - `2026-11-12 18:11 (UTC+8)` — 通知：deepseek-1分组资源维护中，暂时下线，恢复等通知
-> - `2026-11-12 17:29 (UTC+8)` — 通知：jev系列模型维护中，暂时下线，恢复等通知； Qwen/Qwen3-Reranker-0.6B、BAAI/bge-reranker-v2-m3、Pro/BAAI/bge-reranker-v2-m3、netease-youdao/bce-reranker-base_v1将于北京时间2026/11/12 23:59:59下线
 >
 > [进入 RelayRouter 查看全部公告 →](https://relayrouter.app/register?aff=xc9N)
 <!-- relayrouter-announcements:end -->
