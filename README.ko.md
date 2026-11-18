@@ -45,11 +45,11 @@
 >
 > RelayRouter 최신 공지 5개:
 >
+> - `2026-11-18 17:08 (UTC+8)` — 모델 출시: doubao-seedream-5-5-261028
+> - `2026-11-18 16:33 (UTC+8)` — 모델 배포: gpt-6.2-astra, gpt-6.2-sol
+> - `2026-11-18 14:58 (UTC+8)` — 알림: gemini-4-carbon 모델의 anti 리소스가 부족하여 해당 모델의 anti 리소스 그룹이 일시적으로 중단되었습니다.
 > - `2026-11-17 22:46 (UTC+8)` — 알림: AWS-Gpt-1 그룹 자원이 부족하여 해당 자원 그룹이 일시적으로 하차되었습니다.
 > - `2026-11-16 21:24 (UTC+8)` — 모델 배포: hy4-flash
-> - `2026-11-15 10:46 (UTC+8)` — 공지: gpt-6-luna codex 자원이 부족하여 해당 모델의 codex 자원 그룹이 일시적으로 중단되었습니다.
-> - `2026-11-13 22:12 (UTC+8)` — 모델 배포: gemini-4-hydrogen
-> - `2026-11-12 18:11 (UTC+8)` — 알림: deepseek-1 그룹 리소스 유지보수 중, 일시적으로 오프라인, 복구 등 알림
 >
 > [RelayRouter에서 모든 공지 보기 →](https://relayrouter.app/register?aff=xc9N)
 <!-- relayrouter-announcements:end -->

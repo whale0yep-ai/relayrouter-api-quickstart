@@ -45,11 +45,11 @@
 >
 > Die neuesten 5 RelayRouter-Ankündigungen:
 >
+> - `2026-11-18 17:08 (UTC+8)` — Modellveröffentlichung: doubao-seedream-5-5-261028
+> - `2026-11-18 16:33 (UTC+8)` — Modellveröffentlichung: gpt-6.2-astra, gpt-6.2-sol
+> - `2026-11-18 14:58 (UTC+8)` — Benachrichtigung: gemini-4-carbon anti Ressourcen sind knapp, das Modell wurde vorübergehend aus der anti Ressourcen-Gruppe entfernt
 > - `2026-11-17 22:46 (UTC+8)` — Benachrichtigung: AWS-Gpt-1 Gruppenressourcen sind knapp, daher wird diese Ressourcen-Gruppe vorübergehend entfernt.
 > - `2026-11-16 21:24 (UTC+8)` — Modellveröffentlichung: hy4-flash
-> - `2026-11-15 10:46 (UTC+8)` — Benachrichtigung: gpt-6-luna codex-Ressourcen sind knapp, das Codex-Ressourcengruppierungsmodell ist vorübergehend nicht verfügbar
-> - `2026-11-13 22:12 (UTC+8)` — Modell bereitstellen: gemini-4-hydrogen
-> - `2026-11-12 18:11 (UTC+8)` — Benachrichtigung: deepseek-1 Gruppenressourcen werden gewartet, vorübergehend offline, Wiederherstellung folgt nach Benachrichtigung
 >
 > [RelayRouter öffnen und alle Ankündigungen ansehen →](https://relayrouter.app/register?aff=xc9N)
 <!-- relayrouter-announcements:end -->

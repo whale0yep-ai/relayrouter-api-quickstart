@@ -45,11 +45,11 @@
 >
 > 5 pengumuman RelayRouter terbaru:
 >
+> - `2026-11-18 17:08 (UTC+8)` — Model Launch: doubao-seedream-5-5-261028
+> - `2026-11-18 16:33 (UTC+8)` — Model Launch: gpt-6.2-astra, gpt-6.2-sol
+> - `2026-11-18 14:58 (UTC+8)` — Notice: gemini-4-carbon anti resources are in short supply, temporarily removing this model's anti resource group
 > - `2026-11-17 22:46 (UTC+8)` — Notification: The resource group AWS-Gpt-1 is in short supply and has been temporarily removed from the resource group
 > - `2026-11-16 21:24 (UTC+8)` — Model Launch: hy4-flash
-> - `2026-11-15 10:46 (UTC+8)` — Notice: gpt-6-luna codex resources are in short supply, temporarily removing the codex resource group for this model
-> - `2026-11-13 22:12 (UTC+8)` — Model Launch: gemini-4-hydrogen
-> - `2026-11-12 18:11 (UTC+8)` — Notice: Group deepseek-1 resources are under maintenance and temporarily offline, restoration will be notified
 >
 > _Sumber belum menyediakan terjemahan Bahasa Indonesia; pengumuman ditampilkan dalam bahasa Inggris._
 >

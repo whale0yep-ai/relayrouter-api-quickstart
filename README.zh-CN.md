@@ -45,11 +45,11 @@
 >
 > RelayRouter 最新 5 条公告：
 >
+> - `2026-11-18 17:08 (UTC+8)` — 模型上架：doubao-seedream-5-5-261028
+> - `2026-11-18 16:33 (UTC+8)` — 模型上架：gpt-6.2-astra、gpt-6.2-sol
+> - `2026-11-18 14:58 (UTC+8)` — 通知： gemini-4-carbon anti 资源紧缺，暂时下架该模型的 anti 资源分组
 > - `2026-11-17 22:46 (UTC+8)` — 通知：AWS-Gpt-1分组资源紧缺，暂时下架该资源分组
 > - `2026-11-16 21:24 (UTC+8)` — 模型上架：hy4-flash
-> - `2026-11-15 10:46 (UTC+8)` — 通知：gpt-6-luna codex资源紧缺，暂时下架该模型的codex资源分组
-> - `2026-11-13 22:12 (UTC+8)` — 模型上架：gemini-4-hydrogen
-> - `2026-11-12 18:11 (UTC+8)` — 通知：deepseek-1分组资源维护中，暂时下线，恢复等通知
 >
 > [进入 RelayRouter 查看全部公告 →](https://relayrouter.app/register?aff=xc9N)
 <!-- relayrouter-announcements:end -->
