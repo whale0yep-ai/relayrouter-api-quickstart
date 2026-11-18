@@ -81,28 +81,40 @@ RelayRouter 用一套兼容 OpenAI 的 API 连接多个模型服务商，让你�
 <details open>
 <summary><strong>🔑 创建 API Key 并完成首次请求</strong></summary>
 
-1. 通过 [relayrouter.app](https://relayrouter.app/register?aff=xc9N) 或 [relayrouter.ai](https://relayrouter.ai/register?aff=xc9N) 注册。
-2. 进入 RelayRouter 控制台的 **API 令牌**，创建并复制新的 API Key。
-3. 创建本地环境变量文件：
+#### 1. 进入 API 令牌页面
 
-   ```bash
-   cp .env.example .env
-   ```
+打开 RelayRouter 控制台，在左侧选择 **API 令牌**，点击右上角 **创建 API Key**。
 
-4. 编辑 `.env`：
+`控制台` → `API 令牌` → **创建 API Key**
 
-   ```dotenv
-   RELAYROUTER_API_KEY=your_api_key_here
-   RELAYROUTER_BASE_URL=https://api.relayrouter.app/v1
-   RELAYROUTER_MODEL=your_model_name
-   ```
+#### 2. 选择一种路由模式
 
-5. 运行仓库内的 Python 示例：
+| ⚡ 智能路由（推荐） | ☷ 自选模型分组 |
+| --- | --- |
+| 开启 **智能路由**。 | 关闭 **智能路由**。 |
+| 首次使用选择 **智能自动** 即可。 | 选择一个或多个模型分组，选择顺序即调用优先级。 |
 
-   ```bash
-   python -m pip install -r requirements.txt
-   python examples/python/chat.py
-   ```
+#### 3. 创建并保存密钥
+
+填写令牌名称，其他高级选项可先保持默认，然后点击 **添加**。
+
+> [!WARNING]
+> API Key 只完整显示一次。创建成功后请立即复制并安全保存；关闭弹窗后无法再次查看完整密钥。
+
+`API Key`　`sk-****************************`　**复制密钥**
+
+#### 4. 打开模型体验页
+
+选择一个可用模型，进入详情页并切换到 **体验**。
+
+`模型广场` → `查看详情` → `体验` → `设置`
+
+#### 5. 选择扣费令牌并发送
+
+在 **设置** 中选择刚创建的 API Key 作为 **扣费令牌**，输入问题后点击发送。
+
+> [!TIP]
+> 右侧出现模型回复，即表示首次请求完成。
 
 </details>
 
@@ -110,10 +122,24 @@ RelayRouter 用一套兼容 OpenAI 的 API 连接多个模型服务商，让你�
 <details>
 <summary><strong>🎁 兑换码兑换与余额确认</strong></summary>
 
-1. 登录 RelayRouter 控制台。
-2. 在账户或资金相关页面进入兑换码入口。
-3. 输入兑换码，确认当前账户信息无误后提交。
-4. 返回 **资金账户**，检查余额或资金记录是否已经更新。
+#### 1. 进入资金账户
+
+登录 RelayRouter 控制台，在左侧菜单选择 **资金账户**。
+
+#### 2. 打开兑换码入口
+
+点击当前余额区域右侧的 **兑换码**，进入兑换窗口。
+
+#### 3. 输入并确认兑换
+
+核对当前账号后输入兑换码，确认信息无误再提交。
+
+#### 4. 确认余额已经更新
+
+返回 **资金账户**，查看当前余额或充值记录是否增加。
+
+> [!IMPORTANT]
+> RelayRouter 主站线上充值仅可开具国际形式发票，无国内发票。如需国内发票，请点击[联系客服](#contact-support)。
 
 </details>
 
@@ -121,12 +147,35 @@ RelayRouter 用一套兼容 OpenAI 的 API 连接多个模型服务商，让你�
 <details>
 <summary><strong>👥 企业组织成员与用量管理</strong></summary>
 
-1. 在控制台进入 **我的组织**，创建或加入组织。
-2. 点击 **邀请成员**，向目标账号发送邀请。
-3. 在组织成员列表中为成员划转或分配余额。
-4. 通过 **用量** 和 **划转记录** 查看成员消耗及余额流转情况。
+#### 1. 进入“我的组织”
 
-> 仅向可信账号开放组织权限并分配余额。
+在控制台左侧打开 **我的组织**，查看组织成员、成员余额和可用操作。
+
+`控制台` → `我的组织` → `组织成员`
+
+#### 2. 邀请成员
+
+点击右上角 **邀请成员**，输入成员邮箱并发送邀请。
+
+`member@example.com`　**邀请成员**
+
+#### 3. 向成员划转余额
+
+在目标成员右侧点击 **划转**，核对成员与金额后确认。
+
+| 用户 ID | 用户 | 余额 | 操作 |
+| --- | --- | --- | --- |
+| `ID: ******` | 成员 A | 已隐藏 | **划转** |
+| `ID: ******` | 组织负责人 | 已隐藏 | — |
+
+`划转给：成员 A（余额已隐藏）`　`划转金额：输入划转金额`　**确认划转**
+
+#### 4. 查看用量与划转记录
+
+切换到 **用量** 查看成员消耗；在 **划转记录** 中核对划转对象、金额与时间。
+
+> [!CAUTION]
+> 划转余额前请核对成员账号与金额；删除成员或解散组织前，请先确认余额和正在使用的业务。
 
 </details>
 
@@ -206,6 +255,7 @@ RelayRouter 用一套兼容 OpenAI 的 API 连接多个模型服务商，让你�
 
 <p align="center"><strong>一个 API 密钥，连接更多模型，减少重复接入。</strong></p>
 
+<a id="contact-support"></a>
 <p align="center">
   <img src="./assets/customer-service-qr.png" alt="企业微信客服二维码" width="420">
 </p>

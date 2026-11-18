@@ -83,28 +83,40 @@ Pilih tujuan dan langsung buka tutorial terkait. Anda tidak perlu membaca seluru
 <details open>
 <summary><strong>🔑 Buat API key dan kirim permintaan pertama</strong></summary>
 
-1. Daftar melalui [relayrouter.app](https://relayrouter.app/register?aff=xc9N) atau [relayrouter.ai](https://relayrouter.ai/register?aff=xc9N).
-2. Buka **Token API** di konsol RelayRouter, lalu buat dan salin key baru.
-3. Buat file variabel lingkungan lokal:
+#### 1. Buka halaman Token API
 
-   ```bash
-   cp .env.example .env
-   ```
+Di konsol RelayRouter, buka **Token API** dari menu kiri lalu pilih **Buat API Key**.
 
-4. Isi `.env`:
+`Konsol` → `Token API` → **Buat API Key**
 
-   ```dotenv
-   RELAYROUTER_API_KEY=your_api_key_here
-   RELAYROUTER_BASE_URL=https://api.relayrouter.app/v1
-   RELAYROUTER_MODEL=your_model_name
-   ```
+#### 2. Pilih satu mode perutean
 
-5. Jalankan contoh Python yang tersedia:
+| ⚡ Perutean cerdas (Disarankan) | ☷ Grup model pilihan sendiri |
+| --- | --- |
+| Aktifkan **Perutean cerdas**. | Nonaktifkan **Perutean cerdas**. |
+| Untuk key pertama, pilih **Otomatis cerdas**. | Pilih satu atau beberapa grup model; urutannya menentukan prioritas. |
 
-   ```bash
-   python -m pip install -r requirements.txt
-   python examples/python/chat.py
-   ```
+#### 3. Buat dan simpan key
+
+Masukkan nama token, biarkan opsi lanjutan pada nilai default jika tidak diperlukan, lalu pilih **Tambah**.
+
+> [!WARNING]
+> API key lengkap hanya ditampilkan satu kali. Segera salin dan simpan dengan aman setelah dibuat; setelah jendela ditutup, key lengkap tidak dapat dilihat lagi.
+
+`API Key`　`sk-****************************`　**Salin key**
+
+#### 4. Buka halaman pengalaman model
+
+Pilih model yang tersedia, buka detailnya, lalu beralih ke **Pengalaman**.
+
+`Galeri model` → `Lihat detail` → `Pengalaman` → `Pengaturan`
+
+#### 5. Pilih token penagihan dan kirim
+
+Di **Pengaturan**, pilih API key yang baru dibuat sebagai **Token penagihan**, masukkan pertanyaan, lalu kirim.
+
+> [!TIP]
+> Saat respons model muncul, permintaan pertama telah selesai.
 
 </details>
 
@@ -112,10 +124,24 @@ Pilih tujuan dan langsung buka tutorial terkait. Anda tidak perlu membaca seluru
 <details>
 <summary><strong>🎁 Tukarkan kode dan periksa saldo</strong></summary>
 
-1. Masuk ke konsol RelayRouter.
-2. Buka menu penukaran di area akun atau dana.
-3. Masukkan kode dan konfirmasi setelah memeriksa informasi akun.
-4. Kembali ke akun dana dan periksa saldo atau catatan transaksi.
+#### 1. Buka akun dana
+
+Masuk ke konsol RelayRouter dan pilih **Akun dana** dari menu kiri.
+
+#### 2. Buka menu penukaran
+
+Pilih **Tukarkan kode** di samping saldo saat ini.
+
+#### 3. Masukkan dan konfirmasi kode
+
+Periksa akun saat ini, masukkan kode penukaran, lalu kirim setelah memastikan informasinya benar.
+
+#### 4. Pastikan saldo telah diperbarui
+
+Kembali ke **Akun dana** dan periksa saldo saat ini atau catatan isi ulang.
+
+> [!IMPORTANT]
+> Isi ulang online di situs utama RelayRouter hanya mendukung faktur berformat internasional; faktur domestik Tiongkok tidak tersedia. Jika Anda memerlukan faktur domestik Tiongkok, [hubungi dukungan](#contact-support).
 
 </details>
 
@@ -123,12 +149,35 @@ Pilih tujuan dan langsung buka tutorial terkait. Anda tidak perlu membaca seluru
 <details>
 <summary><strong>👥 Kelola anggota dan penggunaan organisasi</strong></summary>
 
-1. Buka **Organisasi Saya** lalu buat organisasi atau bergabung dengan organisasi.
-2. Pilih **Undang anggota** dan kirim undangan ke akun yang dituju.
-3. Alokasikan atau transfer saldo melalui daftar anggota.
-4. Tinjau tab **Penggunaan** dan **Catatan transfer** untuk memeriksa konsumsi dan perpindahan saldo.
+#### 1. Buka Organisasi Saya
 
-> Berikan akses organisasi dan saldo hanya kepada akun tepercaya.
+Buka **Organisasi Saya** dari menu kiri untuk melihat anggota, saldo, dan tindakan yang tersedia.
+
+`Konsol` → `Organisasi Saya` → `Anggota organisasi`
+
+#### 2. Undang anggota
+
+Pilih **Undang anggota**, masukkan alamat email anggota, lalu kirim undangan.
+
+`member@example.com`　**Undang anggota**
+
+#### 3. Transfer saldo ke anggota
+
+Pilih **Transfer** di samping anggota tujuan, periksa anggota dan jumlahnya, lalu konfirmasi.
+
+| ID pengguna | Pengguna | Saldo | Tindakan |
+| --- | --- | --- | --- |
+| `ID: ******` | Anggota A | Disembunyikan | **Transfer** |
+| `ID: ******` | Pemilik organisasi | Disembunyikan | — |
+
+`Tujuan: Anggota A (saldo disembunyikan)`　`Jumlah: masukkan jumlah transfer`　**Konfirmasi transfer**
+
+#### 4. Tinjau penggunaan dan catatan transfer
+
+Gunakan **Penggunaan** untuk memeriksa konsumsi anggota dan **Catatan transfer** untuk memverifikasi penerima, jumlah, dan waktu alokasi saldo.
+
+> [!CAUTION]
+> Periksa akun anggota dan jumlah sebelum mentransfer saldo. Sebelum menghapus anggota atau membubarkan organisasi, periksa sisa saldo dan beban kerja yang masih aktif.
 
 </details>
 
@@ -206,6 +255,7 @@ Jangan pernah memasukkan API key ke Git. Simpan di `.env` atau pengelola rahasia
 
 <p align="center"><strong>Satu API key. Lebih banyak model. Lebih sedikit integrasi.</strong></p>
 
+<a id="contact-support"></a>
 <p align="center">
   <img src="./assets/customer-service-qr.png" alt="Kode QR dukungan WeCom" width="420">
 </p>

@@ -81,28 +81,40 @@ Elige un objetivo y ve directamente a su tutorial. No es necesario leer toda la 
 <details open>
 <summary><strong>🔑 Crear una clave API y realizar la primera solicitud</strong></summary>
 
-1. Regístrate en [relayrouter.app](https://relayrouter.app/register?aff=xc9N) o [relayrouter.ai](https://relayrouter.ai/register?aff=xc9N).
-2. Abre **Tokens de API** en la consola de RelayRouter y crea y copia una clave nueva.
-3. Crea el archivo local de variables de entorno:
+#### 1. Abre la página de tokens de API
 
-   ```bash
-   cp .env.example .env
-   ```
+En la consola de RelayRouter, abre **Tokens de API** en el menú izquierdo y selecciona **Crear API Key**.
 
-4. Completa `.env`:
+`Consola` → `Tokens de API` → **Crear API Key**
 
-   ```dotenv
-   RELAYROUTER_API_KEY=your_api_key_here
-   RELAYROUTER_BASE_URL=https://api.relayrouter.app/v1
-   RELAYROUTER_MODEL=your_model_name
-   ```
+#### 2. Elige un modo de enrutamiento
 
-5. Ejecuta el ejemplo de Python incluido:
+| ⚡ Enrutamiento inteligente (Recomendado) | ☷ Grupos de modelos personalizados |
+| --- | --- |
+| Activa **Enrutamiento inteligente**. | Desactiva **Enrutamiento inteligente**. |
+| Para la primera clave, selecciona **Automático inteligente**. | Selecciona uno o varios grupos; el orden define la prioridad. |
 
-   ```bash
-   python -m pip install -r requirements.txt
-   python examples/python/chat.py
-   ```
+#### 3. Crea y guarda la clave
+
+Introduce un nombre para el token, deja las opciones avanzadas en sus valores predeterminados si no las necesitas y selecciona **Añadir**.
+
+> [!WARNING]
+> La clave API completa solo se muestra una vez. Cópiala y guárdala de forma segura al crearla; después de cerrar la ventana no podrás volver a verla completa.
+
+`API Key`　`sk-****************************`　**Copiar clave**
+
+#### 4. Abre la experiencia del modelo
+
+Elige un modelo disponible, abre sus detalles y cambia a **Experiencia**.
+
+`Catálogo de modelos` → `Ver detalles` → `Experiencia` → `Configuración`
+
+#### 5. Elige el token de facturación y envía
+
+En **Configuración**, selecciona la clave API recién creada como **Token de facturación**, escribe una pregunta y envíala.
+
+> [!TIP]
+> Cuando aparezca la respuesta del modelo, la primera solicitud habrá terminado.
 
 </details>
 
@@ -110,10 +122,24 @@ Elige un objetivo y ve directamente a su tutorial. No es necesario leer toda la 
 <details>
 <summary><strong>🎁 Canjear un código y comprobar el saldo</strong></summary>
 
-1. Inicia sesión en la consola de RelayRouter.
-2. Abre la opción de canje en el área de cuenta o fondos.
-3. Introduce el código y confirma después de verificar la cuenta.
-4. Vuelve a la cuenta de fondos y comprueba el saldo o el registro de la operación.
+#### 1. Abre la cuenta de fondos
+
+Inicia sesión en la consola de RelayRouter y selecciona **Cuenta de fondos** en el menú izquierdo.
+
+#### 2. Abre la opción de canje
+
+Selecciona **Canjear código** junto al saldo actual.
+
+#### 3. Introduce y confirma el código
+
+Comprueba la cuenta actual, introduce el código y envíalo después de confirmar la información.
+
+#### 4. Confirma que el saldo se actualizó
+
+Vuelve a **Cuenta de fondos** y comprueba el saldo actual o el registro de recarga.
+
+> [!IMPORTANT]
+> Las recargas en línea del sitio principal de RelayRouter solo permiten emitir facturas en formato internacional; no se emiten facturas nacionales de China. Si necesitas una factura nacional de China, [contacta con soporte](#contact-support).
 
 </details>
 
@@ -121,12 +147,35 @@ Elige un objetivo y ve directamente a su tutorial. No es necesario leer toda la 
 <details>
 <summary><strong>👥 Gestionar miembros y consumo de la organización</strong></summary>
 
-1. Abre **Mi organización** y crea una organización o únete a ella.
-2. Selecciona **Invitar miembro** y envía la invitación a la cuenta correspondiente.
-3. Asigna o transfiere saldo desde la lista de miembros.
-4. Revisa las pestañas **Consumo** y **Registros de transferencias** para controlar el uso y los movimientos de saldo.
+#### 1. Abre Mi organización
 
-> Concede acceso y saldo únicamente a cuentas de confianza.
+Abre **Mi organización** en el menú izquierdo para ver miembros, saldos y acciones disponibles.
+
+`Consola` → `Mi organización` → `Miembros de la organización`
+
+#### 2. Invita a un miembro
+
+Selecciona **Invitar miembro**, introduce su correo electrónico y envía la invitación.
+
+`member@example.com`　**Invitar miembro**
+
+#### 3. Transfiere saldo a un miembro
+
+Selecciona **Transferir** junto al miembro, comprueba el destinatario y el importe y confirma.
+
+| ID de usuario | Usuario | Saldo | Acción |
+| --- | --- | --- | --- |
+| `ID: ******` | Miembro A | Oculto | **Transferir** |
+| `ID: ******` | Propietario de la organización | Oculto | — |
+
+`Destino: Miembro A (saldo oculto)`　`Importe: introduce el importe`　**Confirmar transferencia**
+
+#### 4. Revisa el consumo y las transferencias
+
+Usa **Consumo** para revisar el uso de los miembros y **Registros de transferencias** para verificar destinatario, importe y hora de cada asignación.
+
+> [!CAUTION]
+> Comprueba la cuenta del miembro y el importe antes de transferir saldo. Antes de eliminar un miembro o disolver la organización, revisa los saldos y las cargas de trabajo activas.
 
 </details>
 
@@ -204,6 +253,7 @@ No subas tu clave API a Git. Guárdala en `.env` o en el gestor de secretos de t
 
 <p align="center"><strong>Una clave API. Más modelos. Menos integración.</strong></p>
 
+<a id="contact-support"></a>
 <p align="center">
   <img src="./assets/customer-service-qr.png" alt="Código QR de soporte de WeCom" width="420">
 </p>

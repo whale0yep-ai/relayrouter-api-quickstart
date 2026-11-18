@@ -81,28 +81,40 @@ Choose a goal and jump directly to its tutorial. You do not need to read the who
 <details open>
 <summary><strong>🔑 Create an API key and make the first request</strong></summary>
 
-1. Register through [relayrouter.app](https://relayrouter.app/register?aff=xc9N) or [relayrouter.ai](https://relayrouter.ai/register?aff=xc9N).
-2. Open the RelayRouter console, go to **API Tokens**, and create and copy a new key.
-3. Create a local environment file:
+#### 1. Open the API Tokens page
 
-   ```bash
-   cp .env.example .env
-   ```
+In the RelayRouter console, open **API Tokens** from the left navigation and select **Create API Key**.
 
-4. Fill in `.env`:
+`Console` → `API Tokens` → **Create API Key**
 
-   ```dotenv
-   RELAYROUTER_API_KEY=your_api_key_here
-   RELAYROUTER_BASE_URL=https://api.relayrouter.app/v1
-   RELAYROUTER_MODEL=your_model_name
-   ```
+#### 2. Choose one routing mode
 
-5. Run the included Python example:
+| ⚡ Smart routing (Recommended) | ☷ Custom model groups |
+| --- | --- |
+| Turn on **Smart routing**. | Turn off **Smart routing**. |
+| For your first key, choose **Smart Auto**. | Select one or more model groups; their order determines priority. |
 
-   ```bash
-   python -m pip install -r requirements.txt
-   python examples/python/chat.py
-   ```
+#### 3. Create and save the key
+
+Enter a token name, leave advanced settings at their defaults if you do not need them, and select **Add**.
+
+> [!WARNING]
+> The full API key is shown only once. Copy and store it securely as soon as it is created; after closing the dialog, you cannot view the complete key again.
+
+`API Key`　`sk-****************************`　**Copy key**
+
+#### 4. Open Model Experience
+
+Choose an available model, open its details, and switch to **Experience**.
+
+`Model Plaza` → `View details` → `Experience` → `Settings`
+
+#### 5. Choose the billing token and send
+
+In **Settings**, choose the API key you just created under **Billing token**, enter a prompt, and send it.
+
+> [!TIP]
+> When a model response appears, the first request is complete.
 
 </details>
 
@@ -110,10 +122,24 @@ Choose a goal and jump directly to its tutorial. You do not need to read the who
 <details>
 <summary><strong>🎁 Redeem a code and check the balance</strong></summary>
 
-1. Sign in to the RelayRouter console.
-2. Open the redemption entry in the account or funds area.
-3. Enter the redemption code and confirm it after checking the account information.
-4. Return to the funds page and verify the balance or transaction record.
+#### 1. Open the funds account
+
+Sign in to the RelayRouter console and open **Funds Account** from the left navigation.
+
+#### 2. Open the redemption entry
+
+Select **Redeem code** beside the current balance.
+
+#### 3. Enter and confirm the code
+
+Check the current account, enter the redemption code, and submit it after confirming the information.
+
+#### 4. Confirm that the balance changed
+
+Return to **Funds Account** and check whether the current balance or top-up record has been updated.
+
+> [!IMPORTANT]
+> Online top-ups on the RelayRouter website support international-format invoices only; mainland China domestic invoices are not available. If you need a mainland China domestic invoice, [contact support](#contact-support).
 
 </details>
 
@@ -121,12 +147,35 @@ Choose a goal and jump directly to its tutorial. You do not need to read the who
 <details>
 <summary><strong>👥 Manage organization members and usage</strong></summary>
 
-1. Open **My Organization** in the console and create or join an organization.
-2. Select **Invite member** and send the invitation to the intended account.
-3. Use the organization member list to allocate or transfer balances.
-4. Review the **Usage** and **Transfer records** tabs to audit consumption and balance movements.
+#### 1. Open My Organization
 
-> Only grant organization access and balances to accounts you trust.
+Open **My Organization** from the left navigation to view members, balances, and available actions.
+
+`Console` → `My Organization` → `Organization members`
+
+#### 2. Invite a member
+
+Select **Invite member**, enter the member's email address, and send the invitation.
+
+`member@example.com`　**Invite member**
+
+#### 3. Transfer balance to a member
+
+Select **Transfer** beside the target member, verify the member and amount, and confirm.
+
+| User ID | User | Balance | Action |
+| --- | --- | --- | --- |
+| `ID: ******` | Member A | Hidden | **Transfer** |
+| `ID: ******` | Organization owner | Hidden | — |
+
+`Transfer to: Member A (balance hidden)`　`Amount: Enter transfer amount`　**Confirm transfer**
+
+#### 4. Review usage and transfer records
+
+Use **Usage** to review member consumption and **Transfer records** to verify the recipient, amount, and time of balance allocations.
+
+> [!CAUTION]
+> Verify the member account and amount before transferring a balance. Before removing a member or dissolving the organization, check remaining balances and active workloads.
 
 </details>
 
@@ -206,6 +255,7 @@ Never commit your API key. Keep it in `.env` or your deployment platform's secre
 
 <p align="center"><strong>One API key. More models. Less integration work.</strong></p>
 
+<a id="contact-support"></a>
 <p align="center">
   <img src="./assets/customer-service-qr.png" alt="Enterprise WeChat support QR code" width="420">
 </p>

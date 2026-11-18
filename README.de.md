@@ -81,28 +81,40 @@ Wähle ein Ziel und springe direkt zur passenden Anleitung. Du musst nicht die g
 <details open>
 <summary><strong>🔑 API-Schlüssel erstellen und erste Anfrage senden</strong></summary>
 
-1. Registriere dich über [relayrouter.app](https://relayrouter.app/register?aff=xc9N) oder [relayrouter.ai](https://relayrouter.ai/register?aff=xc9N).
-2. Öffne **API-Tokens** in der RelayRouter-Konsole, erstelle einen neuen Schlüssel und kopiere ihn.
-3. Erstelle die lokale Umgebungsdatei:
+#### 1. Seite für API-Tokens öffnen
 
-   ```bash
-   cp .env.example .env
-   ```
+Öffne in der RelayRouter-Konsole links **API-Tokens** und wähle **API Key erstellen**.
 
-4. Fülle `.env` aus:
+`Konsole` → `API-Tokens` → **API Key erstellen**
 
-   ```dotenv
-   RELAYROUTER_API_KEY=your_api_key_here
-   RELAYROUTER_BASE_URL=https://api.relayrouter.app/v1
-   RELAYROUTER_MODEL=your_model_name
-   ```
+#### 2. Einen Routing-Modus auswählen
 
-5. Führe das enthaltene Python-Beispiel aus:
+| ⚡ Intelligentes Routing (Empfohlen) | ☷ Eigene Modellgruppen |
+| --- | --- |
+| Aktiviere **Intelligentes Routing**. | Deaktiviere **Intelligentes Routing**. |
+| Wähle für den ersten Schlüssel **Intelligent automatisch**. | Wähle eine oder mehrere Modellgruppen; ihre Reihenfolge bestimmt die Priorität. |
 
-   ```bash
-   python -m pip install -r requirements.txt
-   python examples/python/chat.py
-   ```
+#### 3. Schlüssel erstellen und speichern
+
+Gib einen Token-Namen ein, lasse nicht benötigte erweiterte Optionen auf den Standardwerten und wähle **Hinzufügen**.
+
+> [!WARNING]
+> Der vollständige API-Schlüssel wird nur einmal angezeigt. Kopiere und speichere ihn direkt nach der Erstellung sicher; nach dem Schließen des Fensters kann der vollständige Schlüssel nicht erneut angezeigt werden.
+
+`API Key`　`sk-****************************`　**Schlüssel kopieren**
+
+#### 4. Modelltest öffnen
+
+Wähle ein verfügbares Modell, öffne seine Details und wechsle zu **Testen**.
+
+`Modellkatalog` → `Details anzeigen` → `Testen` → `Einstellungen`
+
+#### 5. Abrechnungstoken wählen und senden
+
+Wähle unter **Einstellungen** den gerade erstellten API-Schlüssel als **Abrechnungstoken**, gib eine Frage ein und sende sie.
+
+> [!TIP]
+> Sobald eine Modellantwort erscheint, ist die erste Anfrage abgeschlossen.
 
 </details>
 
@@ -110,10 +122,24 @@ Wähle ein Ziel und springe direkt zur passenden Anleitung. Du musst nicht die g
 <details>
 <summary><strong>🎁 Code einlösen und Guthaben prüfen</strong></summary>
 
-1. Melde dich in der RelayRouter-Konsole an.
-2. Öffne den Einlösebereich im Konto- oder Guthabenbereich.
-3. Gib den Code ein und bestätige ihn nach Prüfung des Kontos.
-4. Kehre zum Guthabenkonto zurück und prüfe den Kontostand oder Transaktionseintrag.
+#### 1. Guthabenkonto öffnen
+
+Melde dich in der RelayRouter-Konsole an und wähle links **Guthabenkonto**.
+
+#### 2. Code-Eingabe öffnen
+
+Wähle **Code einlösen** neben dem aktuellen Guthaben.
+
+#### 3. Code eingeben und bestätigen
+
+Prüfe das aktuelle Konto, gib den Code ein und sende ihn nach Bestätigung der Angaben.
+
+#### 4. Aktualisierung des Guthabens prüfen
+
+Kehre zu **Guthabenkonto** zurück und prüfe das aktuelle Guthaben oder den Aufladeeintrag.
+
+> [!IMPORTANT]
+> Für Online-Aufladungen auf der RelayRouter-Hauptseite können nur Rechnungen im internationalen Format ausgestellt werden; chinesische Inlandsrechnungen sind nicht verfügbar. Wenn du eine chinesische Inlandsrechnung benötigst, [kontaktiere den Support](#contact-support).
 
 </details>
 
@@ -121,12 +147,35 @@ Wähle ein Ziel und springe direkt zur passenden Anleitung. Du musst nicht die g
 <details>
 <summary><strong>👥 Organisationsmitglieder und Nutzung verwalten</strong></summary>
 
-1. Öffne **Meine Organisation** und erstelle eine Organisation oder tritt einer bei.
-2. Wähle **Mitglied einladen** und sende die Einladung an das gewünschte Konto.
-3. Verteile oder übertrage Guthaben in der Mitgliederliste.
-4. Prüfe **Nutzung** und **Übertragungsverlauf**, um Verbrauch und Guthabenbewegungen nachzuvollziehen.
+#### 1. Meine Organisation öffnen
 
-> Gewähre Organisationszugriff und Guthaben nur vertrauenswürdigen Konten.
+Öffne links **Meine Organisation**, um Mitglieder, Guthaben und verfügbare Aktionen zu sehen.
+
+`Konsole` → `Meine Organisation` → `Organisationsmitglieder`
+
+#### 2. Mitglied einladen
+
+Wähle **Mitglied einladen**, gib die E-Mail-Adresse ein und sende die Einladung.
+
+`member@example.com`　**Mitglied einladen**
+
+#### 3. Guthaben an ein Mitglied übertragen
+
+Wähle **Übertragen** neben dem Zielmitglied, prüfe Mitglied und Betrag und bestätige.
+
+| Benutzer-ID | Benutzer | Guthaben | Aktion |
+| --- | --- | --- | --- |
+| `ID: ******` | Mitglied A | Ausgeblendet | **Übertragen** |
+| `ID: ******` | Organisationsinhaber | Ausgeblendet | — |
+
+`Empfänger: Mitglied A (Guthaben ausgeblendet)`　`Betrag: Übertragungsbetrag eingeben`　**Übertragung bestätigen**
+
+#### 4. Nutzung und Übertragungen prüfen
+
+Unter **Nutzung** siehst du den Verbrauch der Mitglieder; unter **Übertragungsverlauf** prüfst du Empfänger, Betrag und Zeitpunkt der Guthabenzuweisungen.
+
+> [!CAUTION]
+> Prüfe Mitgliedskonto und Betrag vor einer Übertragung. Kontrolliere vor dem Entfernen eines Mitglieds oder dem Auflösen der Organisation verbleibende Guthaben und aktive Arbeitslasten.
 
 </details>
 
@@ -204,6 +253,7 @@ Die SDK-Beispiele in diesem Repository verwenden standardmäßig `https://api.re
 
 <p align="center"><strong>Ein API-Schlüssel. Mehr Modelle. Weniger Integrationsarbeit.</strong></p>
 
+<a id="contact-support"></a>
 <p align="center">
   <img src="./assets/customer-service-qr.png" alt="WeCom-Support-QR-Code" width="420">
 </p>
