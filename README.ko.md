@@ -45,11 +45,11 @@
 >
 > RelayRouter 최신 공지 5개:
 >
+> - `2026-11-19 15:22 (UTC+8)` — 공지: Suno의 새로운 영감 모드가 정식 출시되었습니다! MIDI 멜로디를 업로드하여 기존 멜로디를 기반으로 AI가 새로운 음악 작품을 이어서 작곡합니다.
+> - `2026-11-19 10:56 (UTC+8)` — 알림: Gemini 부분 모델 그룹(Aistudio-Gemini-1, Cli-Gemini-1, Vertex-Gemini-1, Anti-Gemini-1 등)은 공식적인 리스크 관리로 인해 현재 불안정하며, 복구 시간은 미정입니다. 다른 모델로 전환할 것을 권장하며, 문제가 있을 경우 고객 지원에 문의해 주시기 바랍니다.
 > - `2026-11-18 17:08 (UTC+8)` — 모델 출시: doubao-seedream-5-5-261028
 > - `2026-11-18 16:33 (UTC+8)` — 모델 배포: gpt-6.2-astra, gpt-6.2-sol
 > - `2026-11-18 14:58 (UTC+8)` — 알림: gemini-4-carbon 모델의 anti 리소스가 부족하여 해당 모델의 anti 리소스 그룹이 일시적으로 중단되었습니다.
-> - `2026-11-17 22:46 (UTC+8)` — 알림: AWS-Gpt-1 그룹 자원이 부족하여 해당 자원 그룹이 일시적으로 하차되었습니다.
-> - `2026-11-16 21:24 (UTC+8)` — 모델 배포: hy4-flash
 >
 > [RelayRouter에서 모든 공지 보기 →](https://relayrouter.app/register?aff=xc9N)
 <!-- relayrouter-announcements:end -->
