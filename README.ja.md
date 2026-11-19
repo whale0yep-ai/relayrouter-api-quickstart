@@ -45,11 +45,11 @@
 >
 > RelayRouter の最新のお知らせ 5 件：
 >
+> - `2026-11-19 16:32 (UTC+8)` — モデルのアップロード：doubao-seedance-2-5-flash-261115、qwen4-max
 > - `2026-11-19 15:22 (UTC+8)` — 通知：Suno の新しいインスピレーションモードが正式にリリースされました！MIDI メロディのアップロードをサポートし、既存のメロディを基に AI が新しい音楽作品を創作します。
 > - `2026-11-19 10:56 (UTC+8)` — 通知：Gemini 部分モデルのグループ（Aistudio-Gemini-1、Cli-Gemini-1、Vertex-Gemini-1、Anti-Gemini-1など）は、公式のリスク管理による制限の影響で、現在不安定です。復旧時間は未定です。他のモデルに切り替えることをお勧めします。問題がある場合は、カスタマーサポートにお問い合わせください。
 > - `2026-11-18 17:08 (UTC+8)` — モデルのアップロード：doubao-seedream-5-5-261028
 > - `2026-11-18 16:33 (UTC+8)` — モデルのデプロイ：gpt-6.2-astra、gpt-6.2-sol
-> - `2026-11-18 14:58 (UTC+8)` — 通知： gemini-4-carbon の anti リソースが不足しているため、現在このモデルの anti リソースグループを一時的に下架します。
 >
 > [RelayRouter ですべてのお知らせを見る →](https://relayrouter.app/register?aff=xc9N)
 <!-- relayrouter-announcements:end -->

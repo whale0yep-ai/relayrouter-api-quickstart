@@ -45,11 +45,11 @@
 >
 > Los 5 avisos más recientes de RelayRouter:
 >
+> - `2026-11-19 16:32 (UTC+8)` — Modelo disponible: doubao-seedance-2-5-flash-261115, qwen4-max
 > - `2026-11-19 15:22 (UTC+8)` — Notificación: ¡El nuevo modo de inspiración de Suno ya está disponible! Soporta la carga de melodías MIDI, y a partir de tus melodías existentes, la IA puede continuar creando nuevas obras musicales.
 > - `2026-11-19 10:56 (UTC+8)` — Notificación: La agrupación de algunos modelos de Gemini (Aistudio-Gemini-1, Cli-Gemini-1, Vertex-Gemini-1, Anti-Gemini-1, etc.) está actualmente inestable debido a las restricciones de control de riesgo oficiales. El tiempo de recuperación es incierto. Se re…
 > - `2026-11-18 17:08 (UTC+8)` — Modelo disponible: doubao-seedream-5-5-261028
 > - `2026-11-18 16:33 (UTC+8)` — Modelos disponibles: gpt-6.2-astra、gpt-6.2-sol
-> - `2026-11-18 14:58 (UTC+8)` — Notificación: gemini-4-carbon anti recursos escasos, temporalmente desactivado el grupo de recursos anti de este modelo
 >
 > [Abrir RelayRouter y ver todos los avisos →](https://relayrouter.app/register?aff=xc9N)
 <!-- relayrouter-announcements:end -->
