@@ -73,7 +73,7 @@ Choose a goal and jump directly to its tutorial. You do not need to read the who
 | Goal | Goal |
 | --- | --- |
 | **[Make your first API call →](#first-api-call)**<br><sub>About 5 minutes · API key → BASE_URL → first request</sub> | **[Redeem a code and check the balance →](#redeem-code)**<br><sub>About 2 minutes · Redeem credit and verify the account balance</sub> |
-| **[Manage a team or organization →](#organization-management)**<br><sub>About 8 minutes · Create → invite → allocate → review usage</sub> | **[Connect a client →](#client-integration)**<br><sub>ChatGPT, Claude, Cherry Studio, Gemini, and DeepSeek Harness</sub> |
+| **[Manage a team or organization →](#organization-management)**<br><sub>About 8 minutes · Create → invite → allocate → review usage</sub> | **[Connect a client →](#client-integration)**<br><sub>CC Switch, Cherry Studio, and DeepSeek Harness</sub> |
 
 ## Basic tutorials
 
@@ -198,44 +198,92 @@ Use **Usage** to review member consumption and **Transfer records** to verify th
 <a id="client-integration"></a>
 ## Client integration tutorials
 
-Different clients may ask for a base URL or a complete chat-completions endpoint. Start with `https://api.relayrouter.app/v1` and use the [quick reference](#quick-reference) if the client expects another format.
-
-<details>
-<summary><strong>ChatGPT shortcut</strong></summary>
-
-Open the shortcut's provider settings, choose a custom or OpenAI-compatible provider, enter the RelayRouter API key and endpoint, and select a supported model.
-
-</details>
-
-<details>
-<summary><strong>Claude shortcut</strong></summary>
-
-Open the shortcut's provider settings, choose a custom or OpenAI-compatible provider, enter the RelayRouter API key and endpoint, and select a supported model.
-
-</details>
+Choose the application you actually use. With CC Switch, configure only the matching application tab; Cherry Studio and DeepSeek Harness use their own setup flows. Endpoint formats vary by protocol, so also check the [quick reference](#quick-reference).
 
 <details open>
-<summary><strong>Cherry Studio</strong></summary>
+<summary><strong>CC Switch — Claude / OpenAI / Gemini / Grok / OpenCode / OpenClaw / Hermes / Pi</strong></summary>
 
-**API endpoint:** `https://api.relayrouter.app/v1`
+![Configure RelayRouter with CC Switch](assets/tutorials/en/cc-switch.png)
 
-1. Add a custom OpenAI-compatible provider in Cherry Studio.
-2. Paste the `BASE_URL` and your RelayRouter API key.
-3. Add a supported model, save the configuration, and send a test message.
+If you use any one of the applications above with RelayRouter, configure only its matching tab in CC Switch. You do not need to configure all eight.
+
+#### 1. Download and install CC Switch
+
+Download the version for your system from the CC Switch website or GitHub Releases, install it, and launch it.
+
+#### 2. Open the matching tab and add RelayRouter
+
+Select the tab for the application you use, click the `＋` button in the upper-right corner, and name the provider `RelayRouter`.
+
+#### 3. Enter the RelayRouter provider information
+
+Enter your RelayRouter API key, website, and the request address required by the selected tab. For Claude, use `https://api.relayrouter.app`; use the matching protocol format for other tabs.
+
+#### 4. Enable RelayRouter and turn on the master switch
+
+Return to the provider list, select RelayRouter, and click **Enable**. Then turn on the CC Switch master switch and confirm that it is green.
+
+#### 5. Fully quit the selected application and CC Switch
+
+Completely exit both the application you use and CC Switch, including their windows, system-tray entries, and background processes.
+
+#### 6. Reopen both and test
+
+Reopen CC Switch and confirm RelayRouter is still enabled. Then reopen your application and send a test message.
 
 </details>
 
 <details>
-<summary><strong>Gemini</strong></summary>
+<summary><strong>Cherry Studio</strong></summary>
 
-To use Gemini models through RelayRouter, configure an OpenAI-compatible custom provider with the RelayRouter endpoint and key, then select a supported Gemini model identifier.
+![Configure RelayRouter in Cherry Studio](assets/tutorials/en/cherry-studio.png)
+
+#### 1. Open Settings
+
+Click the gear icon in the lower-left corner of the Cherry Studio home screen.
+
+#### 2. Add a custom provider
+
+Open **Model Services**, click **Add Provider**, and name the provider `RelayRouter`.
+
+#### 3. Enter the API key and endpoints
+
+Enter your RelayRouter API key. Use `https://api.relayrouter.ai/v1` for OpenAI compatibility and `https://api.relayrouter.ai` for Anthropic.
+
+#### 4. Fetch the model list
+
+Save the provider, click **Fetch Model List**, and confirm that models appear under RelayRouter.
+
+#### 5. Select a model and test
+
+Return to chat, choose a model from the RelayRouter group, and send a test message.
 
 </details>
 
 <details>
 <summary><strong>DeepSeek Harness</strong></summary>
 
-Set the harness provider to an OpenAI-compatible endpoint, enter the RelayRouter `BASE_URL` and API key, then select a supported DeepSeek model and run a connection test.
+![Configure RelayRouter in DeepSeek Harness](assets/tutorials/en/deepseek-harness.png)
+
+#### 1. Open Settings
+
+Click **More** in the lower-left corner of the DeepSeek Harness home screen and open Settings.
+
+#### 2. Add a model provider
+
+Open **Models** in Settings and click **Add Model Provider**.
+
+#### 3. Enter the custom model API
+
+Choose **Custom Model API**. Set Provider ID to `relayrouter`, display name to `RelayRouter`, API address to `https://api.relayrouter.app/v1`, protocol to `OpenAI Chat Completions`, and enter your RelayRouter API key.
+
+#### 4. Fetch models and save
+
+Click **Fetch Available Models**, confirm the model catalog is synchronized, and click **Save**.
+
+#### 5. Select a model and test
+
+Return to a new chat, choose a model from the `relayrouter` group, and send a test message.
 
 </details>
 

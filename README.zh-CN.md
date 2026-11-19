@@ -73,7 +73,7 @@ RelayRouter 用一套兼容 OpenAI 的 API 连接多个模型服务商，让你�
 | 目标 | 目标 |
 | --- | --- |
 | **[第一次调用 API →](#first-api-call)**<br><sub>约 5 分钟 · API Key → BASE_URL → 首次请求</sub> | **[兑换码与余额 →](#redeem-code)**<br><sub>约 2 分钟 · 兑换额度并确认账户余额</sub> |
-| **[团队与企业管理 →](#organization-management)**<br><sub>约 8 分钟 · 创建组织 → 邀请成员 → 分配余额 → 查看用量</sub> | **[接入常用客户端 →](#client-integration)**<br><sub>ChatGPT、Claude、Cherry Studio、Gemini、DeepSeek Harness</sub> |
+| **[团队与企业管理 →](#organization-management)**<br><sub>约 8 分钟 · 创建组织 → 邀请成员 → 分配余额 → 查看用量</sub> | **[接入常用客户端 →](#client-integration)**<br><sub>CC Switch、Cherry Studio、DeepSeek Harness</sub> |
 
 ## 基础教程
 
@@ -198,44 +198,92 @@ RelayRouter 用一套兼容 OpenAI 的 API 连接多个模型服务商，让你�
 <a id="client-integration"></a>
 ## 客户端接入教程
 
-不同客户端可能要求填写基础地址或完整的聊天补全地址。建议先使用 `https://api.relayrouter.app/v1`；如果格式不匹配，请查看下方[快速参考](#quick-reference)。
-
-<details>
-<summary><strong>ChatGPT 快捷方式</strong></summary>
-
-打开快捷方式的服务商设置，选择自定义或 OpenAI 兼容服务商，填写 RelayRouter API Key 和接口地址，再选择已支持的模型。
-
-</details>
-
-<details>
-<summary><strong>Claude 快捷方式</strong></summary>
-
-打开快捷方式的服务商设置，选择自定义或 OpenAI 兼容服务商，填写 RelayRouter API Key 和接口地址，再选择已支持的模型。
-
-</details>
+请选择你实际使用的应用。CC Switch 只需配置所选应用对应的标签；Cherry Studio 与 DeepSeek Harness 使用各自的配置流程。不同协议的地址格式可能不同，请同时参考下方[快速参考](#quick-reference)。
 
 <details open>
-<summary><strong>Cherry Studio</strong></summary>
+<summary><strong>CC Switch — Claude / OpenAI / Gemini / Grok / OpenCode / OpenClaw / Hermes / Pi</strong></summary>
 
-**API 端点：** `https://api.relayrouter.app/v1`
+![使用 CC Switch 配置 RelayRouter](assets/tutorials/zh-CN/cc-switch.png)
 
-1. 在 Cherry Studio 中添加自定义 OpenAI 兼容服务商。
-2. 填写 `BASE_URL` 和 RelayRouter API Key。
-3. 添加已支持的模型，保存配置后发送测试消息。
+如果你使用上述任意一个应用，并希望通过 RelayRouter 使用它，只需在 CC Switch 中配置该应用对应的标签，不需要把八项全部配置。
+
+#### 1. 下载并安装 CC Switch
+
+从 CC Switch 官方网站或 GitHub Releases 下载与你的系统匹配的版本，安装完成后启动。
+
+#### 2. 打开所用应用的对应标签并添加 RelayRouter
+
+在 CC Switch 顶部选择与你正在使用的应用相对应的标签，点击右上角的 `＋`，提供商名称填写 `RelayRouter`。
+
+#### 3. 填写 RelayRouter 提供商信息
+
+填写 RelayRouter API Key、官网链接与当前标签所需的请求地址。Claude 示例地址为 `https://api.relayrouter.app`；其他标签请使用对应协议的地址格式。
+
+#### 4. 启用 RelayRouter 并打开总开关
+
+保存后返回提供商列表，选择 RelayRouter 并点击 **启用**；再打开 CC Switch 顶部总开关，确认开关显示为绿色。
+
+#### 5. 完全退出所用应用和 CC Switch
+
+把正在使用的应用和 CC Switch 都完全退出，包括窗口、系统托盘与后台进程。
+
+#### 6. 重新打开并测试
+
+重新打开 CC Switch，确认 RelayRouter 仍处于启用状态；再打开所用应用并发送测试消息。
 
 </details>
 
 <details>
-<summary><strong>Gemini</strong></summary>
+<summary><strong>Cherry Studio</strong></summary>
 
-如需通过 RelayRouter 调用 Gemini 模型，请在支持自定义服务商的客户端中选择 OpenAI 兼容模式，填写 RelayRouter 接口地址与密钥，再选择已支持的 Gemini 模型标识。
+![Cherry Studio 配置 RelayRouter](assets/tutorials/zh-CN/cherry-studio.png)
+
+#### 1. 打开设置
+
+在 Cherry Studio 主界面点击左下角的齿轮图标，进入设置页面。
+
+#### 2. 添加自定义提供商
+
+打开 **模型服务**，点击 **添加服务商**，提供商名称填写 `RelayRouter`。
+
+#### 3. 填写 API Key 与接口地址
+
+填写 RelayRouter API Key。OpenAI 兼容地址使用 `https://api.relayrouter.ai/v1`，Anthropic 地址使用 `https://api.relayrouter.ai`。
+
+#### 4. 获取模型列表
+
+保存提供商后点击 **获取模型列表**，确认模型已出现在 RelayRouter 提供商下。
+
+#### 5. 选择模型并测试
+
+返回聊天页面，在 RelayRouter 分组中选择模型并发送测试消息。
 
 </details>
 
 <details>
 <summary><strong>DeepSeek Harness</strong></summary>
 
-将 Harness 服务商设为 OpenAI 兼容端点，填写 RelayRouter `BASE_URL` 与 API Key，选择已支持的 DeepSeek 模型后进行连接测试。
+![DeepSeek Harness 配置 RelayRouter](assets/tutorials/zh-CN/deepseek-harness.png)
+
+#### 1. 打开设置
+
+在 DeepSeek Harness 主界面点击左下角的 **更多**，进入设置页面。
+
+#### 2. 添加模型提供商
+
+在设置中打开 **模型**，点击 **添加模型提供商**。
+
+#### 3. 填写自定义模型 API
+
+选择 **自定义模型 API**，Provider ID 填写 `relayrouter`，显示名称填写 `RelayRouter`，API 地址填写 `https://api.relayrouter.app/v1`，协议选择 `OpenAI Chat Completions`，并填入 RelayRouter API Key。
+
+#### 4. 获取模型并保存
+
+点击 **获取可用模型**，确认模型目录已经同步，然后点击 **保存**。
+
+#### 5. 选择模型并测试
+
+返回新会话，在 `relayrouter` 分组中选择模型并发送测试消息。
 
 </details>
 

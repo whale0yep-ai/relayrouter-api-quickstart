@@ -73,7 +73,7 @@ RelayRouter는 여러 모델 공급자를 하나의 OpenAI 호환 API로 연결�
 | 목표 | 목표 |
 | --- | --- |
 | **[첫 API 호출 실행 →](#first-api-call)**<br><sub>약 5분 · API 키 → BASE_URL → 첫 요청</sub> | **[코드 교환 및 잔액 확인 →](#redeem-code)**<br><sub>약 2분 · 크레딧 교환 후 계정 잔액 확인</sub> |
-| **[팀 또는 조직 관리 →](#organization-management)**<br><sub>약 8분 · 생성 → 초대 → 배분 → 사용량 확인</sub> | **[클라이언트 연결 →](#client-integration)**<br><sub>ChatGPT, Claude, Cherry Studio, Gemini, DeepSeek Harness</sub> |
+| **[팀 또는 조직 관리 →](#organization-management)**<br><sub>약 8분 · 생성 → 초대 → 배분 → 사용량 확인</sub> | **[클라이언트 연결 →](#client-integration)**<br><sub>CC Switch, Cherry Studio, DeepSeek Harness</sub> |
 
 ## 기본 튜토리얼
 
@@ -198,44 +198,92 @@ RelayRouter 콘솔에 로그인하고 왼쪽 메뉴에서 **자금 계정**을 �
 <a id="client-integration"></a>
 ## 클라이언트 연동 튜토리얼
 
-클라이언트에 따라 기본 URL 또는 전체 chat-completions 주소를 요구할 수 있습니다. 먼저 `https://api.relayrouter.app/v1`을 사용하고 형식이 다르면 [빠른 참조](#quick-reference)를 확인하세요.
-
-<details>
-<summary><strong>ChatGPT 바로가기</strong></summary>
-
-바로가기의 공급자 설정에서 사용자 지정 또는 OpenAI 호환 공급자를 선택하고 RelayRouter API 키와 주소를 입력한 뒤 지원 모델을 선택합니다.
-
-</details>
-
-<details>
-<summary><strong>Claude 바로가기</strong></summary>
-
-바로가기의 공급자 설정에서 사용자 지정 또는 OpenAI 호환 공급자를 선택하고 RelayRouter API 키와 주소를 입력한 뒤 지원 모델을 선택합니다.
-
-</details>
+실제로 사용하는 앱을 선택하세요. CC Switch에서는 해당 앱 탭만 설정하면 되며 Cherry Studio와 DeepSeek Harness는 각각의 설정 절차를 사용합니다. 프로토콜마다 주소 형식이 다르므로 [빠른 참조](#quick-reference)도 확인하세요.
 
 <details open>
-<summary><strong>Cherry Studio</strong></summary>
+<summary><strong>CC Switch — Claude / OpenAI / Gemini / Grok / OpenCode / OpenClaw / Hermes / Pi</strong></summary>
 
-**API 엔드포인트:** `https://api.relayrouter.app/v1`
+![CC Switch에서 RelayRouter 설정](assets/tutorials/ko/cc-switch.png)
 
-1. Cherry Studio에 사용자 지정 OpenAI 호환 공급자를 추가합니다.
-2. `BASE_URL`과 RelayRouter API 키를 입력합니다.
-3. 지원 모델을 추가하고 설정을 저장한 뒤 테스트 메시지를 보냅니다.
+위 앱 중 하나를 RelayRouter와 함께 사용한다면 CC Switch에서 해당 탭만 설정하세요. 여덟 개를 모두 설정할 필요는 없습니다.
+
+#### 1. CC Switch 다운로드 및 설치
+
+CC Switch 공식 사이트 또는 GitHub Releases에서 운영체제에 맞는 버전을 내려받아 설치하고 실행합니다.
+
+#### 2. 해당 탭을 열고 RelayRouter 추가
+
+사용 중인 앱의 탭을 선택하고 오른쪽 위 `＋`를 누른 뒤 공급자 이름을 `RelayRouter`로 입력합니다.
+
+#### 3. RelayRouter 공급자 정보 입력
+
+API 키, 공식 사이트, 선택한 탭에 필요한 요청 주소를 입력합니다. Claude는 `https://api.relayrouter.app`을 사용하고 다른 탭은 해당 프로토콜 형식을 사용합니다.
+
+#### 4. RelayRouter와 전체 스위치 활성화
+
+공급자 목록으로 돌아가 RelayRouter를 선택하고 **활성화**를 누릅니다. CC Switch 상단 전체 스위치도 켜고 녹색인지 확인합니다.
+
+#### 5. 사용 앱과 CC Switch 완전 종료
+
+사용 중인 앱과 CC Switch를 창, 시스템 트레이, 백그라운드 프로세스까지 모두 완전히 종료합니다.
+
+#### 6. 둘 다 다시 열고 테스트
+
+CC Switch를 다시 열어 RelayRouter가 활성화되어 있는지 확인한 뒤 사용 앱을 열고 테스트 메시지를 보냅니다.
 
 </details>
 
 <details>
-<summary><strong>Gemini</strong></summary>
+<summary><strong>Cherry Studio</strong></summary>
 
-RelayRouter로 Gemini 모델을 사용하려면 사용자 지정 OpenAI 호환 공급자에 RelayRouter 주소와 키를 입력하고 지원되는 Gemini 모델 식별자를 선택합니다.
+![Cherry Studio에서 RelayRouter 설정](assets/tutorials/ko/cherry-studio.png)
+
+#### 1. 설정 열기
+
+Cherry Studio 메인 화면 왼쪽 아래의 톱니바퀴 아이콘을 누릅니다.
+
+#### 2. 사용자 지정 공급자 추가
+
+**모델 서비스**를 열고 **공급자 추가**를 누른 뒤 이름을 `RelayRouter`로 지정합니다.
+
+#### 3. API 키와 주소 입력
+
+RelayRouter API 키를 입력합니다. OpenAI 호환에는 `https://api.relayrouter.ai/v1`, Anthropic에는 `https://api.relayrouter.ai`를 사용합니다.
+
+#### 4. 모델 목록 가져오기
+
+공급자를 저장하고 **모델 목록 가져오기**를 눌러 RelayRouter 아래에 모델이 표시되는지 확인합니다.
+
+#### 5. 모델 선택 및 테스트
+
+채팅으로 돌아가 RelayRouter 그룹에서 모델을 선택하고 테스트 메시지를 보냅니다.
 
 </details>
 
 <details>
 <summary><strong>DeepSeek Harness</strong></summary>
 
-Harness 공급자를 OpenAI 호환 엔드포인트로 설정하고 RelayRouter `BASE_URL`과 API 키를 입력한 뒤 지원 DeepSeek 모델로 연결을 테스트합니다.
+![DeepSeek Harness에서 RelayRouter 설정](assets/tutorials/ko/deepseek-harness.png)
+
+#### 1. 설정 열기
+
+왼쪽 아래의 **더보기**를 누르고 설정을 엽니다.
+
+#### 2. 모델 공급자 추가
+
+**모델**을 열고 **모델 공급자 추가**를 누릅니다.
+
+#### 3. 사용자 지정 모델 API 입력
+
+**사용자 지정 모델 API**를 선택합니다. Provider ID는 `relayrouter`, 표시 이름은 `RelayRouter`, API 주소는 `https://api.relayrouter.app/v1`, 프로토콜은 `OpenAI Chat Completions`로 설정하고 API 키를 입력합니다.
+
+#### 4. 모델 가져오기 및 저장
+
+**사용 가능한 모델 가져오기**를 누르고 모델 카탈로그 동기화를 확인한 뒤 **저장**을 누릅니다.
+
+#### 5. 모델 선택 및 테스트
+
+새 채팅으로 돌아가 `relayrouter` 그룹에서 모델을 선택하고 테스트 메시지를 보냅니다.
 
 </details>
 

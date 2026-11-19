@@ -75,7 +75,7 @@ Pilih tujuan dan langsung buka tutorial terkait. Anda tidak perlu membaca seluru
 | Tujuan | Tujuan |
 | --- | --- |
 | **[Lakukan panggilan API pertama →](#first-api-call)**<br><sub>Sekitar 5 menit · API key → BASE_URL → permintaan pertama</sub> | **[Tukarkan kode dan periksa saldo →](#redeem-code)**<br><sub>Sekitar 2 menit · Tukarkan kredit dan verifikasi saldo</sub> |
-| **[Kelola tim atau organisasi →](#organization-management)**<br><sub>Sekitar 8 menit · Buat → undang → alokasikan → tinjau penggunaan</sub> | **[Hubungkan klien →](#client-integration)**<br><sub>ChatGPT, Claude, Cherry Studio, Gemini, dan DeepSeek Harness</sub> |
+| **[Kelola tim atau organisasi →](#organization-management)**<br><sub>Sekitar 8 menit · Buat → undang → alokasikan → tinjau penggunaan</sub> | **[Hubungkan klien →](#client-integration)**<br><sub>CC Switch, Cherry Studio, dan DeepSeek Harness</sub> |
 
 ## Tutorial dasar
 
@@ -200,44 +200,92 @@ Gunakan **Penggunaan** untuk memeriksa konsumsi anggota dan **Catatan transfer**
 <a id="client-integration"></a>
 ## Tutorial integrasi klien
 
-Klien dapat meminta URL dasar atau alamat chat-completions lengkap. Mulai dengan `https://api.relayrouter.app/v1` dan gunakan [referensi cepat](#quick-reference) jika formatnya berbeda.
-
-<details>
-<summary><strong>Pintasan ChatGPT</strong></summary>
-
-Pada pengaturan penyedia, pilih layanan kustom atau kompatibel dengan OpenAI, masukkan API key dan alamat RelayRouter, lalu pilih model yang didukung.
-
-</details>
-
-<details>
-<summary><strong>Pintasan Claude</strong></summary>
-
-Pada pengaturan penyedia, pilih layanan kustom atau kompatibel dengan OpenAI, masukkan API key dan alamat RelayRouter, lalu pilih model yang didukung.
-
-</details>
+Pilih aplikasi yang benar-benar Anda gunakan. Di CC Switch, cukup konfigurasi tab aplikasi yang sesuai; Cherry Studio dan DeepSeek Harness memiliki alur sendiri. Format endpoint berbeda menurut protokol, jadi lihat juga [referensi cepat](#quick-reference).
 
 <details open>
-<summary><strong>Cherry Studio</strong></summary>
+<summary><strong>CC Switch — Claude / OpenAI / Gemini / Grok / OpenCode / OpenClaw / Hermes / Pi</strong></summary>
 
-**Endpoint API:** `https://api.relayrouter.app/v1`
+![Konfigurasi RelayRouter dengan CC Switch](assets/tutorials/id/cc-switch.png)
 
-1. Tambahkan penyedia kustom yang kompatibel dengan OpenAI di Cherry Studio.
-2. Masukkan `BASE_URL` dan API key RelayRouter.
-3. Tambahkan model yang didukung, simpan konfigurasi, lalu kirim pesan uji.
+Jika Anda memakai salah satu aplikasi di atas dengan RelayRouter, konfigurasi hanya tab yang sesuai di CC Switch. Anda tidak perlu mengatur kedelapannya.
+
+#### 1. Unduh dan instal CC Switch
+
+Unduh versi untuk sistem Anda dari situs CC Switch atau GitHub Releases, instal, lalu jalankan.
+
+#### 2. Buka tab yang sesuai dan tambahkan RelayRouter
+
+Pilih tab aplikasi yang Anda gunakan, klik `＋` di kanan atas, lalu beri nama penyedia `RelayRouter`.
+
+#### 3. Masukkan informasi penyedia RelayRouter
+
+Masukkan API key, situs web, dan alamat permintaan yang dibutuhkan tab tersebut. Untuk Claude gunakan `https://api.relayrouter.app`; untuk tab lain gunakan format protokol yang sesuai.
+
+#### 4. Aktifkan RelayRouter dan sakelar utama
+
+Kembali ke daftar penyedia, pilih RelayRouter, lalu klik **Aktifkan**. Nyalakan sakelar utama CC Switch dan pastikan berwarna hijau.
+
+#### 5. Tutup sepenuhnya aplikasi dan CC Switch
+
+Keluar sepenuhnya dari aplikasi yang digunakan dan CC Switch, termasuk jendela, baki sistem, dan proses latar belakang.
+
+#### 6. Buka kembali keduanya dan uji
+
+Buka kembali CC Switch dan pastikan RelayRouter masih aktif. Setelah itu buka aplikasi Anda dan kirim pesan uji.
 
 </details>
 
 <details>
-<summary><strong>Gemini</strong></summary>
+<summary><strong>Cherry Studio</strong></summary>
 
-Untuk menggunakan model Gemini melalui RelayRouter, atur penyedia kustom yang kompatibel dengan OpenAI menggunakan alamat dan key RelayRouter, lalu pilih pengenal model Gemini yang didukung.
+![Konfigurasi RelayRouter di Cherry Studio](assets/tutorials/id/cherry-studio.png)
+
+#### 1. Buka Pengaturan
+
+Klik ikon roda gigi di kiri bawah layar utama Cherry Studio.
+
+#### 2. Tambahkan penyedia kustom
+
+Buka **Layanan Model**, klik **Tambah Penyedia**, lalu beri nama `RelayRouter`.
+
+#### 3. Masukkan API key dan endpoint
+
+Masukkan API key RelayRouter. Gunakan `https://api.relayrouter.ai/v1` untuk OpenAI dan `https://api.relayrouter.ai` untuk Anthropic.
+
+#### 4. Ambil daftar model
+
+Simpan penyedia, klik **Ambil Daftar Model**, lalu pastikan model muncul di bawah RelayRouter.
+
+#### 5. Pilih model dan uji
+
+Kembali ke chat, pilih model dari grup RelayRouter, lalu kirim pesan uji.
 
 </details>
 
 <details>
 <summary><strong>DeepSeek Harness</strong></summary>
 
-Atur penyedia Harness ke endpoint yang kompatibel dengan OpenAI, masukkan `BASE_URL` dan API key RelayRouter, lalu uji koneksi dengan model DeepSeek yang didukung.
+![Konfigurasi RelayRouter di DeepSeek Harness](assets/tutorials/id/deepseek-harness.png)
+
+#### 1. Buka Pengaturan
+
+Klik **Lainnya** di kiri bawah, lalu buka Pengaturan.
+
+#### 2. Tambahkan penyedia model
+
+Buka **Model** dan klik **Tambah Penyedia Model**.
+
+#### 3. Masukkan API model kustom
+
+Pilih **API Model Kustom**. Isi Provider ID dengan `relayrouter`, nama tampilan dengan `RelayRouter`, alamat API dengan `https://api.relayrouter.app/v1`, protokol dengan `OpenAI Chat Completions`, lalu masukkan API key.
+
+#### 4. Ambil model dan simpan
+
+Klik **Ambil Model yang Tersedia**, pastikan katalog tersinkron, lalu klik **Simpan**.
+
+#### 5. Pilih model dan uji
+
+Kembali ke chat baru, pilih model dari grup `relayrouter`, lalu kirim pesan uji.
 
 </details>
 

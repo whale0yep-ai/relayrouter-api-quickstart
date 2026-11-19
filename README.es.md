@@ -73,7 +73,7 @@ Elige un objetivo y ve directamente a su tutorial. No es necesario leer toda la 
 | Objetivo | Objetivo |
 | --- | --- |
 | **[Realizar la primera llamada API →](#first-api-call)**<br><sub>Unos 5 minutos · Clave API → BASE_URL → primera solicitud</sub> | **[Canjear un código y consultar el saldo →](#redeem-code)**<br><sub>Unos 2 minutos · Canjea crédito y verifica el saldo</sub> |
-| **[Gestionar un equipo u organización →](#organization-management)**<br><sub>Unos 8 minutos · Crear → invitar → asignar → revisar consumo</sub> | **[Conectar un cliente →](#client-integration)**<br><sub>ChatGPT, Claude, Cherry Studio, Gemini y DeepSeek Harness</sub> |
+| **[Gestionar un equipo u organización →](#organization-management)**<br><sub>Unos 8 minutos · Crear → invitar → asignar → revisar consumo</sub> | **[Conectar un cliente →](#client-integration)**<br><sub>CC Switch, Cherry Studio y DeepSeek Harness</sub> |
 
 ## Tutoriales básicos
 
@@ -198,44 +198,92 @@ Usa **Consumo** para revisar el uso de los miembros y **Registros de transferenc
 <a id="client-integration"></a>
 ## Tutoriales de integración con clientes
 
-Algunos clientes solicitan una URL base y otros la dirección completa de chat completions. Empieza con `https://api.relayrouter.app/v1` y consulta la [referencia rápida](#quick-reference) si el formato es distinto.
-
-<details>
-<summary><strong>Acceso directo de ChatGPT</strong></summary>
-
-En la configuración del proveedor, elige un servicio personalizado o compatible con OpenAI, introduce la clave y la dirección de RelayRouter y selecciona un modelo compatible.
-
-</details>
-
-<details>
-<summary><strong>Acceso directo de Claude</strong></summary>
-
-En la configuración del proveedor, elige un servicio personalizado o compatible con OpenAI, introduce la clave y la dirección de RelayRouter y selecciona un modelo compatible.
-
-</details>
+Elige la aplicación que utilizas. En CC Switch solo debes configurar la pestaña correspondiente; Cherry Studio y DeepSeek Harness tienen flujos propios. El formato del endpoint depende del protocolo, así que consulta también la [referencia rápida](#quick-reference).
 
 <details open>
-<summary><strong>Cherry Studio</strong></summary>
+<summary><strong>CC Switch — Claude / OpenAI / Gemini / Grok / OpenCode / OpenClaw / Hermes / Pi</strong></summary>
 
-**Endpoint de API:** `https://api.relayrouter.app/v1`
+![Configurar RelayRouter con CC Switch](assets/tutorials/es/cc-switch.png)
 
-1. Añade un proveedor personalizado compatible con OpenAI en Cherry Studio.
-2. Introduce el `BASE_URL` y la clave API de RelayRouter.
-3. Añade un modelo compatible, guarda la configuración y envía un mensaje de prueba.
+Si usas una de las aplicaciones anteriores con RelayRouter, configura solo su pestaña en CC Switch. No necesitas configurar las ocho.
+
+#### 1. Descargar e instalar CC Switch
+
+Descarga la versión para tu sistema desde el sitio de CC Switch o GitHub Releases, instálala y ábrela.
+
+#### 2. Abrir la pestaña correspondiente y añadir RelayRouter
+
+Selecciona la pestaña de la aplicación que usas, pulsa `＋` arriba a la derecha y asigna al proveedor el nombre `RelayRouter`.
+
+#### 3. Introducir los datos de RelayRouter
+
+Introduce la clave API, el sitio web y la dirección de solicitud que requiere la pestaña elegida. Para Claude usa `https://api.relayrouter.app`; en las demás pestañas usa el formato de su protocolo.
+
+#### 4. Activar RelayRouter y el interruptor general
+
+Vuelve a la lista de proveedores, selecciona RelayRouter y pulsa **Activar**. Después enciende el interruptor general de CC Switch y comprueba que esté verde.
+
+#### 5. Cerrar por completo la aplicación y CC Switch
+
+Cierra completamente la aplicación que utilizas y CC Switch, incluidas las ventanas, la bandeja del sistema y los procesos en segundo plano.
+
+#### 6. Volver a abrir ambos y probar
+
+Abre CC Switch y comprueba que RelayRouter siga activo. Después abre tu aplicación y envía un mensaje de prueba.
 
 </details>
 
 <details>
-<summary><strong>Gemini</strong></summary>
+<summary><strong>Cherry Studio</strong></summary>
 
-Para usar modelos Gemini mediante RelayRouter, configura un proveedor personalizado compatible con OpenAI con la dirección y la clave de RelayRouter y selecciona un identificador Gemini compatible.
+![Configurar RelayRouter en Cherry Studio](assets/tutorials/es/cherry-studio.png)
+
+#### 1. Abrir Ajustes
+
+Pulsa el icono de engranaje en la esquina inferior izquierda de Cherry Studio.
+
+#### 2. Añadir un proveedor personalizado
+
+Abre **Servicios de modelos**, pulsa **Añadir proveedor** y usa el nombre `RelayRouter`.
+
+#### 3. Introducir la clave API y los endpoints
+
+Introduce la clave API de RelayRouter. Usa `https://api.relayrouter.ai/v1` para OpenAI y `https://api.relayrouter.ai` para Anthropic.
+
+#### 4. Obtener la lista de modelos
+
+Guarda el proveedor, pulsa **Obtener lista de modelos** y comprueba que aparezcan bajo RelayRouter.
+
+#### 5. Seleccionar un modelo y probar
+
+Vuelve al chat, elige un modelo del grupo RelayRouter y envía un mensaje de prueba.
 
 </details>
 
 <details>
 <summary><strong>DeepSeek Harness</strong></summary>
 
-Configura el proveedor como endpoint compatible con OpenAI, introduce el `BASE_URL` y la clave de RelayRouter y prueba la conexión con un modelo DeepSeek compatible.
+![Configurar RelayRouter en DeepSeek Harness](assets/tutorials/es/deepseek-harness.png)
+
+#### 1. Abrir Ajustes
+
+Pulsa **Más** en la esquina inferior izquierda y abre Ajustes.
+
+#### 2. Añadir un proveedor de modelos
+
+Abre **Modelos** y pulsa **Añadir proveedor de modelos**.
+
+#### 3. Introducir la API de modelo personalizada
+
+Elige **API de modelo personalizada**. Usa `relayrouter` como Provider ID, `RelayRouter` como nombre, `https://api.relayrouter.app/v1` como dirección, `OpenAI Chat Completions` como protocolo e introduce la clave API.
+
+#### 4. Obtener modelos y guardar
+
+Pulsa **Obtener modelos disponibles**, comprueba que el catálogo esté sincronizado y pulsa **Guardar**.
+
+#### 5. Seleccionar un modelo y probar
+
+Vuelve a un chat nuevo, elige un modelo del grupo `relayrouter` y envía un mensaje de prueba.
 
 </details>
 

@@ -73,7 +73,7 @@ RelayRouter は複数のモデルプロバイダーを単一の OpenAI 互換 AP
 | 目的 | 目的 |
 | --- | --- |
 | **[最初の API 呼び出し →](#first-api-call)**<br><sub>約 5 分 · API キー → BASE_URL → 最初のリクエスト</sub> | **[コード交換と残高確認 →](#redeem-code)**<br><sub>約 2 分 · クレジットを交換して残高を確認</sub> |
-| **[チーム・組織管理 →](#organization-management)**<br><sub>約 8 分 · 作成 → 招待 → 配分 → 利用量確認</sub> | **[クライアント接続 →](#client-integration)**<br><sub>ChatGPT、Claude、Cherry Studio、Gemini、DeepSeek Harness</sub> |
+| **[チーム・組織管理 →](#organization-management)**<br><sub>約 8 分 · 作成 → 招待 → 配分 → 利用量確認</sub> | **[クライアント接続 →](#client-integration)**<br><sub>CC Switch、Cherry Studio、DeepSeek Harness</sub> |
 
 ## 基本チュートリアル
 
@@ -198,44 +198,92 @@ RelayRouter コンソールにログインし、左側から **資金口座**を
 <a id="client-integration"></a>
 ## クライアント接続チュートリアル
 
-クライアントによってベース URL または完全な chat-completions アドレスが必要です。まず `https://api.relayrouter.app/v1` を使用し、形式が異なる場合は[クイックリファレンス](#quick-reference)を確認してください。
-
-<details>
-<summary><strong>ChatGPT ショートカット</strong></summary>
-
-ショートカットのプロバイダー設定でカスタムまたは OpenAI 互換を選び、RelayRouter の API キーと接続先を入力して対応モデルを選択します。
-
-</details>
-
-<details>
-<summary><strong>Claude ショートカット</strong></summary>
-
-ショートカットのプロバイダー設定でカスタムまたは OpenAI 互換を選び、RelayRouter の API キーと接続先を入力して対応モデルを選択します。
-
-</details>
+実際に使うアプリを選択してください。CC Switch では対象アプリのタブだけを設定し、Cherry Studio と DeepSeek Harness はそれぞれの手順を使用します。プロトコルごとに接続先形式が異なるため、[クイックリファレンス](#quick-reference)も確認してください。
 
 <details open>
-<summary><strong>Cherry Studio</strong></summary>
+<summary><strong>CC Switch — Claude / OpenAI / Gemini / Grok / OpenCode / OpenClaw / Hermes / Pi</strong></summary>
 
-**API エンドポイント：** `https://api.relayrouter.app/v1`
+![CC Switch で RelayRouter を設定](assets/tutorials/ja/cc-switch.png)
 
-1. Cherry Studio にカスタム OpenAI 互換プロバイダーを追加します。
-2. `BASE_URL` と RelayRouter API キーを入力します。
-3. 対応モデルを追加し、設定を保存してテストメッセージを送ります。
+上記アプリのいずれかを RelayRouter で使う場合は、CC Switch の対応タブだけを設定します。8 項目すべてを設定する必要はありません。
+
+#### 1. CC Switch をダウンロードしてインストール
+
+CC Switch の公式サイトまたは GitHub Releases から OS に合う版をダウンロードし、インストールして起動します。
+
+#### 2. 対応タブを開いて RelayRouter を追加
+
+使用するアプリのタブを選び、右上の `＋` を押してプロバイダー名を `RelayRouter` にします。
+
+#### 3. RelayRouter のプロバイダー情報を入力
+
+API キー、公式サイト、選択タブで必要なリクエスト先を入力します。Claude では `https://api.relayrouter.app` を使用し、他のタブでは各プロトコルの形式を使用します。
+
+#### 4. RelayRouter とメインスイッチを有効化
+
+プロバイダー一覧に戻り、RelayRouter を選んで **有効化** を押します。続いて CC Switch 上部のメインスイッチをオンにし、緑色であることを確認します。
+
+#### 5. 使用アプリと CC Switch を完全終了
+
+使用中のアプリと CC Switch の両方を、ウィンドウ、システムトレイ、バックグラウンドプロセスを含めて完全に終了します。
+
+#### 6. 両方を再度開いてテスト
+
+CC Switch を開き直して RelayRouter が有効なことを確認し、使用アプリを開いてテストメッセージを送信します。
 
 </details>
 
 <details>
-<summary><strong>Gemini</strong></summary>
+<summary><strong>Cherry Studio</strong></summary>
 
-RelayRouter 経由で Gemini モデルを使うには、カスタム OpenAI 互換プロバイダーに RelayRouter の接続先とキーを設定し、対応する Gemini モデル識別子を選択します。
+![Cherry Studio で RelayRouter を設定](assets/tutorials/ja/cherry-studio.png)
+
+#### 1. 設定を開く
+
+Cherry Studio のホーム画面左下にある歯車アイコンを押します。
+
+#### 2. カスタムプロバイダーを追加
+
+**モデルサービス**を開き、**プロバイダーを追加**を押して名前を `RelayRouter` にします。
+
+#### 3. API キーと接続先を入力
+
+RelayRouter API キーを入力します。OpenAI 互換は `https://api.relayrouter.ai/v1`、Anthropic は `https://api.relayrouter.ai` を使用します。
+
+#### 4. モデル一覧を取得
+
+プロバイダーを保存し、**モデル一覧を取得**を押して RelayRouter 配下にモデルが表示されることを確認します。
+
+#### 5. モデルを選択してテスト
+
+チャットに戻り、RelayRouter グループからモデルを選び、テストメッセージを送信します。
 
 </details>
 
 <details>
 <summary><strong>DeepSeek Harness</strong></summary>
 
-Harness のプロバイダーを OpenAI 互換に設定し、RelayRouter の `BASE_URL` と API キーを入力して、対応する DeepSeek モデルで接続テストを行います。
+![DeepSeek Harness で RelayRouter を設定](assets/tutorials/ja/deepseek-harness.png)
+
+#### 1. 設定を開く
+
+左下の **その他** を押して設定を開きます。
+
+#### 2. モデルプロバイダーを追加
+
+**モデル**を開き、**モデルプロバイダーを追加**を押します。
+
+#### 3. カスタムモデル API を入力
+
+**カスタムモデル API**を選びます。Provider ID は `relayrouter`、表示名は `RelayRouter`、API アドレスは `https://api.relayrouter.app/v1`、プロトコルは `OpenAI Chat Completions` とし、API キーを入力します。
+
+#### 4. モデルを取得して保存
+
+**利用可能なモデルを取得**を押し、カタログの同期を確認して **保存** を押します。
+
+#### 5. モデルを選択してテスト
+
+新しいチャットに戻り、`relayrouter` グループからモデルを選んでテストメッセージを送信します。
 
 </details>
 

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-19T03:22:13.201Z",
+  "generatedAt": "2026-11-19T09:37:10.396Z",
   "generator": "tools/render-tutorial-images.js",
   "source": "localized README tutorial copy",
   "privacy": "All organization IDs and balances use masked placeholders.",
@@ -35,6 +35,36 @@
       "pixelScale": 1.5
     },
     {
+      "language": "en",
+      "type": "cc",
+      "file": "assets/tutorials/en/cc-switch.png",
+      "cssSize": {
+        "width": 1100,
+        "height": 1538
+      },
+      "pixelScale": 1.5
+    },
+    {
+      "language": "en",
+      "type": "cherry",
+      "file": "assets/tutorials/en/cherry-studio.png",
+      "cssSize": {
+        "width": 1100,
+        "height": 1084
+      },
+      "pixelScale": 1.5
+    },
+    {
+      "language": "en",
+      "type": "harness",
+      "file": "assets/tutorials/en/deepseek-harness.png",
+      "cssSize": {
+        "width": 1100,
+        "height": 1271
+      },
+      "pixelScale": 1.5
+    },
+    {
       "language": "zh-CN",
       "type": "api",
       "file": "assets/tutorials/zh-CN/api-key.png",
@@ -61,6 +91,36 @@
       "cssSize": {
         "width": 1100,
         "height": 937
+      },
+      "pixelScale": 1.5
+    },
+    {
+      "language": "zh-CN",
+      "type": "cc",
+      "file": "assets/tutorials/zh-CN/cc-switch.png",
+      "cssSize": {
+        "width": 1100,
+        "height": 1538
+      },
+      "pixelScale": 1.5
+    },
+    {
+      "language": "zh-CN",
+      "type": "cherry",
+      "file": "assets/tutorials/zh-CN/cherry-studio.png",
+      "cssSize": {
+        "width": 1100,
+        "height": 1084
+      },
+      "pixelScale": 1.5
+    },
+    {
+      "language": "zh-CN",
+      "type": "harness",
+      "file": "assets/tutorials/zh-CN/deepseek-harness.png",
+      "cssSize": {
+        "width": 1100,
+        "height": 1271
       },
       "pixelScale": 1.5
     },
@@ -95,6 +155,36 @@
       "pixelScale": 1.5
     },
     {
+      "language": "ru",
+      "type": "cc",
+      "file": "assets/tutorials/ru/cc-switch.png",
+      "cssSize": {
+        "width": 1100,
+        "height": 1560
+      },
+      "pixelScale": 1.5
+    },
+    {
+      "language": "ru",
+      "type": "cherry",
+      "file": "assets/tutorials/ru/cherry-studio.png",
+      "cssSize": {
+        "width": 1100,
+        "height": 1084
+      },
+      "pixelScale": 1.5
+    },
+    {
+      "language": "ru",
+      "type": "harness",
+      "file": "assets/tutorials/ru/deepseek-harness.png",
+      "cssSize": {
+        "width": 1100,
+        "height": 1271
+      },
+      "pixelScale": 1.5
+    },
+    {
       "language": "ko",
       "type": "api",
       "file": "assets/tutorials/ko/api-key.png",
@@ -121,6 +211,36 @@
       "cssSize": {
         "width": 1100,
         "height": 943
+      },
+      "pixelScale": 1.5
+    },
+    {
+      "language": "ko",
+      "type": "cc",
+      "file": "assets/tutorials/ko/cc-switch.png",
+      "cssSize": {
+        "width": 1100,
+        "height": 1525
+      },
+      "pixelScale": 1.5
+    },
+    {
+      "language": "ko",
+      "type": "cherry",
+      "file": "assets/tutorials/ko/cherry-studio.png",
+      "cssSize": {
+        "width": 1100,
+        "height": 1092
+      },
+      "pixelScale": 1.5
+    },
+    {
+      "language": "ko",
+      "type": "harness",
+      "file": "assets/tutorials/ko/deepseek-harness.png",
+      "cssSize": {
+        "width": 1100,
+        "height": 1280
       },
       "pixelScale": 1.5
     },
@@ -155,6 +275,36 @@
       "pixelScale": 1.5
     },
     {
+      "language": "ja",
+      "type": "cc",
+      "file": "assets/tutorials/ja/cc-switch.png",
+      "cssSize": {
+        "width": 1100,
+        "height": 1541
+      },
+      "pixelScale": 1.5
+    },
+    {
+      "language": "ja",
+      "type": "cherry",
+      "file": "assets/tutorials/ja/cherry-studio.png",
+      "cssSize": {
+        "width": 1100,
+        "height": 1087
+      },
+      "pixelScale": 1.5
+    },
+    {
+      "language": "ja",
+      "type": "harness",
+      "file": "assets/tutorials/ja/deepseek-harness.png",
+      "cssSize": {
+        "width": 1100,
+        "height": 1273
+      },
+      "pixelScale": 1.5
+    },
+    {
       "language": "es",
       "type": "api",
       "file": "assets/tutorials/es/api-key.png",
@@ -181,6 +331,36 @@
       "cssSize": {
         "width": 1100,
         "height": 958
+      },
+      "pixelScale": 1.5
+    },
+    {
+      "language": "es",
+      "type": "cc",
+      "file": "assets/tutorials/es/cc-switch.png",
+      "cssSize": {
+        "width": 1100,
+        "height": 1538
+      },
+      "pixelScale": 1.5
+    },
+    {
+      "language": "es",
+      "type": "cherry",
+      "file": "assets/tutorials/es/cherry-studio.png",
+      "cssSize": {
+        "width": 1100,
+        "height": 1084
+      },
+      "pixelScale": 1.5
+    },
+    {
+      "language": "es",
+      "type": "harness",
+      "file": "assets/tutorials/es/deepseek-harness.png",
+      "cssSize": {
+        "width": 1100,
+        "height": 1271
       },
       "pixelScale": 1.5
     },
@@ -215,6 +395,36 @@
       "pixelScale": 1.5
     },
     {
+      "language": "de",
+      "type": "cc",
+      "file": "assets/tutorials/de/cc-switch.png",
+      "cssSize": {
+        "width": 1100,
+        "height": 1559
+      },
+      "pixelScale": 1.5
+    },
+    {
+      "language": "de",
+      "type": "cherry",
+      "file": "assets/tutorials/de/cherry-studio.png",
+      "cssSize": {
+        "width": 1100,
+        "height": 1106
+      },
+      "pixelScale": 1.5
+    },
+    {
+      "language": "de",
+      "type": "harness",
+      "file": "assets/tutorials/de/deepseek-harness.png",
+      "cssSize": {
+        "width": 1100,
+        "height": 1271
+      },
+      "pixelScale": 1.5
+    },
+    {
       "language": "id",
       "type": "api",
       "file": "assets/tutorials/id/api-key.png",
@@ -241,6 +451,36 @@
       "cssSize": {
         "width": 1100,
         "height": 958
+      },
+      "pixelScale": 1.5
+    },
+    {
+      "language": "id",
+      "type": "cc",
+      "file": "assets/tutorials/id/cc-switch.png",
+      "cssSize": {
+        "width": 1100,
+        "height": 1538
+      },
+      "pixelScale": 1.5
+    },
+    {
+      "language": "id",
+      "type": "cherry",
+      "file": "assets/tutorials/id/cherry-studio.png",
+      "cssSize": {
+        "width": 1100,
+        "height": 1084
+      },
+      "pixelScale": 1.5
+    },
+    {
+      "language": "id",
+      "type": "harness",
+      "file": "assets/tutorials/id/deepseek-harness.png",
+      "cssSize": {
+        "width": 1100,
+        "height": 1271
       },
       "pixelScale": 1.5
     }
