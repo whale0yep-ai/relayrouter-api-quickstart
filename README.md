@@ -81,6 +81,10 @@ Choose a goal and jump directly to its tutorial. You do not need to read the who
 <details open>
 <summary><strong>🔑 Create an API key and make the first request</strong></summary>
 
+<p align="center"><img src="./assets/tutorials/en/api-key.png" alt="Create an API key and make the first request" width="1100"></p>
+
+<!-- Source copy for the deterministic tutorial image:
+
 #### 1. Open the API Tokens page
 
 In the RelayRouter console, open **API Tokens** from the left navigation and select **Create API Key**.
@@ -116,11 +120,17 @@ In **Settings**, choose the API key you just created under **Billing token**, en
 > [!TIP]
 > When a model response appears, the first request is complete.
 
+-->
 </details>
 
 <a id="redeem-code"></a>
 <details>
 <summary><strong>🎁 Redeem a code and check the balance</strong></summary>
+
+<p align="center"><img src="./assets/tutorials/en/redeem.png" alt="Redeem a code and check the balance" width="1100"></p>
+<p align="center"><strong><a href="#contact-support">Contact support</a></strong></p>
+
+<!-- Source copy for the deterministic tutorial image:
 
 #### 1. Open the funds account
 
@@ -141,11 +151,16 @@ Return to **Funds Account** and check whether the current balance or top-up reco
 > [!IMPORTANT]
 > Online top-ups on the RelayRouter website support international-format invoices only; mainland China domestic invoices are not available. If you need a mainland China domestic invoice, [contact support](#contact-support).
 
+-->
 </details>
 
 <a id="organization-management"></a>
 <details>
 <summary><strong>👥 Manage organization members and usage</strong></summary>
+
+<p align="center"><img src="./assets/tutorials/en/organization.png" alt="Manage organization members and usage" width="1100"></p>
+
+<!-- Source copy for the deterministic tutorial image:
 
 #### 1. Open My Organization
 
@@ -177,6 +192,7 @@ Use **Usage** to review member consumption and **Transfer records** to verify th
 > [!CAUTION]
 > Verify the member account and amount before transferring a balance. Before removing a member or dissolving the organization, check remaining balances and active workloads.
 
+-->
 </details>
 
 <a id="client-integration"></a>

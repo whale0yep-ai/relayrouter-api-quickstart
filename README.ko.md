@@ -81,6 +81,10 @@ RelayRouter는 여러 모델 공급자를 하나의 OpenAI 호환 API로 연결�
 <details open>
 <summary><strong>🔑 API 키 생성 및 첫 요청</strong></summary>
 
+<p align="center"><img src="./assets/tutorials/ko/api-key.png" alt="API 키 생성 및 첫 요청" width="1100"></p>
+
+<!-- Source copy for the deterministic tutorial image:
+
 #### 1. API 토큰 페이지 열기
 
 RelayRouter 콘솔의 왼쪽 메뉴에서 **API 토큰**을 열고 **API Key 생성**을 선택합니다.
@@ -116,11 +120,17 @@ RelayRouter 콘솔의 왼쪽 메뉴에서 **API 토큰**을 열고 **API Key 생
 > [!TIP]
 > 모델 응답이 표시되면 첫 요청이 완료된 것입니다.
 
+-->
 </details>
 
 <a id="redeem-code"></a>
 <details>
 <summary><strong>🎁 코드 교환 및 잔액 확인</strong></summary>
+
+<p align="center"><img src="./assets/tutorials/ko/redeem.png" alt="코드 교환 및 잔액 확인" width="1100"></p>
+<p align="center"><strong><a href="#contact-support">고객지원 문의</a></strong></p>
+
+<!-- Source copy for the deterministic tutorial image:
 
 #### 1. 자금 계정 열기
 
@@ -141,11 +151,16 @@ RelayRouter 콘솔에 로그인하고 왼쪽 메뉴에서 **자금 계정**을 �
 > [!IMPORTANT]
 > RelayRouter 메인 사이트의 온라인 충전에는 국제 형식 인보이스만 발급되며 중국 국내용 세금계산서는 제공되지 않습니다. 중국 국내용 세금계산서가 필요하면 [고객 지원에 문의하세요](#contact-support).
 
+-->
 </details>
 
 <a id="organization-management"></a>
 <details>
 <summary><strong>👥 조직 구성원 및 사용량 관리</strong></summary>
+
+<p align="center"><img src="./assets/tutorials/ko/organization.png" alt="조직 구성원 및 사용량 관리" width="1100"></p>
+
+<!-- Source copy for the deterministic tutorial image:
 
 #### 1. 내 조직 열기
 
@@ -177,6 +192,7 @@ RelayRouter 콘솔에 로그인하고 왼쪽 메뉴에서 **자금 계정**을 �
 > [!CAUTION]
 > 잔액을 이체하기 전에 구성원 계정과 금액을 확인하세요. 구성원을 삭제하거나 조직을 해산하기 전에는 남은 잔액과 사용 중인 작업을 확인하세요.
 
+-->
 </details>
 
 <a id="client-integration"></a>

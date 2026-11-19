@@ -83,6 +83,10 @@ Pilih tujuan dan langsung buka tutorial terkait. Anda tidak perlu membaca seluru
 <details open>
 <summary><strong>🔑 Buat API key dan kirim permintaan pertama</strong></summary>
 
+<p align="center"><img src="./assets/tutorials/id/api-key.png" alt="Buat API key dan kirim permintaan pertama" width="1100"></p>
+
+<!-- Source copy for the deterministic tutorial image:
+
 #### 1. Buka halaman Token API
 
 Di konsol RelayRouter, buka **Token API** dari menu kiri lalu pilih **Buat API Key**.
@@ -118,11 +122,17 @@ Di **Pengaturan**, pilih API key yang baru dibuat sebagai **Token penagihan**, m
 > [!TIP]
 > Saat respons model muncul, permintaan pertama telah selesai.
 
+-->
 </details>
 
 <a id="redeem-code"></a>
 <details>
 <summary><strong>🎁 Tukarkan kode dan periksa saldo</strong></summary>
+
+<p align="center"><img src="./assets/tutorials/id/redeem.png" alt="Tukarkan kode dan periksa saldo" width="1100"></p>
+<p align="center"><strong><a href="#contact-support">Hubungi dukungan</a></strong></p>
+
+<!-- Source copy for the deterministic tutorial image:
 
 #### 1. Buka akun dana
 
@@ -143,11 +153,16 @@ Kembali ke **Akun dana** dan periksa saldo saat ini atau catatan isi ulang.
 > [!IMPORTANT]
 > Isi ulang online di situs utama RelayRouter hanya mendukung faktur berformat internasional; faktur domestik Tiongkok tidak tersedia. Jika Anda memerlukan faktur domestik Tiongkok, [hubungi dukungan](#contact-support).
 
+-->
 </details>
 
 <a id="organization-management"></a>
 <details>
 <summary><strong>👥 Kelola anggota dan penggunaan organisasi</strong></summary>
+
+<p align="center"><img src="./assets/tutorials/id/organization.png" alt="Kelola anggota dan penggunaan organisasi" width="1100"></p>
+
+<!-- Source copy for the deterministic tutorial image:
 
 #### 1. Buka Organisasi Saya
 
@@ -179,6 +194,7 @@ Gunakan **Penggunaan** untuk memeriksa konsumsi anggota dan **Catatan transfer**
 > [!CAUTION]
 > Periksa akun anggota dan jumlah sebelum mentransfer saldo. Sebelum menghapus anggota atau membubarkan organisasi, periksa sisa saldo dan beban kerja yang masih aktif.
 
+-->
 </details>
 
 <a id="client-integration"></a>

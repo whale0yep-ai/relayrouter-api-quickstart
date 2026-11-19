@@ -81,6 +81,10 @@ Wähle ein Ziel und springe direkt zur passenden Anleitung. Du musst nicht die g
 <details open>
 <summary><strong>🔑 API-Schlüssel erstellen und erste Anfrage senden</strong></summary>
 
+<p align="center"><img src="./assets/tutorials/de/api-key.png" alt="API-Schlüssel erstellen und erste Anfrage senden" width="1100"></p>
+
+<!-- Source copy for the deterministic tutorial image:
+
 #### 1. Seite für API-Tokens öffnen
 
 Öffne in der RelayRouter-Konsole links **API-Tokens** und wähle **API Key erstellen**.
@@ -116,11 +120,17 @@ Wähle unter **Einstellungen** den gerade erstellten API-Schlüssel als **Abrech
 > [!TIP]
 > Sobald eine Modellantwort erscheint, ist die erste Anfrage abgeschlossen.
 
+-->
 </details>
 
 <a id="redeem-code"></a>
 <details>
 <summary><strong>🎁 Code einlösen und Guthaben prüfen</strong></summary>
+
+<p align="center"><img src="./assets/tutorials/de/redeem.png" alt="Code einlösen und Guthaben prüfen" width="1100"></p>
+<p align="center"><strong><a href="#contact-support">Support kontaktieren</a></strong></p>
+
+<!-- Source copy for the deterministic tutorial image:
 
 #### 1. Guthabenkonto öffnen
 
@@ -141,11 +151,16 @@ Kehre zu **Guthabenkonto** zurück und prüfe das aktuelle Guthaben oder den Auf
 > [!IMPORTANT]
 > Für Online-Aufladungen auf der RelayRouter-Hauptseite können nur Rechnungen im internationalen Format ausgestellt werden; chinesische Inlandsrechnungen sind nicht verfügbar. Wenn du eine chinesische Inlandsrechnung benötigst, [kontaktiere den Support](#contact-support).
 
+-->
 </details>
 
 <a id="organization-management"></a>
 <details>
 <summary><strong>👥 Organisationsmitglieder und Nutzung verwalten</strong></summary>
+
+<p align="center"><img src="./assets/tutorials/de/organization.png" alt="Organisationsmitglieder und Nutzung verwalten" width="1100"></p>
+
+<!-- Source copy for the deterministic tutorial image:
 
 #### 1. Meine Organisation öffnen
 
@@ -177,6 +192,7 @@ Unter **Nutzung** siehst du den Verbrauch der Mitglieder; unter **Übertragungsv
 > [!CAUTION]
 > Prüfe Mitgliedskonto und Betrag vor einer Übertragung. Kontrolliere vor dem Entfernen eines Mitglieds oder dem Auflösen der Organisation verbleibende Guthaben und aktive Arbeitslasten.
 
+-->
 </details>
 
 <a id="client-integration"></a>

@@ -81,6 +81,10 @@ RelayRouter 用一套兼容 OpenAI 的 API 连接多个模型服务商，让你�
 <details open>
 <summary><strong>🔑 创建 API Key 并完成首次请求</strong></summary>
 
+<p align="center"><img src="./assets/tutorials/zh-CN/api-key.png" alt="创建 API Key 并完成首次请求" width="1100"></p>
+
+<!-- Source copy for the deterministic tutorial image:
+
 #### 1. 进入 API 令牌页面
 
 打开 RelayRouter 控制台，在左侧选择 **API 令牌**，点击右上角 **创建 API Key**。
@@ -116,11 +120,17 @@ RelayRouter 用一套兼容 OpenAI 的 API 连接多个模型服务商，让你�
 > [!TIP]
 > 右侧出现模型回复，即表示首次请求完成。
 
+-->
 </details>
 
 <a id="redeem-code"></a>
 <details>
 <summary><strong>🎁 兑换码兑换与余额确认</strong></summary>
+
+<p align="center"><img src="./assets/tutorials/zh-CN/redeem.png" alt="兑换码兑换与余额确认" width="1100"></p>
+<p align="center"><strong><a href="#contact-support">联系客服</a></strong></p>
+
+<!-- Source copy for the deterministic tutorial image:
 
 #### 1. 进入资金账户
 
@@ -141,11 +151,16 @@ RelayRouter 用一套兼容 OpenAI 的 API 连接多个模型服务商，让你�
 > [!IMPORTANT]
 > RelayRouter 主站线上充值仅可开具国际形式发票，无国内发票。如需国内发票，请点击[联系客服](#contact-support)。
 
+-->
 </details>
 
 <a id="organization-management"></a>
 <details>
 <summary><strong>👥 企业组织成员与用量管理</strong></summary>
+
+<p align="center"><img src="./assets/tutorials/zh-CN/organization.png" alt="企业组织成员与用量管理" width="1100"></p>
+
+<!-- Source copy for the deterministic tutorial image:
 
 #### 1. 进入“我的组织”
 
@@ -177,6 +192,7 @@ RelayRouter 用一套兼容 OpenAI 的 API 连接多个模型服务商，让你�
 > [!CAUTION]
 > 划转余额前请核对成员账号与金额；删除成员或解散组织前，请先确认余额和正在使用的业务。
 
+-->
 </details>
 
 <a id="client-integration"></a>

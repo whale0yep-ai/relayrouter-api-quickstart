@@ -1,0 +1,248 @@
+{
+  "generatedAt": "2026-11-19T03:22:13.201Z",
+  "generator": "tools/render-tutorial-images.js",
+  "source": "localized README tutorial copy",
+  "privacy": "All organization IDs and balances use masked placeholders.",
+  "outputs": [
+    {
+      "language": "en",
+      "type": "api",
+      "file": "assets/tutorials/en/api-key.png",
+      "cssSize": {
+        "width": 1100,
+        "height": 953
+      },
+      "pixelScale": 1.5
+    },
+    {
+      "language": "en",
+      "type": "redeem",
+      "file": "assets/tutorials/en/redeem.png",
+      "cssSize": {
+        "width": 1100,
+        "height": 1043
+      },
+      "pixelScale": 1.5
+    },
+    {
+      "language": "en",
+      "type": "organization",
+      "file": "assets/tutorials/en/organization.png",
+      "cssSize": {
+        "width": 1100,
+        "height": 958
+      },
+      "pixelScale": 1.5
+    },
+    {
+      "language": "zh-CN",
+      "type": "api",
+      "file": "assets/tutorials/zh-CN/api-key.png",
+      "cssSize": {
+        "width": 1100,
+        "height": 931
+      },
+      "pixelScale": 1.5
+    },
+    {
+      "language": "zh-CN",
+      "type": "redeem",
+      "file": "assets/tutorials/zh-CN/redeem.png",
+      "cssSize": {
+        "width": 1100,
+        "height": 1020
+      },
+      "pixelScale": 1.5
+    },
+    {
+      "language": "zh-CN",
+      "type": "organization",
+      "file": "assets/tutorials/zh-CN/organization.png",
+      "cssSize": {
+        "width": 1100,
+        "height": 937
+      },
+      "pixelScale": 1.5
+    },
+    {
+      "language": "ru",
+      "type": "api",
+      "file": "assets/tutorials/ru/api-key.png",
+      "cssSize": {
+        "width": 1100,
+        "height": 975
+      },
+      "pixelScale": 1.5
+    },
+    {
+      "language": "ru",
+      "type": "redeem",
+      "file": "assets/tutorials/ru/redeem.png",
+      "cssSize": {
+        "width": 1100,
+        "height": 1043
+      },
+      "pixelScale": 1.5
+    },
+    {
+      "language": "ru",
+      "type": "organization",
+      "file": "assets/tutorials/ru/organization.png",
+      "cssSize": {
+        "width": 1100,
+        "height": 958
+      },
+      "pixelScale": 1.5
+    },
+    {
+      "language": "ko",
+      "type": "api",
+      "file": "assets/tutorials/ko/api-key.png",
+      "cssSize": {
+        "width": 1100,
+        "height": 936
+      },
+      "pixelScale": 1.5
+    },
+    {
+      "language": "ko",
+      "type": "redeem",
+      "file": "assets/tutorials/ko/redeem.png",
+      "cssSize": {
+        "width": 1100,
+        "height": 1048
+      },
+      "pixelScale": 1.5
+    },
+    {
+      "language": "ko",
+      "type": "organization",
+      "file": "assets/tutorials/ko/organization.png",
+      "cssSize": {
+        "width": 1100,
+        "height": 943
+      },
+      "pixelScale": 1.5
+    },
+    {
+      "language": "ja",
+      "type": "api",
+      "file": "assets/tutorials/ja/api-key.png",
+      "cssSize": {
+        "width": 1100,
+        "height": 978
+      },
+      "pixelScale": 1.5
+    },
+    {
+      "language": "ja",
+      "type": "redeem",
+      "file": "assets/tutorials/ja/redeem.png",
+      "cssSize": {
+        "width": 1100,
+        "height": 1043
+      },
+      "pixelScale": 1.5
+    },
+    {
+      "language": "ja",
+      "type": "organization",
+      "file": "assets/tutorials/ja/organization.png",
+      "cssSize": {
+        "width": 1100,
+        "height": 940
+      },
+      "pixelScale": 1.5
+    },
+    {
+      "language": "es",
+      "type": "api",
+      "file": "assets/tutorials/es/api-key.png",
+      "cssSize": {
+        "width": 1100,
+        "height": 953
+      },
+      "pixelScale": 1.5
+    },
+    {
+      "language": "es",
+      "type": "redeem",
+      "file": "assets/tutorials/es/redeem.png",
+      "cssSize": {
+        "width": 1100,
+        "height": 1043
+      },
+      "pixelScale": 1.5
+    },
+    {
+      "language": "es",
+      "type": "organization",
+      "file": "assets/tutorials/es/organization.png",
+      "cssSize": {
+        "width": 1100,
+        "height": 958
+      },
+      "pixelScale": 1.5
+    },
+    {
+      "language": "de",
+      "type": "api",
+      "file": "assets/tutorials/de/api-key.png",
+      "cssSize": {
+        "width": 1100,
+        "height": 975
+      },
+      "pixelScale": 1.5
+    },
+    {
+      "language": "de",
+      "type": "redeem",
+      "file": "assets/tutorials/de/redeem.png",
+      "cssSize": {
+        "width": 1100,
+        "height": 1043
+      },
+      "pixelScale": 1.5
+    },
+    {
+      "language": "de",
+      "type": "organization",
+      "file": "assets/tutorials/de/organization.png",
+      "cssSize": {
+        "width": 1100,
+        "height": 983
+      },
+      "pixelScale": 1.5
+    },
+    {
+      "language": "id",
+      "type": "api",
+      "file": "assets/tutorials/id/api-key.png",
+      "cssSize": {
+        "width": 1100,
+        "height": 953
+      },
+      "pixelScale": 1.5
+    },
+    {
+      "language": "id",
+      "type": "redeem",
+      "file": "assets/tutorials/id/redeem.png",
+      "cssSize": {
+        "width": 1100,
+        "height": 1043
+      },
+      "pixelScale": 1.5
+    },
+    {
+      "language": "id",
+      "type": "organization",
+      "file": "assets/tutorials/id/organization.png",
+      "cssSize": {
+        "width": 1100,
+        "height": 958
+      },
+      "pixelScale": 1.5
+    }
+  ]
+}

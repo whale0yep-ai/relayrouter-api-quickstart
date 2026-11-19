@@ -81,6 +81,10 @@ Elige un objetivo y ve directamente a su tutorial. No es necesario leer toda la 
 <details open>
 <summary><strong>🔑 Crear una clave API y realizar la primera solicitud</strong></summary>
 
+<p align="center"><img src="./assets/tutorials/es/api-key.png" alt="Crear una clave API y realizar la primera solicitud" width="1100"></p>
+
+<!-- Source copy for the deterministic tutorial image:
+
 #### 1. Abre la página de tokens de API
 
 En la consola de RelayRouter, abre **Tokens de API** en el menú izquierdo y selecciona **Crear API Key**.
@@ -116,11 +120,17 @@ En **Configuración**, selecciona la clave API recién creada como **Token de fa
 > [!TIP]
 > Cuando aparezca la respuesta del modelo, la primera solicitud habrá terminado.
 
+-->
 </details>
 
 <a id="redeem-code"></a>
 <details>
 <summary><strong>🎁 Canjear un código y comprobar el saldo</strong></summary>
+
+<p align="center"><img src="./assets/tutorials/es/redeem.png" alt="Canjear un código y comprobar el saldo" width="1100"></p>
+<p align="center"><strong><a href="#contact-support">Contactar con soporte</a></strong></p>
+
+<!-- Source copy for the deterministic tutorial image:
 
 #### 1. Abre la cuenta de fondos
 
@@ -141,11 +151,16 @@ Vuelve a **Cuenta de fondos** y comprueba el saldo actual o el registro de recar
 > [!IMPORTANT]
 > Las recargas en línea del sitio principal de RelayRouter solo permiten emitir facturas en formato internacional; no se emiten facturas nacionales de China. Si necesitas una factura nacional de China, [contacta con soporte](#contact-support).
 
+-->
 </details>
 
 <a id="organization-management"></a>
 <details>
 <summary><strong>👥 Gestionar miembros y consumo de la organización</strong></summary>
+
+<p align="center"><img src="./assets/tutorials/es/organization.png" alt="Gestionar miembros y consumo de la organización" width="1100"></p>
+
+<!-- Source copy for the deterministic tutorial image:
 
 #### 1. Abre Mi organización
 
@@ -177,6 +192,7 @@ Usa **Consumo** para revisar el uso de los miembros y **Registros de transferenc
 > [!CAUTION]
 > Comprueba la cuenta del miembro y el importe antes de transferir saldo. Antes de eliminar un miembro o disolver la organización, revisa los saldos y las cargas de trabajo activas.
 
+-->
 </details>
 
 <a id="client-integration"></a>

@@ -81,6 +81,10 @@ RelayRouter предоставляет единый API, совместимый 
 <details open>
 <summary><strong>🔑 Создание API-ключа и первый запрос</strong></summary>
 
+<p align="center"><img src="./assets/tutorials/ru/api-key.png" alt="Создание API-ключа и первый запрос" width="1100"></p>
+
+<!-- Source copy for the deterministic tutorial image:
+
 #### 1. Откройте страницу API-токенов
 
 В консоли RelayRouter выберите слева **API Tokens**, затем нажмите **Создать API Key**.
@@ -116,11 +120,17 @@ RelayRouter предоставляет единый API, совместимый 
 > [!TIP]
 > Когда появится ответ модели, первый запрос выполнен.
 
+-->
 </details>
 
 <a id="redeem-code"></a>
 <details>
 <summary><strong>🎁 Активация кода и проверка баланса</strong></summary>
+
+<p align="center"><img src="./assets/tutorials/ru/redeem.png" alt="Активация кода и проверка баланса" width="1100"></p>
+<p align="center"><strong><a href="#contact-support">Обратиться в поддержку</a></strong></p>
+
+<!-- Source copy for the deterministic tutorial image:
 
 #### 1. Откройте счёт средств
 
@@ -141,11 +151,16 @@ RelayRouter предоставляет единый API, совместимый 
 > [!IMPORTANT]
 > Для онлайн-пополнений на основном сайте RelayRouter доступны только счета международного формата; внутренние китайские счета-фактуры не выдаются. Если вам нужен внутренний китайский счёт-фактура, [обратитесь в поддержку](#contact-support).
 
+-->
 </details>
 
 <a id="organization-management"></a>
 <details>
 <summary><strong>👥 Управление участниками и расходом организации</strong></summary>
+
+<p align="center"><img src="./assets/tutorials/ru/organization.png" alt="Управление участниками и расходом организации" width="1100"></p>
+
+<!-- Source copy for the deterministic tutorial image:
 
 #### 1. Откройте «Моя организация»
 
@@ -177,6 +192,7 @@ RelayRouter предоставляет единый API, совместимый 
 > [!CAUTION]
 > Перед переводом проверьте аккаунт участника и сумму. Перед удалением участника или роспуском организации проверьте остатки и активные рабочие процессы.
 
+-->
 </details>
 
 <a id="client-integration"></a>

@@ -81,6 +81,10 @@ RelayRouter は複数のモデルプロバイダーを単一の OpenAI 互換 AP
 <details open>
 <summary><strong>🔑 API キーの作成と最初のリクエスト</strong></summary>
 
+<p align="center"><img src="./assets/tutorials/ja/api-key.png" alt="API キーの作成と最初のリクエスト" width="1100"></p>
+
+<!-- Source copy for the deterministic tutorial image:
+
 #### 1. API トークン画面を開く
 
 RelayRouter コンソールの左側から **API トークン**を開き、**API Key を作成**を選択します。
@@ -116,11 +120,17 @@ RelayRouter コンソールの左側から **API トークン**を開き、**API
 > [!TIP]
 > モデルの応答が表示されれば、最初のリクエストは完了です。
 
+-->
 </details>
 
 <a id="redeem-code"></a>
 <details>
 <summary><strong>🎁 コード交換と残高確認</strong></summary>
+
+<p align="center"><img src="./assets/tutorials/ja/redeem.png" alt="コード交換と残高確認" width="1100"></p>
+<p align="center"><strong><a href="#contact-support">サポートに連絡</a></strong></p>
+
+<!-- Source copy for the deterministic tutorial image:
 
 #### 1. 資金口座を開く
 
@@ -141,11 +151,16 @@ RelayRouter コンソールにログインし、左側から **資金口座**を
 > [!IMPORTANT]
 > RelayRouter メインサイトでのオンラインチャージでは国際形式の請求書のみ発行でき、中国国内向けの発票は発行できません。中国国内向けの発票が必要な場合は、[サポートにお問い合わせください](#contact-support)。
 
+-->
 </details>
 
 <a id="organization-management"></a>
 <details>
 <summary><strong>👥 組織メンバーと利用量の管理</strong></summary>
+
+<p align="center"><img src="./assets/tutorials/ja/organization.png" alt="組織メンバーと利用量の管理" width="1100"></p>
+
+<!-- Source copy for the deterministic tutorial image:
 
 #### 1. マイ組織を開く
 
@@ -177,6 +192,7 @@ RelayRouter コンソールにログインし、左側から **資金口座**を
 > [!CAUTION]
 > 残高を振り替える前にメンバーのアカウントと金額を確認してください。メンバーの削除や組織の解散前には、残高と稼働中の処理を確認してください。
 
+-->
 </details>
 
 <a id="client-integration"></a>
