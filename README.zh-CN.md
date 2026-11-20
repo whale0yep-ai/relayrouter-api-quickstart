@@ -45,11 +45,11 @@
 >
 > RelayRouter 最新 5 条公告：
 >
+> - `2026-11-20 14:17 (UTC+8)` — 模型上架：scribe_v2、scribe_v3
+> - `2026-11-20 14:00 (UTC+8)` — 通知：Gemini 原生调用新增 /v1 路径支持，如/v1/models/{model}:generateContent（/v1/models/{model}:streamGenerateContent）
 > - `2026-11-19 16:32 (UTC+8)` — 模型上架：doubao-seedance-2-5-flash-261115、qwen4-max
 > - `2026-11-19 15:22 (UTC+8)` — 通知：Suno 全新灵感模式正式上线！支持上传 MIDI 旋律，以你现有的旋律为基底，由 AI 续写创作全新音乐作品。
 > - `2026-11-19 10:56 (UTC+8)` — 通知：由于官方风控限流的影响，Gemini 部分模型的分组（Aistudio-Gemini-1、Cli-Gemini-1、Vertex-Gemini-1、Anti-Gemini-1等）当前不稳定，恢复时间未定。建议先切换至其他模型，如有问题请联系客服。
-> - `2026-11-18 17:08 (UTC+8)` — 模型上架：doubao-seedream-5-5-261028
-> - `2026-11-18 16:33 (UTC+8)` — 模型上架：gpt-6.2-astra、gpt-6.2-sol
 >
 > [进入 RelayRouter 查看全部公告 →](https://relayrouter.app/register?aff=xc9N)
 <!-- relayrouter-announcements:end -->

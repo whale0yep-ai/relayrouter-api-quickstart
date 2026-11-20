@@ -45,11 +45,11 @@
 >
 > Die neuesten 5 RelayRouter-Ankündigungen:
 >
+> - `2026-11-20 14:17 (UTC+8)` — Modellveröffentlichung: scribe_v2, scribe_v3
+> - `2026-11-20 14:00 (UTC+8)` — Benachrichtigung: Gemini unterstützt jetzt den neuen /v1-Pfad, wie /v1/models/{model}:generateContent (/v1/models/{model}:streamGenerateContent)
 > - `2026-11-19 16:32 (UTC+8)` — Modellveröffentlichung: doubao-seedance-2-5-flash-261115, qwen4-max
 > - `2026-11-19 15:22 (UTC+8)` — Benachrichtigung: Der brandneue Inspirationsmodus von Suno ist jetzt live! Unterstützt das Hochladen von MIDI-Melodien, um auf deinen bestehenden Melodien basierend von der KI neue Musikwerke zu erstellen.
 > - `2026-11-19 10:56 (UTC+8)` — Benachrichtigung: Die Gruppen einiger Gemini-Modelle (Aistudio-Gemini-1, Cli-Gemini-1, Vertex-Gemini-1, Anti-Gemini-1 usw.) sind aufgrund von offiziellen Risikokontrollbeschränkungen derzeit instabil, die Wiederherstellungszeit ist ungewiss. Es wird empfohlen…
-> - `2026-11-18 17:08 (UTC+8)` — Modellveröffentlichung: doubao-seedream-5-5-261028
-> - `2026-11-18 16:33 (UTC+8)` — Modellveröffentlichung: gpt-6.2-astra, gpt-6.2-sol
 >
 > [RelayRouter öffnen und alle Ankündigungen ansehen →](https://relayrouter.app/register?aff=xc9N)
 <!-- relayrouter-announcements:end -->
