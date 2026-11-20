@@ -45,11 +45,11 @@
 >
 > Die neuesten 5 RelayRouter-Ankündigungen:
 >
+> - `2026-11-21 02:33 (UTC+8)` — Benachrichtigung: 【suno-Neuheit】ACE Musikmodell jetzt verfügbar! Behebt die Urheberrechtsbeschränkungen von Suno für Coverversionen, die Coverversionen entsprechen Suno, unterstützt ace-step-1.5-xl /acemusic-v1 /acemusic-v1.1, bietet drei Modi: Inspiration, T…
 > - `2026-11-20 19:48 (UTC+8)` — Benachrichtigung: Qwen4-Max hat jetzt die offizielle Cache-Preisgestaltung synchronisiert und unterstützt die Cache-Hinweisfunktion. Das Schreiben in den Cache wird in zwei Preiskategorien abgerechnet: 5 Minuten Cache kostet das 1,25-fache des Eingabepreises,…
 > - `2026-11-20 19:47 (UTC+8)` — Benachrichtigung: Aufgrund unzureichender Ressourcen von gemini-4-argon wird es vorübergehend zur Wartung entfernt. Bei ausreichenden Ressourcen wird eine Wiederherstellung bekannt gegeben.
 > - `2026-11-20 17:21 (UTC+8)` — Benachrichtigung: Vertex-Gemini-1, Aistudio-Gemini-1 Gruppen werden am 20. November um 20:00 Uhr nach Beijing-Zeit offline genommen, die Wiederherstellungszeit wird bekannt gegeben
 > - `2026-11-20 16:44 (UTC+8)` — Benachrichtigung: In letzter Zeit sind die Ressourcen von gemini-embedding-001 und gemini-embedding-2-preview knapp, die Fehlerrate bei Anfragen ist erhöht, daher sind sie vorübergehend nicht verfügbar. Wir werden Sie informieren, sobald sie wieder verfügbar …
-> - `2026-11-20 14:17 (UTC+8)` — Modellveröffentlichung: scribe_v2, scribe_v3
 >
 > [RelayRouter öffnen und alle Ankündigungen ansehen →](https://relayrouter.app/register?aff=xc9N)
 <!-- relayrouter-announcements:end -->
