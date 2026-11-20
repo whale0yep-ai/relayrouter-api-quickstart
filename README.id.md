@@ -45,11 +45,11 @@
 >
 > 5 pengumuman RelayRouter terbaru:
 >
+> - `2026-11-20 19:48 (UTC+8)` — Notice: Qwen4-Max has now synchronized the official cache pricing, supporting the prompt caching feature. Cache writing is billed in two tiers: 5-minute cache at 1.25 times the input price, and 1-hour cache at 2 times the input price, with cache hits billed a…
+> - `2026-11-20 19:47 (UTC+8)` — Notice: Due to insufficient resources for gemini-4-argon, it has been temporarily taken down for maintenance. We will notify you when resources are sufficient to restore it.
+> - `2026-11-20 17:21 (UTC+8)` — Notice: Vertex-Gemini-1 and Aistudio-Gemini-1 groups will go offline at 8 PM Beijing time on November 20th, recovery time will be notified later
+> - `2026-11-20 16:44 (UTC+8)` — Notice: Recently, the resources for gemini-embedding-001 and gemini-embedding-2-preview are in short supply, resulting in a high failure rate for requests. They are temporarily taken down and will be restored with further notice. We apologize for the inconven…
 > - `2026-11-20 14:17 (UTC+8)` — Model Release: scribe_v2, scribe_v3
-> - `2026-11-20 14:00 (UTC+8)` — Notification: Gemini native calls have added support for the /v1 path, such as /v1/models/{model}:generateContent (/v1/models/{model}:streamGenerateContent)
-> - `2026-11-19 16:32 (UTC+8)` — Model Launch: doubao-seedance-2-5-flash-261115, qwen4-max
-> - `2026-11-19 15:22 (UTC+8)` — Notification: Suno's brand new Inspiration Mode is officially launched! It supports uploading MIDI melodies, allowing AI to continue creating new music works based on your existing melodies.
-> - `2026-11-19 10:56 (UTC+8)` — Notice: The grouping of some Gemini models (Aistudio-Gemini-1, Cli-Gemini-1, Vertex-Gemini-1, Anti-Gemini-1, etc.) is currently unstable due to official risk control throttling. The recovery time is uncertain. It is recommended to switch to other models first…
 >
 > _Sumber belum menyediakan terjemahan Bahasa Indonesia; pengumuman ditampilkan dalam bahasa Inggris._
 >

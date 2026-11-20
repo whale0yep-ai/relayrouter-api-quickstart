@@ -45,11 +45,11 @@
 >
 > RelayRouter 최신 공지 5개:
 >
+> - `2026-11-20 19:48 (UTC+8)` — 알림: Qwen4-Max가 공식 캐시 가격과 동기화되었으며, 프롬프트 캐시 기능을 지원합니다. 캐시 쓰기는 두 가지 요금제로 나뉩니다: 5분 캐시는 입력 가격의 1.25배, 1시간 캐시는 입력 가격의 2배로 청구되며, 캐시 적중은 일반 캐시 단가로 청구됩니다.
+> - `2026-11-20 19:47 (UTC+8)` — 공지: gemini-4-argon 자원이 부족하여 일시적으로 유지보수 중입니다. 이후 자원이 충분해지면 복구를 알리겠습니다.
+> - `2026-11-20 17:21 (UTC+8)` — 공지사항: Vertex-Gemini-1와 Aistudio-Gemini-1 그룹은 베이징 시간 11월 20일 20시에 종료되며, 복구 시간은 공지를 기다려 주십시오.
+> - `2026-11-20 16:44 (UTC+8)` — 공지: 최근 gemini-embedding-001, gemini-embedding-2-preview 자원이 부족하여 요청 실패율이 높습니다. 현재 일시적으로 서비스 중단되며, 복구 후 별도로 안내드리겠습니다. 불편을 드려 죄송합니다.
 > - `2026-11-20 14:17 (UTC+8)` — 모델 배포: scribe_v2, scribe_v3
-> - `2026-11-20 14:00 (UTC+8)` — 알림: Gemini 원주 호출에 /v1 경로 지원이 추가되었습니다. 예: /v1/models/{model}:generateContent（/v1/models/{model}:streamGenerateContent）
-> - `2026-11-19 16:32 (UTC+8)` — 모델 배포: doubao-seedance-2-5-flash-261115, qwen4-max
-> - `2026-11-19 15:22 (UTC+8)` — 공지: Suno의 새로운 영감 모드가 정식 출시되었습니다! MIDI 멜로디를 업로드하여 기존 멜로디를 기반으로 AI가 새로운 음악 작품을 이어서 작곡합니다.
-> - `2026-11-19 10:56 (UTC+8)` — 알림: Gemini 부분 모델 그룹(Aistudio-Gemini-1, Cli-Gemini-1, Vertex-Gemini-1, Anti-Gemini-1 등)은 공식적인 리스크 관리로 인해 현재 불안정하며, 복구 시간은 미정입니다. 다른 모델로 전환할 것을 권장하며, 문제가 있을 경우 고객 지원에 문의해 주시기 바랍니다.
 >
 > [RelayRouter에서 모든 공지 보기 →](https://relayrouter.app/register?aff=xc9N)
 <!-- relayrouter-announcements:end -->
