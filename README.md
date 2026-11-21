@@ -45,11 +45,11 @@
 >
 > The latest 5 RelayRouter announcements:
 >
+> - `2026-11-21 14:08 (UTC+8)` — Notice: Recently, gemini-3.8-flash resources are in short supply and have been temporarily removed. You will be notified when they are restored.
 > - `2026-11-21 02:33 (UTC+8)` — Notification: 【suno-New Release】ACE Music Model is now live! It resolves Suno cover copyright interception, with cover effects comparable to Suno, supporting ace-step-1.5-xl /acemusic-v1 /acemusic-v1.1, providing three modes: inspiration, lyrics, and cover.
 > - `2026-11-20 19:48 (UTC+8)` — Notice: Qwen4-Max has now synchronized the official cache pricing, supporting the prompt caching feature. Cache writing is billed in two tiers: 5-minute cache at 1.25 times the input price, and 1-hour cache at 2 times the input price, with cache hits billed a…
 > - `2026-11-20 19:47 (UTC+8)` — Notice: Due to insufficient resources for gemini-4-argon, it has been temporarily taken down for maintenance. We will notify you when resources are sufficient to restore it.
 > - `2026-11-20 17:21 (UTC+8)` — Notice: Vertex-Gemini-1 and Aistudio-Gemini-1 groups will go offline at 8 PM Beijing time on November 20th, recovery time will be notified later
-> - `2026-11-20 16:44 (UTC+8)` — Notice: Recently, the resources for gemini-embedding-001 and gemini-embedding-2-preview are in short supply, resulting in a high failure rate for requests. They are temporarily taken down and will be restored with further notice. We apologize for the inconven…
 >
 > [Open RelayRouter to view all announcements →](https://relayrouter.app/register?aff=xc9N)
 <!-- relayrouter-announcements:end -->
