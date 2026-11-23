@@ -45,11 +45,11 @@
 >
 > RelayRouter 최신 공지 5개:
 >
+> - `2026-11-23 17:25 (UTC+8)` — 공지: 베이징 시간 2026년 11월 23일 17:00부터 OpenAI 및 Azure 시리즈 출처의 그룹 그림 요청이 발송되면, 그림 생성 전에 연결을 끊거나 취소하더라도 한 번의 호출 요금이 부과됩니다. 이유는 요청이 발송된 후 공식적으로 요금이 시작되며, 중간에 취소하더라도 환불되지 않기 때문입니다.
+> - `2026-11-23 17:01 (UTC+8)` — 모델 배포: minimax-h3-z
+> - `2026-11-23 16:48 (UTC+8)` — 알림: Xai-Grok-1 그룹의 리소스 부족으로 인해 모델 grok-4.7, grok-imagine-image, grok-4-20-reassoning, grok-imagine-image-quality, grok-imagine-image-2.0, grok-imagine-video-1.5-preview, grok-imagine-video, grok-imagine-video-1.5-lite가 임시로 중단되었습니다. 이후 리소스가 충분해지면 복구를 알리겠습니다.
 > - `2026-11-21 14:08 (UTC+8)` — 공지: 최근 gemini-3.8-flash 자원이 부족하여 일시적으로 판매 중단되었습니다. 복구 후 별도로 안내하겠습니다.
 > - `2026-11-21 02:33 (UTC+8)` — 공지사항: 【suno-신제품】ACE 음악 모델 출시! Suno 커버 저작권 차단 문제 해결, 커버 효과는 Suno와 동일하며, ace-step-1.5-xl /acemusic-v1 /acemusic-v1.1를 지원합니다. 영감, 가사, 커버 세 가지 모드를 제공합니다.
-> - `2026-11-20 19:48 (UTC+8)` — 알림: Qwen4-Max가 공식 캐시 가격과 동기화되었으며, 프롬프트 캐시 기능을 지원합니다. 캐시 쓰기는 두 가지 요금제로 나뉩니다: 5분 캐시는 입력 가격의 1.25배, 1시간 캐시는 입력 가격의 2배로 청구되며, 캐시 적중은 일반 캐시 단가로 청구됩니다.
-> - `2026-11-20 19:47 (UTC+8)` — 공지: gemini-4-argon 자원이 부족하여 일시적으로 유지보수 중입니다. 이후 자원이 충분해지면 복구를 알리겠습니다.
-> - `2026-11-20 17:21 (UTC+8)` — 공지사항: Vertex-Gemini-1와 Aistudio-Gemini-1 그룹은 베이징 시간 11월 20일 20시에 종료되며, 복구 시간은 공지를 기다려 주십시오.
 >
 > [RelayRouter에서 모든 공지 보기 →](https://relayrouter.app/register?aff=xc9N)
 <!-- relayrouter-announcements:end -->

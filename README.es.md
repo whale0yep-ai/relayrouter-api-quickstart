@@ -45,11 +45,11 @@
 >
 > Los 5 avisos más recientes de RelayRouter:
 >
+> - `2026-11-23 17:25 (UTC+8)` — Notificación: A partir del 23 de noviembre de 2026 a las 17:00, las solicitudes de gráficos agrupados provenientes de OpenAI y Azure se cobrarán una vez que se emitan. Si desconectas o cancelas la conexión antes de que se genere el gráfico, se te cobrará una …
+> - `2026-11-23 17:01 (UTC+8)` — Publicación del modelo: minimax-h3-z
+> - `2026-11-23 16:48 (UTC+8)` — Notificación: Debido a que Xai-Grok-1 tiene recursos insuficientes, los modelos grok-4.7, grok-imagine-image, grok-4-20-reassoning, grok-imagine-image-quality, grok-imagine-image-2.0, grok-imagine-video-1.5-preview, grok-imagine-video, grok-imagine-video-1.5-…
 > - `2026-11-21 14:08 (UTC+8)` — Notificación: recientemente, los recursos de gemini-3.8-flash son escasos, se han retirado temporalmente, se notificará cuando se restablezcan.
 > - `2026-11-21 02:33 (UTC+8)` — Notificación: 【suno-上新】 ¡El modelo de música ACE está en línea! Resuelve la interceptación de derechos de autor de Suno, el efecto de la versión es comparable a Suno, soporta ace-step-1.5-xl /acemusic-v1 /acemusic-v1.1, ofrece tres modos: inspiración, letras …
-> - `2026-11-20 19:48 (UTC+8)` — Notificación: Qwen4-Max ahora ha sincronizado la valoración de caché oficial, soporta la función de caché de sugerencias. La escritura en caché se cobra en dos niveles: 5 minutos de caché a 1.25 veces el precio de entrada, 1 hora de caché a 2 veces el precio …
-> - `2026-11-20 19:47 (UTC+8)` — Notificación: Debido a la falta de recursos de gemini-4-argon, se ha retirado temporalmente para mantenimiento. Se notificará la recuperación una vez que los recursos estén disponibles.
-> - `2026-11-20 17:21 (UTC+8)` — Notificación: Vertex-Gemini-1, el grupo Aistudio-Gemini-1 se desconectará el 20 de noviembre a las 20:00, el tiempo de recuperación se notificará.
 >
 > [Abrir RelayRouter y ver todos los avisos →](https://relayrouter.app/register?aff=xc9N)
 <!-- relayrouter-announcements:end -->

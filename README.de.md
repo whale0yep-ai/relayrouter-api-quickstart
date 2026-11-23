@@ -45,11 +45,11 @@
 >
 > Die neuesten 5 RelayRouter-Ankündigungen:
 >
+> - `2026-11-23 17:25 (UTC+8)` — Benachrichtigung: Ab dem 23. November 2026 um 17:00 Uhr Beijing-Zeit werden Anfragen für gruppierte Zeichnungen von OpenAI und Azure, sobald sie gesendet werden, auch dann berechnet, wenn du die Verbindung vor der Erstellung der Zeichnung aktiv trennst oder a…
+> - `2026-11-23 17:01 (UTC+8)` — Modell bereitstellen: minimax-h3-z
+> - `2026-11-23 16:48 (UTC+8)` — Benachrichtigung: Aufgrund unzureichender Ressourcen in der Gruppe Xai-Grok-1 werden die Modelle grok-4.7, grok-imagine-image, grok-4-20-reassoning, grok-imagine-image-quality, grok-imagine-image-2.0, grok-imagine-video-1.5-preview, grok-imagine-video, grok-i…
 > - `2026-11-21 14:08 (UTC+8)` — Benachrichtigung: In letzter Zeit sind die Ressourcen von gemini-3.8-flash knapp, vorübergehend nicht verfügbar. Nach der Wiederherstellung werden wir gesondert informieren.
 > - `2026-11-21 02:33 (UTC+8)` — Benachrichtigung: 【suno-Neuheit】ACE Musikmodell jetzt verfügbar! Behebt die Urheberrechtsbeschränkungen von Suno für Coverversionen, die Coverversionen entsprechen Suno, unterstützt ace-step-1.5-xl /acemusic-v1 /acemusic-v1.1, bietet drei Modi: Inspiration, T…
-> - `2026-11-20 19:48 (UTC+8)` — Benachrichtigung: Qwen4-Max hat jetzt die offizielle Cache-Preisgestaltung synchronisiert und unterstützt die Cache-Hinweisfunktion. Das Schreiben in den Cache wird in zwei Preiskategorien abgerechnet: 5 Minuten Cache kostet das 1,25-fache des Eingabepreises,…
-> - `2026-11-20 19:47 (UTC+8)` — Benachrichtigung: Aufgrund unzureichender Ressourcen von gemini-4-argon wird es vorübergehend zur Wartung entfernt. Bei ausreichenden Ressourcen wird eine Wiederherstellung bekannt gegeben.
-> - `2026-11-20 17:21 (UTC+8)` — Benachrichtigung: Vertex-Gemini-1, Aistudio-Gemini-1 Gruppen werden am 20. November um 20:00 Uhr nach Beijing-Zeit offline genommen, die Wiederherstellungszeit wird bekannt gegeben
 >
 > [RelayRouter öffnen und alle Ankündigungen ansehen →](https://relayrouter.app/register?aff=xc9N)
 <!-- relayrouter-announcements:end -->

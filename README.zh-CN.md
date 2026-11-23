@@ -45,11 +45,11 @@
 >
 > RelayRouter 最新 5 条公告：
 >
+> - `2026-11-23 17:25 (UTC+8)` — 通知：自北京时间2026年11月23日17:00起，Openai及Azure系列来源的分组绘图的请求一旦发出，如果你在出图前主动断开或取消连接，仍会按一次调用扣费。原因是官方在请求发出后就已开始计费，中途取消不会退回。
+> - `2026-11-23 17:01 (UTC+8)` — 模型上架：minimax-h3-z
+> - `2026-11-23 16:48 (UTC+8)` — 通知：由于 Xai-Grok-1 分组资源不足，临时下架模型 grok-4.7、grok-imagine-image、grok-4-20-reassoning、grok-imagine-image-quality、grok-imagine-image-2.0、grok-imagine-video-1.5-preview、grok-imagine-video、grok-imagine-video-1.5-lite 模型维护，后续资源充足再通知恢复
 > - `2026-11-21 14:08 (UTC+8)` — 通知：近期 gemini-3.8-flash 资源紧缺，暂时下架，恢复后会另行通知。
 > - `2026-11-21 02:33 (UTC+8)` — 通知：【suno-上新】ACE 音乐模型上线！解决 Suno 翻唱版权拦截，翻唱效果对标 Suno，支持 ace-step-1.5-xl /acemusic-v1 /acemusic-v1.1，提供灵感、歌词、翻唱三种模式。
-> - `2026-11-20 19:48 (UTC+8)` — 通知：Qwen4-Max 现已同步官方缓存计价，支持提示缓存功能。缓存写入分两档计费：5 分钟缓存为输入价的 1.25 倍，1 小时缓存为输入价的 2 倍，缓存命中按常规缓存单价计费。
-> - `2026-11-20 19:47 (UTC+8)` — 通知：由于 gemini-4-argon 资源不足，临时下架维护，后续资源充足再通知恢复
-> - `2026-11-20 17:21 (UTC+8)` — 通知：Vertex-Gemini-1，Aistudio-Gemini-1分组将于北京时间11月20日20点下线，恢复时间等待通知
 >
 > [进入 RelayRouter 查看全部公告 →](https://relayrouter.app/register?aff=xc9N)
 <!-- relayrouter-announcements:end -->

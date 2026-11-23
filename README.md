@@ -45,11 +45,11 @@
 >
 > The latest 5 RelayRouter announcements:
 >
+> - `2026-11-23 17:25 (UTC+8)` — Notice: Starting from November 23, 2026, 17:00 Beijing time, once a request for grouped drawing from OpenAI and Azure sources is made, if you actively disconnect or cancel the connection before the drawing is completed, you will still be charged for one call.…
+> - `2026-11-23 17:01 (UTC+8)` — Model Launch: minimax-h3-z
+> - `2026-11-23 16:48 (UTC+8)` — Notice: Due to insufficient resources in the Xai-Grok-1 group, the models grok-4.7, grok-imagine-image, grok-4-20-reassoning, grok-imagine-image-quality, grok-imagine-image-2.0, grok-imagine-video-1.5-preview, grok-imagine-video, and grok-imagine-video-1.5-li…
 > - `2026-11-21 14:08 (UTC+8)` — Notice: Recently, gemini-3.8-flash resources are in short supply and have been temporarily removed. You will be notified when they are restored.
 > - `2026-11-21 02:33 (UTC+8)` — Notification: 【suno-New Release】ACE Music Model is now live! It resolves Suno cover copyright interception, with cover effects comparable to Suno, supporting ace-step-1.5-xl /acemusic-v1 /acemusic-v1.1, providing three modes: inspiration, lyrics, and cover.
-> - `2026-11-20 19:48 (UTC+8)` — Notice: Qwen4-Max has now synchronized the official cache pricing, supporting the prompt caching feature. Cache writing is billed in two tiers: 5-minute cache at 1.25 times the input price, and 1-hour cache at 2 times the input price, with cache hits billed a…
-> - `2026-11-20 19:47 (UTC+8)` — Notice: Due to insufficient resources for gemini-4-argon, it has been temporarily taken down for maintenance. We will notify you when resources are sufficient to restore it.
-> - `2026-11-20 17:21 (UTC+8)` — Notice: Vertex-Gemini-1 and Aistudio-Gemini-1 groups will go offline at 8 PM Beijing time on November 20th, recovery time will be notified later
 >
 > [Open RelayRouter to view all announcements →](https://relayrouter.app/register?aff=xc9N)
 <!-- relayrouter-announcements:end -->
