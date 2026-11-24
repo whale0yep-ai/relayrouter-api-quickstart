@@ -45,11 +45,11 @@
 >
 > RelayRouter の最新のお知らせ 5 件：
 >
+> - `2026-11-24 17:43 (UTC+8)` — 通知：ACE MIDI 創作プランのリリース · ace-step-1.5-xl 価格引き下げ 1. ACE MIDI 創作プランのリリース: MIDI メロディのアップロードをサポートし、新しい音楽を生成します。著作権のある歌詞、アーティストのキーワード、カバー音声のマッチング、プロンプトのレビュータグなどでブロックされるシーンに適しています。モデル構成: ace/acemusic-v1.1（v1.1を使用する必要があります。旧バージョンはMIDIをサポートしていません） 2. ace-step-1.5-xl …
 > - `2026-11-23 17:25 (UTC+8)` — 通知：自北京时间2026年11月23日17:00起，OpenAI及Azure系列来源的分组绘图的请求一旦发出，如果你在出图前主动断开或取消连接，仍会按一次调用扣费。原因是官方在请求发出后就已开始计费，中途取消不会退回。
 > - `2026-11-23 17:01 (UTC+8)` — モデルのアップロード：minimax-h3-z
 > - `2026-11-23 16:48 (UTC+8)` — 通知：Xai-Grok-1 のリソースが不足しているため、モデル grok-4.7、grok-imagine-image、grok-4-20-reassoning、grok-imagine-image-quality、grok-imagine-image-2.0、grok-imagine-video-1.5-preview、grok-imagine-video、grok-imagine-video-1.5-lite を一時的に下架します。後ほどリソースが充足した際に再通知します。
 > - `2026-11-21 14:08 (UTC+8)` — 通知：最近、gemini-3.8-flashのリソースが不足しているため、一時的に取り下げられています。再開時には別途通知します。
-> - `2026-11-21 02:33 (UTC+8)` — 通知：【suno-上新】ACE 音楽モデルがリリースされました！Sunoのカバー著作権のブロックを解決し、カバー効果はSunoに匹敵します。ace-step-1.5-xl /acemusic-v1 /acemusic-v1.1をサポートし、インスピレーション、歌詞、カバーの3つのモードを提供します。
 >
 > [RelayRouter ですべてのお知らせを見る →](https://relayrouter.app/register?aff=xc9N)
 <!-- relayrouter-announcements:end -->

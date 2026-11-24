@@ -45,11 +45,11 @@
 >
 > RelayRouter 最新 5 条公告：
 >
+> - `2026-11-24 17:43 (UTC+8)` — 通知：ACE MIDI 创作方案上线 · ace-step-1.5-xl 降价 1. ACE MIDI 创作方案上线:支持上传 MIDI 旋律生成新音乐,适用于 Suno 因版权歌词、艺人关键词、翻唱音频匹配、提示词审核标记等被拦截的场景。 模型配置:ace/acemusic-v1.1(必须使用 v1.1,旧版不支持 MIDI) 2. ace-step-1.5-xl 消耗下调。仅单独使用时生效,与 MIDI 组合使用不适用。
 > - `2026-11-23 17:25 (UTC+8)` — 通知：自北京时间2026年11月23日17:00起，Openai及Azure系列来源的分组绘图的请求一旦发出，如果你在出图前主动断开或取消连接，仍会按一次调用扣费。原因是官方在请求发出后就已开始计费，中途取消不会退回。
 > - `2026-11-23 17:01 (UTC+8)` — 模型上架：minimax-h3-z
 > - `2026-11-23 16:48 (UTC+8)` — 通知：由于 Xai-Grok-1 分组资源不足，临时下架模型 grok-4.7、grok-imagine-image、grok-4-20-reassoning、grok-imagine-image-quality、grok-imagine-image-2.0、grok-imagine-video-1.5-preview、grok-imagine-video、grok-imagine-video-1.5-lite 模型维护，后续资源充足再通知恢复
 > - `2026-11-21 14:08 (UTC+8)` — 通知：近期 gemini-3.8-flash 资源紧缺，暂时下架，恢复后会另行通知。
-> - `2026-11-21 02:33 (UTC+8)` — 通知：【suno-上新】ACE 音乐模型上线！解决 Suno 翻唱版权拦截，翻唱效果对标 Suno，支持 ace-step-1.5-xl /acemusic-v1 /acemusic-v1.1，提供灵感、歌词、翻唱三种模式。
 >
 > [进入 RelayRouter 查看全部公告 →](https://relayrouter.app/register?aff=xc9N)
 <!-- relayrouter-announcements:end -->

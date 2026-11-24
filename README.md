@@ -45,11 +45,11 @@
 >
 > The latest 5 RelayRouter announcements:
 >
+> - `2026-11-24 17:43 (UTC+8)` — Notification: ACE MIDI Creation Plan Launched · ace-step-1.5-xl Price Reduction 1. ACE MIDI Creation Plan Launched: Supports uploading MIDI melodies to generate new music, applicable for scenarios where copyright lyrics, artist keywords, cover audio matching,…
 > - `2026-11-23 17:25 (UTC+8)` — Notice: Starting from November 23, 2026, 17:00 Beijing time, once a request for grouped drawing from OpenAI and Azure sources is made, if you actively disconnect or cancel the connection before the drawing is completed, you will still be charged for one call.…
 > - `2026-11-23 17:01 (UTC+8)` — Model Launch: minimax-h3-z
 > - `2026-11-23 16:48 (UTC+8)` — Notice: Due to insufficient resources in the Xai-Grok-1 group, the models grok-4.7, grok-imagine-image, grok-4-20-reassoning, grok-imagine-image-quality, grok-imagine-image-2.0, grok-imagine-video-1.5-preview, grok-imagine-video, and grok-imagine-video-1.5-li…
 > - `2026-11-21 14:08 (UTC+8)` — Notice: Recently, gemini-3.8-flash resources are in short supply and have been temporarily removed. You will be notified when they are restored.
-> - `2026-11-21 02:33 (UTC+8)` — Notification: 【suno-New Release】ACE Music Model is now live! It resolves Suno cover copyright interception, with cover effects comparable to Suno, supporting ace-step-1.5-xl /acemusic-v1 /acemusic-v1.1, providing three modes: inspiration, lyrics, and cover.
 >
 > [Open RelayRouter to view all announcements →](https://relayrouter.app/register?aff=xc9N)
 <!-- relayrouter-announcements:end -->
