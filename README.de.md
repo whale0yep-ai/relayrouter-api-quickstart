@@ -45,11 +45,11 @@
 >
 > Die neuesten 5 RelayRouter-Ankündigungen:
 >
+> - `2026-11-25 16:07 (UTC+8)` — Benachrichtigung: 【Preisänderung】 Ab dem 25. November 2026 um 16:30 Uhr Beijing-Zeit wird der allgemeine Video-API-Aufruf kling-3.0-turbo nach Sekunden abgerechnet und hat den gleichen Preis wie die Turbo-Schnittstelle. Vorher nicht berechnete Gebühren werden…
+> - `2026-11-25 11:40 (UTC+8)` — Benachrichtigung: Seedance-2 Gruppierungsfaktor herabgesetzt, Details siehe Modellplatz
 > - `2026-11-24 17:43 (UTC+8)` — Benachrichtigung: ACE MIDI Kreativlösung jetzt verfügbar · ace-step-1.5-xl Preis gesenkt 1. ACE MIDI Kreativlösung jetzt verfügbar: Unterstützt das Hochladen von MIDI-Melodien zur Erstellung neuer Musik, geeignet für Szenarien, in denen Suno aufgrund von Urhe…
 > - `2026-11-23 17:25 (UTC+8)` — Benachrichtigung: Ab dem 23. November 2026 um 17:00 Uhr Beijing-Zeit werden Anfragen für gruppierte Zeichnungen von OpenAI und Azure, sobald sie gesendet werden, auch dann berechnet, wenn du die Verbindung vor der Erstellung der Zeichnung aktiv trennst oder a…
 > - `2026-11-23 17:01 (UTC+8)` — Modell bereitstellen: minimax-h3-z
-> - `2026-11-23 16:48 (UTC+8)` — Benachrichtigung: Aufgrund unzureichender Ressourcen in der Gruppe Xai-Grok-1 werden die Modelle grok-4.7, grok-imagine-image, grok-4-20-reassoning, grok-imagine-image-quality, grok-imagine-image-2.0, grok-imagine-video-1.5-preview, grok-imagine-video, grok-i…
-> - `2026-11-21 14:08 (UTC+8)` — Benachrichtigung: In letzter Zeit sind die Ressourcen von gemini-3.8-flash knapp, vorübergehend nicht verfügbar. Nach der Wiederherstellung werden wir gesondert informieren.
 >
 > [RelayRouter öffnen und alle Ankündigungen ansehen →](https://relayrouter.app/register?aff=xc9N)
 <!-- relayrouter-announcements:end -->
