@@ -1,5 +1,13 @@
 # Changelog
 
+## v1.0.0 - 2026-11-25
+
+- Published the first stable release of the RelayRouter API quickstart.
+- Included Python, JavaScript, and PowerShell request examples.
+- Added localized guides in English, Simplified Chinese, Russian, Korean, Japanese, Spanish, German, and Indonesian.
+- Documented RelayRouter setup for CC Switch, Cherry Studio, and DeepSeek Harness.
+- Added FAQ, troubleshooting, security guidance, automated announcements, and the MIT License.
+
 ## 2026-11-10
 
 - Unified API connection guidance around `api.relayrouter.app` without regional endpoint labels.
