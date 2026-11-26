@@ -45,11 +45,11 @@
 >
 > Los 5 avisos más recientes de RelayRouter:
 >
+> - `2026-11-26 20:50 (UTC+8)` — Notificación: Debido a la falta de recursos de kling-omni-image, se ha retirado temporalmente para mantenimiento. Se notificará la recuperación una vez que los recursos estén disponibles.
 > - `2026-11-25 16:07 (UTC+8)` — Notificación: 【Ajuste de facturación】 A partir del 25/11/2026 a las 16:30 hora de Beijing, la llamada a la interfaz de video general kling-3.0-turbo se cobrará por segundo, al mismo precio que la interfaz dedicada Turbo. No se cobrará el costo que se descontó…
 > - `2026-11-25 11:40 (UTC+8)` — Notificación: la tasa de agrupación de Seedance-2 se ha reducido, para más detalles consulte la plaza de modelos
 > - `2026-11-24 17:43 (UTC+8)` — Notificación: Lanzamiento de la solución de creación ACE MIDI · ace-step-1.5-xl reducción de precio 1. Lanzamiento de la solución de creación ACE MIDI: permite subir melodías MIDI para generar nueva música, aplicable en escenarios donde Suno se ve bloqueado p…
 > - `2026-11-23 17:25 (UTC+8)` — Notificación: A partir del 23 de noviembre de 2026 a las 17:00, las solicitudes de gráficos agrupados provenientes de OpenAI y Azure se cobrarán una vez que se emitan. Si desconectas o cancelas la conexión antes de que se genere el gráfico, se te cobrará una …
-> - `2026-11-23 17:01 (UTC+8)` — Publicación del modelo: minimax-h3-z
 >
 > [Abrir RelayRouter y ver todos los avisos →](https://relayrouter.app/register?aff=xc9N)
 <!-- relayrouter-announcements:end -->
