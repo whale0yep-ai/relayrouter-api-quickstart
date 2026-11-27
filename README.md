@@ -45,11 +45,11 @@
 >
 > The latest 5 RelayRouter announcements:
 >
+> - `2026-11-27 09:50 (UTC+8)` — Notice: The Cli-Gemini-1 group has been temporarily taken down due to risk control reasons. You will be notified separately when it is restored. We apologize for the inconvenience and appreciate your understanding.
 > - `2026-11-26 20:50 (UTC+8)` — Notice: Due to insufficient resources for kling-omni-image, it has been temporarily taken down for maintenance. We will notify you when resources are sufficient to restore it.
 > - `2026-11-25 16:07 (UTC+8)` — Notification: [Billing Adjustment] Starting from November 25, 2026, 16:30 Beijing time, the general video API call kling-3.0-turbo will be billed per second, at the same rate as the Turbo dedicated interface. Fees that were previously undercharged will not be…
 > - `2026-11-25 11:40 (UTC+8)` — Notification: The group multiplier for Seedance-2 has been reduced. Please see the model square for details.
 > - `2026-11-24 17:43 (UTC+8)` — Notification: ACE MIDI Creation Plan Launched · ace-step-1.5-xl Price Reduction 1. ACE MIDI Creation Plan Launched: Supports uploading MIDI melodies to generate new music, applicable for scenarios where copyright lyrics, artist keywords, cover audio matching,…
-> - `2026-11-23 17:25 (UTC+8)` — Notice: Starting from November 23, 2026, 17:00 Beijing time, once a request for grouped drawing from OpenAI and Azure sources is made, if you actively disconnect or cancel the connection before the drawing is completed, you will still be charged for one call.…
 >
 > [Open RelayRouter to view all announcements →](https://relayrouter.app/register?aff=xc9N)
 <!-- relayrouter-announcements:end -->
